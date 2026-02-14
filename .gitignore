@@ -1,0 +1,12 @@
+# Секреты — никогда не коммитить
+api.txt
+.env
+.env.*
+*.env
+
+# Excel — тяжёлые файлы
+*.xlsx
+
+# Node
+node_modules/
+package-lock.json
