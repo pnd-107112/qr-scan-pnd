@@ -194,7 +194,7 @@ async function processBarcode(rawCode) {
 async function fetchProduct(barcode) {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), settings.requestTimeoutMs);
-    const url = `${settings.apiBaseUrl}/products/${encodeURIComponent(barcode)}`;
+    const url = `${settings.apiBaseUrl}/products?barcode=${encodeURIComponent(barcode)}`;
 
     try {
         const response = await fetch(url, {

@@ -1,5 +1,5 @@
 /**
- * GET /api/products/:barcode
+ * GET /api/products?barcode=xxx
  * Vercel Serverless Function — товар по штрихкоду из Supabase.
  */
 export default async function handler(req, res) {
@@ -8,7 +8,7 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: "Method not allowed" });
     }
 
-    const barcode = req.query?.barcode?.trim();
+    const barcode = (req.query?.barcode || "").trim();
     if (!barcode) {
         return res.status(400).json({ error: "Barcode is required." });
     }
