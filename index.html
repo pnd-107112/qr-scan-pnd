@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3f5634">
+    <title>Pandora Scan Mobile</title>
+
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script defer src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script defer src="./config.js"></script>
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <div class="ambient" aria-hidden="true"></div>
+    <main class="app-shell">
+        <header class="hero">
+            <p class="eyebrow">Pandora Lighting</p>
+            <h1>Mobile Barcode Scan</h1>
+            <p class="subtitle">Scan product barcode to load photo, characteristics, and unit price from server data.</p>
+        </header>
+
+        <section class="scanner-panel" aria-label="Scanner">
+            <div class="scanner-frame" id="scanner"></div>
+            <p class="status-text" id="status-text">Ready to scan</p>
+
+            <div class="controls">
+                <button id="start-btn" class="btn btn-start" type="button">Start scan</button>
+                <button id="stop-btn" class="btn btn-stop" type="button">Stop</button>
+                <button id="reset-btn" class="btn btn-reset" type="button">New scan</button>
+            </div>
+
+            <label class="manual-label" for="manual-input">Manual barcode input</label>
+            <input
+                id="manual-input"
+                class="manual-input"
+                type="text"
+                inputmode="text"
+                autocomplete="off"
+                placeholder="Enter barcode and press Enter"
+            >
+        </section>
+
+        <section class="result-panel" aria-live="polite">
+            <div class="result-head">
+                <span class="result-label">Barcode</span>
+                <span class="barcode-pill" id="barcode-value">-</span>
+            </div>
+
+            <article class="product-card" id="product-card" hidden>
+                <div class="product-image-wrap">
+                    <img id="product-image" src="https://placehold.co/700x700?text=No+Image" alt="Product image">
+                </div>
+
+                <div class="product-body">
+                    <h2 id="product-name">-</h2>
+                    <p class="product-code" id="product-code">-</p>
+
+                    <div class="price-line">
+                        <span class="price-value" id="unit-price">-</span>
+                        <span class="price-unit" id="price-unit">per unit</span>
+                    </div>
+
+                    <ul class="char-list" id="char-list"></ul>
+                </div>
+            </article>
+
+            <p class="error-text" id="error-text"></p>
+        </section>
+    </main>
+</body>
+</html>

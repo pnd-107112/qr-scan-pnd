@@ -1,0 +1,91 @@
+[
+    {
+        "barcode": "KEMER-123",
+        "name": "ATLAS LINER SARKIT",
+        "image_url": "https://placehold.co/700x700/png?text=KEMER-123",
+        "unit_price": 21000,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "Uzunluk: 95 cm, Cap: 6 cm, Yukseklik: 150 cm",
+            "bulb": "DS LED",
+            "stock": "VAR",
+            "material": "Metal + cam",
+            "light_color": "3000K"
+        }
+    },
+    {
+        "barcode": "KEMER-124",
+        "name": "ATLAS LINER SARKIT",
+        "image_url": "https://placehold.co/700x700/png?text=KEMER-124",
+        "unit_price": 23000,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "Uzunluk: 110 cm, Cap: 6 cm, Yukseklik: 150 cm",
+            "bulb": "DS LED",
+            "stock": "VAR",
+            "material": "Metal + cam",
+            "light_color": "3000K"
+        }
+    },
+    {
+        "barcode": "KEMER-125",
+        "name": "ATLAS LINER SARKIT",
+        "image_url": "https://placehold.co/700x700/png?text=KEMER-125",
+        "unit_price": 26000,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "Uzunluk: 125 cm, Cap: 6 cm, Yukseklik: 150 cm",
+            "bulb": "COB LED",
+            "stock": "VAR",
+            "material": "Metal + cam",
+            "light_color": "3000K"
+        }
+    },
+    {
+        "barcode": "CAM-123",
+        "name": "SUN LIGHT TEKLI SARKIT",
+        "image_url": "https://placehold.co/700x700/png?text=CAM-123",
+        "unit_price": 4680,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "25 Q",
+            "bulb": "COB LED",
+            "stock": "VAR",
+            "color_options": "Fume-fume, bal-eskitme, seffaf-krom"
+        }
+    },
+    {
+        "barcode": "PND1729",
+        "name": "LIZ SARKIT PENDANT",
+        "image_url": "https://placehold.co/700x700/png?text=PND1729",
+        "unit_price": 11793.6,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "60 cm",
+            "bulb": "COB LED",
+            "stock": "VAR",
+            "material": "Ahsap",
+            "light_color": "3000K"
+        }
+    },
+    {
+        "barcode": "PND1699-A",
+        "name": "SHADOW SARKIT PENDANT",
+        "image_url": "https://placehold.co/700x700/png?text=PND1699-A",
+        "unit_price": 8299.2,
+        "currency": "TRY",
+        "unit": "adet",
+        "characteristics": {
+            "dimensions": "16x48 cm",
+            "bulb": "DS LED",
+            "stock": "VAR",
+            "material": "Cam",
+            "feature": "Integrated LED"
+        }
+    }
+]
