@@ -1,7 +1,11 @@
 {
   "name": "pandora-scan",
   "private": true,
+  "main": "electron/main.js",
   "scripts": {
+    "start": "node server.js",
+    "electron": "electron .",
+    "build": "electron-builder",
     "upload-images": "node scripts/upload-images-to-supabase.js",
     "generate-qr": "node scripts/generate-qr-codes.js",
     "extract-docx": "node scripts/extract-docx-dimensions.js",
@@ -10,6 +14,19 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
     "jszip": "^3.10.1",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.pandora.scan",
+    "productName": "Pandora Barkod Tarayıcı",
+    "directories": { "output": "dist" },
+    "files": ["**/*", "!dist/**", "!node_modules/.cache/**"],
+    "win": { "target": "nsis" },
+    "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true }
   }
 }

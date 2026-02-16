@@ -27,14 +27,22 @@ document.addEventListener("DOMContentLoaded", () => {
         productCode: document.getElementById("product-code"),
         unitPrice: document.getElementById("unit-price"),
         priceUnit: document.getElementById("price-unit"),
+        listPrice: document.getElementById("list-price"),
+        listPriceUnit: document.getElementById("list-price-unit"),
         charList: document.getElementById("char-list"),
-        errorText: document.getElementById("error-text")
+        errorText: document.getElementById("error-text"),
+        shareWhatsappBtn: document.getElementById("share-whatsapp-btn")
     };
 
     bindEvents();
     setMode("idle");
     setStatus("Taramaya hazır");
     registerServiceWorker();
+    const adminBtn = document.getElementById("admin-btn");
+    if (adminBtn && window.electronAPI && window.electronAPI.openAdmin) {
+        adminBtn.style.display = "inline-flex";
+        adminBtn.addEventListener("click", () => window.electronAPI.openAdmin());
+    }
 });
 
 function bindEvents() {
@@ -253,10 +261,31 @@ function renderProduct(product, scannedBarcode) {
 
     dom.unitPrice.textContent = formatMoney(product.unit_price, currency);
     dom.priceUnit.textContent = `${unit} başına`;
+    dom.listPrice.textContent = formatMoney(product.list_price, currency);
+    dom.listPriceUnit.textContent = `${unit} başına`;
 
     renderCharacteristics(product);
+    state.currentProduct = product;
+    const waText = buildWhatsAppShareText(product, currency, unit);
+    if (dom.shareWhatsappBtn) {
+        dom.shareWhatsappBtn.href = "https://api.whatsapp.com/send?text=" + encodeURIComponent(waText);
+        dom.shareWhatsappBtn.style.display = "inline-flex";
+    }
     dom.productCard.hidden = false;
     clearMessage();
+}
+
+function buildWhatsAppShareText(product, currency, unit) {
+    const name = product.name || product.barcode || "Ürün";
+    const code = product.barcode || "-";
+    const unitPrice = formatMoney(product.unit_price, currency);
+    const listPrice = formatMoney(product.list_price, currency);
+    return [
+        "Pandora — " + name,
+        "Kod: " + code,
+        "Mimari iskontolu fiyat: " + unitPrice + " (" + (product.unit || unit) + " başına)",
+        "Satış Fiyatı: " + listPrice + " (" + (product.unit || unit) + " başına)"
+    ].join("\n");
 }
 
 function renderCharacteristics(product) {

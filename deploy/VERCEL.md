@@ -54,4 +54,29 @@ https://qr-scan-pnd.vercel.app
 
 ## Обновление
 
+### Вариант A: через Git (если проект привязан к GitHub)
+
 При каждом `git push` в `main` Vercel автоматически пересоберёт и задеплоит проект.
+
+```bash
+git add .
+git commit -m "обновление"
+git push origin main
+```
+
+### Вариант B: без Git (Vercel CLI)
+
+1. Установи и войди в Vercel (один раз):
+
+```bash
+npm i -g vercel
+vercel login
+```
+
+2. В папке проекта выполни:
+
+```bash
+vercel --prod
+```
+
+Если проект ещё не привязан, выполни сначала `vercel link` и выбери существующий проект (или создай новый), затем снова `vercel --prod`.

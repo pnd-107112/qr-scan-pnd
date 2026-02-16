@@ -22,8 +22,13 @@
     <main class="app-shell">
         <header class="hero">
             <p class="eyebrow">Pandora Lighting</p>
-            <h1>Barkod Tarayıcı</h1>
-            <p class="subtitle">Ürün barkodunu tarayarak fotoğraf, özellikler ve birim fiyatı sunucudan yükleyin.</p>
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+                <div>
+                    <h1 style="margin:0">Barkod Tarayıcı</h1>
+                    <p class="subtitle" style="margin:10px 0 0">Ürün barkodunu tarayarak fotoğraf, özellikler ve birim fiyatı sunucudan yükleyin.</p>
+                </div>
+                <button id="admin-btn" class="btn btn-reset" type="button" style="display:none">Veri Yönetimi</button>
+            </div>
         </header>
 
         <section class="scanner-panel" id="scanner-panel" aria-label="Tarayıcı">
@@ -64,12 +69,22 @@
                     <h2 id="product-name">-</h2>
                     <p class="product-code" id="product-code">-</p>
 
-                    <div class="price-line">
-                        <span class="price-value" id="unit-price">-</span>
-                        <span class="price-unit" id="price-unit">adet başına</span>
+                    <div class="price-block">
+                        <div class="price-line">
+                            <span class="price-label">Mimari iskontolu fiyat</span>
+                            <span class="price-value" id="unit-price">-</span>
+                            <span class="price-unit" id="price-unit">adet başına</span>
+                        </div>
+                        <div class="price-line">
+                            <span class="price-label">Satış Fiyatı</span>
+                            <span class="price-value" id="list-price">-</span>
+                            <span class="price-unit" id="list-price-unit">adet başına</span>
+                        </div>
                     </div>
 
                     <ul class="char-list" id="char-list"></ul>
+
+                    <a id="share-whatsapp-btn" class="btn btn-share-whatsapp" href="#" target="_blank" rel="noopener" aria-label="WhatsApp ile paylaş" style="display:none">WhatsApp ile paylaş</a>
                 </div>
             </article>
 

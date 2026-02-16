@@ -165,6 +165,23 @@ h1 {
     background: linear-gradient(140deg, #e2a15f 0%, #d9893f 100%);
 }
 
+.btn-share-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    background: linear-gradient(140deg, #34c759 0%, #25a244 100%);
+    color: #fff;
+}
+
+.btn-share-whatsapp:hover {
+    color: #fff;
+}
+
 .btn:hover {
     filter: brightness(1.03);
 }
@@ -264,15 +281,28 @@ h1 {
     margin: 0 0 10px;
 }
 
+.price-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
 .price-line {
     align-items: baseline;
     background: linear-gradient(145deg, rgba(63, 86, 52, 0.08), rgba(217, 137, 63, 0.12));
     border: 1px solid var(--border);
     border-radius: 12px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 12px;
     padding: 7px 10px;
+}
+
+.price-label {
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+    min-width: 130px;
 }
 
 .price-value {

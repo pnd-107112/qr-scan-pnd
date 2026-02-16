@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Yönetimi — Pandora</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 16px; font-family: "Segoe UI", system-ui, sans-serif; font-size: 14px; background: #f5f5f5; }
+        h1 { font-size: 1.2rem; margin: 0 0 16px; color: #333; }
+        .card { background: #fff; border-radius: 10px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+        .card h2 { font-size: 0.95rem; margin: 0 0 10px; color: #3f5634; }
+        .btn { display: inline-block; padding: 8px 14px; border: none; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; }
+        .btn-primary { background: #3f5634; color: #fff; }
+        .btn-primary:hover { background: #2f4327; }
+        .btn-danger { background: #c0392b; color: #fff; }
+        .btn-danger:hover { background: #a03226; }
+        .btn-admin { background: #d9893f; color: #fff; position: fixed; top: 10px; right: 10px; }
+        input, select { width: 100%; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; margin-bottom: 8px; }
+        label { display: block; font-weight: 500; margin-bottom: 4px; font-size: 12px; color: #555; }
+        .row { display: flex; gap: 10px; align-items: flex-end; flex-wrap: wrap; }
+        .row .flex1 { flex: 1; min-width: 120px; }
+        .msg { margin-top: 8px; padding: 8px; border-radius: 6px; font-size: 12px; }
+        .msg-ok { background: #d4edda; color: #155724; }
+        .msg-err { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <button class="btn btn-admin" id="btn-admin" style="display:none">Tarayıcı</button>
+    <h1>Veri Yönetimi</h1>
+
+    <div class="card">
+        <h2>1. Yeni veri yükle (tüm veriler silinir)</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">JSON veya Excel seçin. Eski veriler ve resimler silinir; QR kodları yeniden oluşturulur.</p>
+        <div class="row" style="margin-bottom:8px">
+            <input type="text" id="load-file-path" readonly placeholder="Dosya seçilmedi" style="flex:1;min-width:0;background:#eee">
+            <button class="btn btn-primary" id="btn-load-select">Dosya seç</button>
+        </div>
+        <button class="btn btn-primary" id="btn-load-apply">Uygula</button>
+        <div id="msg-load" class="msg" style="display:none"></div>
+    </div>
+
+    <div class="card">
+        <h2>2. Verileri güncelle (silme yok)</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">Sadece listede olmayan ürünler eklenir; fiyatlar yüzde ile güncellenir.</p>
+        <div class="row" style="margin-bottom:8px">
+            <input type="text" id="update-file-path" readonly placeholder="Dosya seçilmedi" style="flex:1;min-width:0;background:#eee">
+            <button class="btn btn-primary" id="btn-update-select">Dosya seç</button>
+        </div>
+        <label>Fiyat değişimi % (örn: 10 veya -5)</label>
+        <input type="number" id="update-price-percent" placeholder="0" step="0.5" style="max-width:120px;margin-bottom:8px">
+        <button class="btn btn-primary" id="btn-update-apply">Uygula</button>
+        <div id="msg-update" class="msg" style="display:none"></div>
+    </div>
+
+    <div class="card">
+        <h2>3. Ürün ekle</h2>
+        <div style="margin-bottom:8px">
+            <label>Barkod *</label>
+            <input type="text" id="add-barcode" placeholder="PND1234-A">
+        </div>
+        <div style="margin-bottom:8px">
+            <label>Ürün adı</label>
+            <input type="text" id="add-name" placeholder="Ürün adı">
+        </div>
+        <div style="margin-bottom:8px">
+            <label>Birim fiyat</label>
+            <input type="number" id="add-price" placeholder="10000" min="0" step="0.01">
+        </div>
+        <div style="margin-bottom:8px">
+            <label>Fotoğraf (opsiyonel)</label>
+            <input type="file" id="add-photo" accept="image/*">
+        </div>
+        <button class="btn btn-primary" id="btn-add">Uygula</button>
+        <div id="msg-add" class="msg" style="display:none"></div>
+    </div>
+
+    <div class="card">
+        <h2>4. Ürün sil</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">Önce barkoda göre ürünü bulun, kontrol edin, sonra silmeyi onaylayın.</p>
+        <div class="row" style="margin-bottom:8px">
+            <div class="flex1">
+                <label>Barkod / QR kodu</label>
+                <input type="text" id="del-barcode" placeholder="PND1234-A veya tara">
+            </div>
+            <button class="btn btn-primary" id="btn-delete-preview">Göster</button>
+        </div>
+        <div id="delete-preview" class="delete-preview" style="display:none;margin-bottom:8px;padding:10px;background:#fff8f0;border:1px solid #e0d0c0;border-radius:8px">
+            <div id="delete-preview-body"></div>
+            <button class="btn btn-danger" id="btn-delete-confirm" style="margin-top:8px">Sil</button>
+        </div>
+        <div id="msg-delete" class="msg" style="display:none"></div>
+    </div>
+
+    <script>
+        const show = (id, text, ok) => {
+            const el = document.getElementById(id);
+            el.style.display = "block";
+            el.textContent = text;
+            el.className = "msg " + (ok ? "msg-ok" : "msg-err");
+        };
+        const hide = (id) => { document.getElementById(id).style.display = "none"; };
+
+        document.getElementById("btn-load-select").onclick = async () => {
+            const path = await window.electronAPI.dialogOpenFile({
+                title: "Yeni veri dosyası seç",
+                filters: [{ name: "JSON veya Excel", extensions: ["json", "xlsx"] }],
+                properties: ["openFile"]
+            });
+            if (path) document.getElementById("load-file-path").value = path;
+        };
+        document.getElementById("btn-load-apply").onclick = async () => {
+            hide("msg-load");
+            let filePath = document.getElementById("load-file-path").value.trim();
+            if (!filePath) {
+                const r = await window.electronAPI.dataLoadFromFile("replace");
+                if (r && r.ok) {
+                    show("msg-load", r.qrError ? `${r.count} ürün yüklendi. QR: ${r.qrError}` : `${r.count} ürün yüklendi; QR kodları güncellendi.`, true);
+                } else if (r) show("msg-load", r.error || "Hata", false);
+                return;
+            }
+            const r = await window.electronAPI.dataLoadFromFile("replace", { filePath });
+            if (r && r.ok) {
+                show("msg-load", r.qrError ? `${r.count} ürün yüklendi. QR: ${r.qrError}` : `${r.count} ürün yüklendi; QR kodları güncellendi.`, true);
+                document.getElementById("load-file-path").value = "";
+            } else if (r) show("msg-load", r.error || "Hata", false);
+        };
+
+        document.getElementById("btn-update-select").onclick = async () => {
+            const path = await window.electronAPI.dialogOpenFile({
+                title: "Güncelleme dosyası seç",
+                filters: [{ name: "JSON veya Excel", extensions: ["json", "xlsx"] }],
+                properties: ["openFile"]
+            });
+            if (path) document.getElementById("update-file-path").value = path;
+        };
+        document.getElementById("btn-update-apply").onclick = async () => {
+            hide("msg-update");
+            const filePath = document.getElementById("update-file-path").value.trim();
+            const percentInput = document.getElementById("update-price-percent").value.trim();
+            const pricePercent = percentInput === "" ? null : parseFloat(percentInput);
+            if (!filePath) { show("msg-update", "Önce dosya seçin.", false); return; }
+            const r = await window.electronAPI.dataLoadFromFile("update", { filePath, pricePercentChange: pricePercent });
+            if (r && r.ok) {
+                show("msg-update", `${r.count} ürün güncellendi.`, true);
+                document.getElementById("update-file-path").value = "";
+            } else if (r) show("msg-update", r.error || "Hata", false);
+        };
+
+        document.getElementById("btn-add").onclick = async () => {
+            hide("msg-add");
+            const barcode = document.getElementById("add-barcode").value.trim();
+            if (!barcode) { show("msg-add", "Barkod girin.", false); return; }
+            let image_url = "";
+            const photo = document.getElementById("add-photo").files[0];
+            if (photo) {
+                const reader = new FileReader();
+                const base64 = await new Promise((res) => {
+                    reader.onload = () => res(reader.result.split(",")[1]);
+                    reader.readAsDataURL(photo);
+                });
+                image_url = await window.electronAPI.dataSaveImage({ barcode, base64 });
+            }
+            const r = await window.electronAPI.dataAddProduct({
+                barcode,
+                name: document.getElementById("add-name").value.trim() || barcode,
+                unit_price: parseFloat(document.getElementById("add-price").value) || 0,
+                unit: "adet",
+                image_url
+            });
+            if (r && r.ok) {
+                show("msg-add", "Ürün eklendi.", true);
+                document.getElementById("add-barcode").value = "";
+                document.getElementById("add-name").value = "";
+                document.getElementById("add-price").value = "";
+                document.getElementById("add-photo").value = "";
+            } else show("msg-add", r ? r.error : "Hata", false);
+        };
+
+        document.getElementById("btn-delete-preview").onclick = async () => {
+            hide("msg-delete");
+            const barcode = document.getElementById("del-barcode").value.trim();
+            if (!barcode) { show("msg-delete", "Barkod girin.", false); return; }
+            const p = await window.electronAPI.dataGetProductByBarcode(barcode);
+            const preview = document.getElementById("delete-preview");
+            const body = document.getElementById("delete-preview-body");
+            if (!p) {
+                preview.style.display = "none";
+                show("msg-delete", "Ürün bulunamadı.", false);
+                return;
+            }
+            body.innerHTML = "<strong>" + (p.name || p.barcode) + "</strong><br>Barkod: " + (p.barcode || "") + "<br>Fiyat: " + (p.unit_price != null ? p.unit_price : "-");
+            preview.style.display = "block";
+        };
+        document.getElementById("btn-delete-confirm").onclick = async () => {
+            hide("msg-delete");
+            const barcode = document.getElementById("del-barcode").value.trim();
+            const r = await window.electronAPI.dataDeleteProduct(barcode);
+            if (r && r.ok) {
+                show("msg-delete", "Ürün silindi.", true);
+                document.getElementById("del-barcode").value = "";
+                document.getElementById("delete-preview").style.display = "none";
+            } else show("msg-delete", r ? r.error : "Hata", false);
+        };
+
+        if (window.electronAPI && (window.electronAPI.focusScanner || window.electronAPI.openAdmin)) {
+            document.getElementById("btn-admin").style.display = "inline-block";
+            document.getElementById("btn-admin").onclick = () => {
+                if (window.electronAPI.focusScanner) window.electronAPI.focusScanner();
+                else if (window.electronAPI.openAdmin) window.electronAPI.openAdmin();
+            };
+        } else {
+            document.getElementById("btn-admin").style.display = "none";
+        }
+    </script>
+</body>
+</html>
