@@ -7,6 +7,9 @@ api.txt
 # Excel — тяжёлые файлы
 *.xlsx
 
+# Word — временные файлы
+~$*
+
 # Node
 node_modules/
 package-lock.json
