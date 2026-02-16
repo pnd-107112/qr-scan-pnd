@@ -281,6 +281,10 @@ h1 {
     margin: 0 0 10px;
 }
 
+.price-line-hidden {
+    display: none;
+}
+
 .price-block {
     display: flex;
     flex-direction: column;
