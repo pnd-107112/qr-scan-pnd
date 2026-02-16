@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles.css">
 
     <script defer src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
     <script defer src="./config.js"></script>
     <script defer src="./app.js"></script>
 </head>
@@ -84,11 +85,24 @@
 
                     <ul class="char-list" id="char-list"></ul>
 
-                    <a id="share-whatsapp-btn" class="btn btn-share-whatsapp" href="#" target="_blank" rel="noopener" aria-label="WhatsApp ile paylaş" style="display:none">WhatsApp ile paylaş</a>
+                    <button type="button" id="share-whatsapp-btn" class="btn btn-share-whatsapp" aria-label="WhatsApp ile paylaş" style="display:none">WhatsApp ile paylaş</button>
                 </div>
             </article>
 
             <p class="error-text" id="error-text"></p>
+
+            <section class="scanned-list-section" id="scanned-list-section" aria-label="Taranan ürünler">
+                <div class="scanned-list-head">
+                    <h3 class="scanned-list-title">Taranan ürünler</h3>
+                    <button type="button" class="btn btn-list-toggle" id="scanned-list-toggle" aria-expanded="true" aria-label="Listeyi aç/kapat">▼</button>
+                </div>
+                <div class="scanned-list-body" id="scanned-list-body">
+                    <ul class="scanned-list" id="scanned-list"></ul>
+                    <div class="scanned-list-actions">
+                        <button type="button" class="btn btn-send-teklif" id="send-teklif-btn">Gönder (WhatsApp .xlsx)</button>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 </body>

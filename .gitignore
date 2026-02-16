@@ -17,3 +17,6 @@ package-lock.json
 # Сгенерированные QR-коды
 qr_codes/
 qr_print.html
+
+.vercel
+.env*.local

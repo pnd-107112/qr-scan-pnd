@@ -1,8 +1,13 @@
 const state = {
     scanner: null,
     scanning: false,
-    processing: false
+    processing: false,
+    scannedList: []
 };
+
+function normBarcode(s) {
+    return String(s || "").toLowerCase().replace(/[\s_-]+/g, "");
+}
 
 const settings = {
     apiBaseUrl: ((window.APP_CONFIG && window.APP_CONFIG.API_BASE_URL) || "/api").replace(/\/+$/, ""),
@@ -31,7 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
         listPriceUnit: document.getElementById("list-price-unit"),
         charList: document.getElementById("char-list"),
         errorText: document.getElementById("error-text"),
-        shareWhatsappBtn: document.getElementById("share-whatsapp-btn")
+        shareWhatsappBtn: document.getElementById("share-whatsapp-btn"),
+        scannedListSection: document.getElementById("scanned-list-section"),
+        scannedListToggle: document.getElementById("scanned-list-toggle"),
+        scannedListBody: document.getElementById("scanned-list-body"),
+        scannedList: document.getElementById("scanned-list"),
+        sendTeklifBtn: document.getElementById("send-teklif-btn")
     };
 
     bindEvents();
@@ -71,6 +81,20 @@ function bindEvents() {
 
         void submitCode(manualCode);
     });
+
+    if (dom.shareWhatsappBtn) {
+        dom.shareWhatsappBtn.addEventListener("click", () => void shareViaWhatsApp());
+    }
+    if (dom.scannedListToggle) {
+        dom.scannedListToggle.addEventListener("click", () => {
+            dom.scannedListSection.classList.toggle("collapsed");
+            const expanded = !dom.scannedListSection.classList.contains("collapsed");
+            dom.scannedListToggle.setAttribute("aria-expanded", expanded);
+        });
+    }
+    if (dom.sendTeklifBtn) {
+        dom.sendTeklifBtn.addEventListener("click", () => void sendTeklifWhatsApp());
+    }
 }
 
 async function submitCode(code) {
@@ -195,6 +219,7 @@ async function processBarcode(rawCode) {
     try {
         const product = await fetchProduct(barcode);
         renderProduct(product, barcode);
+        addToScannedList(product);
         setStatus("Ürün yüklendi");
         collapseScanner();
     } catch (error) {
@@ -266,13 +291,112 @@ function renderProduct(product, scannedBarcode) {
 
     renderCharacteristics(product);
     state.currentProduct = product;
-    const waText = buildWhatsAppShareText(product, currency, unit);
-    if (dom.shareWhatsappBtn) {
-        dom.shareWhatsappBtn.href = "https://api.whatsapp.com/send?text=" + encodeURIComponent(waText);
-        dom.shareWhatsappBtn.style.display = "inline-flex";
-    }
+    if (dom.shareWhatsappBtn) dom.shareWhatsappBtn.style.display = "inline-flex";
     dom.productCard.hidden = false;
     clearMessage();
+}
+
+function addToScannedList(product) {
+    const key = normBarcode(product.barcode);
+    if (!key) return;
+    const exists = state.scannedList.some((p) => normBarcode(p.barcode) === key);
+    if (exists) return;
+    state.scannedList.push({ ...product });
+    renderScannedList();
+}
+
+function removeFromScannedList(barcode) {
+    const key = normBarcode(barcode);
+    state.scannedList = state.scannedList.filter((p) => normBarcode(p.barcode) !== key);
+    renderScannedList();
+}
+
+function renderScannedList() {
+    if (!dom.scannedList) return;
+    dom.scannedList.innerHTML = "";
+    const list = state.scannedList;
+    list.forEach((p) => {
+        const li = document.createElement("li");
+        li.className = "scanned-item";
+        li.dataset.barcode = p.barcode || "";
+
+        const btnSil = document.createElement("button");
+        btnSil.type = "button";
+        btnSil.className = "scanned-item-btn-sil";
+        btnSil.textContent = "SİL";
+        btnSil.addEventListener("click", () => removeFromScannedList(p.barcode));
+
+        const img = document.createElement("img");
+        img.className = "scanned-item-thumb";
+        img.alt = p.name || p.barcode || "";
+        const imgUrl = p.image_url ? getAbsoluteImageUrl(p.image_url) : "https://placehold.co/48x48?text=—";
+        img.src = imgUrl;
+        img.onerror = () => { img.src = "https://placehold.co/48x48?text=—"; };
+
+        const code = document.createElement("span");
+        code.className = "scanned-item-code";
+        code.textContent = p.barcode || "—";
+
+        li.appendChild(btnSil);
+        li.appendChild(img);
+        li.appendChild(code);
+        dom.scannedList.appendChild(li);
+    });
+    if (dom.sendTeklifBtn) dom.sendTeklifBtn.disabled = list.length === 0;
+}
+
+function buildTeklifXlsxBlob() {
+    const XLSX = window.XLSX;
+    if (!XLSX) return null;
+    const rows = [
+        ["Barkod", "Ürün Adı", "Mimari iskontolu fiyat", "Satış Fiyatı", "Birim"]
+    ];
+    const currency = "TRY";
+    state.scannedList.forEach((p) => {
+        rows.push([
+            p.barcode || "",
+            p.name || "",
+            Number(p.unit_price) || 0,
+            Number(p.list_price) || 0,
+            p.unit || "adet"
+        ]);
+    });
+    const ws = XLSX.utils.aoa_to_sheet(rows);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Fiyat Teklifi");
+    const buf = XLSX.write(wb, { type: "array", bookType: "xlsx" });
+    return new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+}
+
+async function sendTeklifWhatsApp() {
+    if (state.scannedList.length === 0) return;
+    const blob = buildTeklifXlsxBlob();
+    if (!blob) {
+        showError("Excel oluşturulamadı. Sayfa yenileyin.");
+        return;
+    }
+    const fileName = "Pandora_Aydinlatma_Fiyat_Teklifi.xlsx";
+    const file = new File([blob], fileName, { type: blob.type });
+    const text = "Pandora Aydınlatma — Fiyat teklifi (" + state.scannedList.length + " ürün)";
+
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                text,
+                files: [file]
+            });
+            return;
+        } catch (err) {
+            if (err.name !== "AbortError") console.warn("Share failed:", err);
+        }
+    }
+
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = fileName;
+    a.click();
+    URL.revokeObjectURL(a.href);
+    window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text), "_blank", "noopener");
 }
 
 function buildWhatsAppShareText(product, currency, unit) {
@@ -286,6 +410,129 @@ function buildWhatsAppShareText(product, currency, unit) {
         "Mimari iskontolu fiyat: " + unitPrice + " (" + (product.unit || unit) + " başına)",
         "Satış Fiyatı: " + listPrice + " (" + (product.unit || unit) + " başına)"
     ].join("\n");
+}
+
+function getAbsoluteImageUrl(imageUrl) {
+    if (!imageUrl || imageUrl.startsWith("data:")) return imageUrl;
+    if (imageUrl.startsWith("http://") || imageUrl.startsWith("https://")) return imageUrl;
+    return window.location.origin + (imageUrl.startsWith("/") ? imageUrl : "/" + imageUrl);
+}
+
+function buildShareImage(product, currency, unit) {
+    return new Promise((resolve) => {
+        const name = product.name || product.barcode || "Ürün";
+        const code = product.barcode || "-";
+        const unitPrice = formatMoney(product.unit_price, currency);
+        const listPrice = formatMoney(product.list_price, currency);
+        const imgSrc = product.image_url ? getAbsoluteImageUrl(product.image_url) : null;
+
+        const w = 400;
+        const imgH = 220;
+        const pad = 16;
+        const textH = 100;
+        const h = imgH + textH + pad * 2;
+
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) { resolve(null); return; }
+
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(0, 0, w, h);
+
+        if (imgSrc) {
+            const img = new Image();
+            img.crossOrigin = "anonymous";
+            img.onload = () => {
+                try {
+                    ctx.drawImage(img, 0, 0, w, imgH);
+                } catch (_) { /* tainted */ }
+                drawText();
+            };
+            img.onerror = drawText;
+            img.src = imgSrc;
+
+            function drawText() {
+                ctx.fillStyle = "#1a1a1a";
+                ctx.font = "bold 14px system-ui, sans-serif";
+                ctx.fillText(name.length > 45 ? name.slice(0, 42) + "…" : name, pad, imgH + pad + 16);
+                ctx.font = "12px system-ui, sans-serif";
+                ctx.fillStyle = "#555";
+                ctx.fillText("Kod: " + code, pad, imgH + pad + 34);
+                ctx.fillText("Mimari iskontolu: " + unitPrice, pad, imgH + pad + 52);
+                ctx.fillText("Satış Fiyatı: " + listPrice, pad, imgH + pad + 70);
+                ctx.strokeStyle = "#e0e0e0";
+                ctx.strokeRect(0, 0, w, h);
+                try {
+                    canvas.toBlob((blob) => resolve(blob || null), "image/png", 0.92);
+                } catch (_) { resolve(null); }
+            }
+        } else {
+            ctx.fillStyle = "#1a1a1a";
+            ctx.font = "bold 14px system-ui, sans-serif";
+            ctx.fillText(name.length > 45 ? name.slice(0, 42) + "…" : name, pad, pad + 24);
+            ctx.font = "12px system-ui, sans-serif";
+            ctx.fillStyle = "#555";
+            ctx.fillText("Kod: " + code, pad, pad + 44);
+            ctx.fillText("Mimari iskontolu: " + unitPrice, pad, pad + 62);
+            ctx.fillText("Satış Fiyatı: " + listPrice, pad, pad + 80);
+            ctx.strokeStyle = "#e0e0e0";
+            ctx.strokeRect(0, 0, w, h);
+            try {
+                canvas.toBlob((blob) => resolve(blob || null), "image/png", 0.92);
+            } catch (_) { resolve(null); }
+        }
+    });
+}
+
+async function shareViaWhatsApp() {
+    const product = state.currentProduct;
+    if (!product) return;
+
+    const currency = product.currency || "TRY";
+    const unit = product.unit || "adet";
+    const waText = buildWhatsAppShareText(product, currency, unit);
+
+    let imageBlob = null;
+    try {
+        imageBlob = await buildShareImage(product, currency, unit);
+    } catch (_) { /* ignore */ }
+
+    if (navigator.share && imageBlob) {
+        try {
+            const file = new File([imageBlob], "pandora-urun.png", { type: "image/png" });
+            await navigator.share({
+                text: waText,
+                files: [file]
+            });
+            return;
+        } catch (err) {
+            if (err.name !== "AbortError") {
+                console.warn("Share failed:", err);
+            }
+        }
+    }
+
+    if (navigator.share && !imageBlob) {
+        try {
+            await navigator.share({
+                text: waText,
+                title: product.name || "Pandora Ürün"
+            });
+            return;
+        } catch (_) { /* fallback */ }
+    }
+
+    const waUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(waText);
+    if (imageBlob) {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(imageBlob);
+        a.download = "pandora-urun-" + (product.barcode || "urun") + ".png";
+        a.click();
+        URL.revokeObjectURL(a.href);
+    }
+    window.open(waUrl, "_blank", "noopener");
 }
 
 function renderCharacteristics(product) {

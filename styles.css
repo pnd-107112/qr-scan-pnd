@@ -355,6 +355,135 @@ h1 {
     min-height: 1.2em;
 }
 
+.scanned-list-section {
+    margin-top: 20px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface-soft);
+}
+
+.scanned-list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    background: rgba(63, 86, 52, 0.08);
+    border-bottom: 1px solid var(--border);
+}
+
+.scanned-list-title {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--ink-strong);
+}
+
+.btn-list-toggle {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    color: var(--ink-strong);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.scanned-list-section.collapsed .btn-list-toggle {
+    transform: rotate(-90deg);
+}
+
+.scanned-list-body {
+    padding: 10px;
+    max-height: 280px;
+    overflow-y: auto;
+    transition: max-height 0.25s ease;
+}
+
+.scanned-list-section.collapsed .scanned-list-body {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.scanned-list {
+    list-style: none;
+    margin: 0 0 12px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.scanned-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.scanned-item-btn-sil {
+    flex-shrink: 0;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.scanned-item-thumb {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    flex-shrink: 0;
+    background: #f5f5f5;
+}
+
+.scanned-item-code {
+    flex: 1;
+    min-width: 0;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ink-strong);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scanned-list-actions {
+    margin-top: 10px;
+}
+
+.btn-send-teklif {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    background: linear-gradient(140deg, #25a244 0%, #1e7e34 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-send-teklif:hover {
+    filter: brightness(1.05);
+}
+
+.btn-send-teklif:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 @media (min-width: 860px) {
     body {
         padding-top: 28px;
