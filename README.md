@@ -109,6 +109,120 @@ node .\scripts\generate-products-upsert-sql.js
 
 Pages Functions (`functions/api/`) обслуживают `/api/health` и `/api/products/:barcode`.
 
+## QR-коды для печати
+
+Генерация QR-кодов и HTML-шаблона для печати этикеток:
+
+```powershell
+npm run generate-qr
+```
+
+Создаёт:
+- `qr_codes/` — PNG с QR-кодами (содержат штрихкод)
+- `qr_print.html` — сетка для печати (4 колонки)
+
+Открой `qr_print.html` в браузере → Ctrl+P для печати.
+
+### Layout TANEX TW-2348
+
+**Зафиксированные настройки:** QR 20 mm, отступ сверху 6 mm.
+
+Генератор автоматически подстраивает этикетки под лист:
+
+1. **При наличии** `barcode_baski_sablon.docx` — геометрия читается из Word (размер страницы, таблица, ячейки, отступы).
+2. **Без DOCX** — расчёт по формуле A4 (6×8, 35×35 мм) с калибровкой.
+
+Калибровка через параметры:
+
+```powershell
+node scripts/layout-tanex.js --offsetX=0 --offsetY=0 --gapX=0 --gapY=0
+```
+
+Вывод layout можно передать в generate-qr или подстроить через `getLayout({ offsetX, offsetY, gapX, gapY, startXmm, startYmm })` в `scripts/layout-tanex.js`.
+
+## Обновление данных и добавление новых продуктов
+
+### Вариант A: Данные из Excel (.xlsx)
+
+**1. Подготовьте Excel-файл**
+- Положите `.xlsx` в корень проекта (рядом с `package.json`).
+- Обязательные колонки: `barcode`, `name`, `image_url` или вложенные картинки.
+- Для цен: `unit_price`, `currency` (TRY), `unit` (adet).
+- Для характеристик: колонки `dimensions`, `bulb`, `stock` и др. — попадут в `characteristics`.
+
+**2. Экспорт в JSON**
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\export-products-from-xlsx.ps1
+```
+
+**3. Результат**
+- `data/products.api.json` — основной файл для API (дубли по штрихкоду удаляются).
+- `data/products.full.json` — все строки.
+- `product_images/` — извлечённые картинки.
+
+**4. Для Supabase**
+- Сгенерировать SQL:
+  ```powershell
+  node .\scripts\generate-products-upsert-sql.js
+  ```
+- Загрузить картинки: `node .\scripts\upload-images-to-supabase.js`
+- Выполнить `data/products.upsert.sql` в SQL Editor.
+
+**5. Обновить QR-коды**
+
+```powershell
+npm run generate-qr
+```
+
+---
+
+### Вариант B: Ручное редактирование JSON
+
+**1. Откройте** `data/products.api.json`.
+
+**2. Формат одного продукта:**
+
+```json
+{
+  "barcode": "PND1234-A",
+  "name": "Ürün adı",
+  "image_url": "https://...",
+  "unit_price": 21000,
+  "currency": "TRY",
+  "unit": "adet",
+  "characteristics": {
+    "dimensions": "...",
+    "bulb": "DS LED"
+  }
+}
+```
+
+**3. Добавьте** новые объекты в массив или измените существующие.
+
+**4. Сохраните файл.**
+
+**5. Перезагрузите данные**
+- Локальный сервер: `GET /api/reload` или перезапуск `node server.js`.
+- Vercel/Cloudflare: после push в Git данные обновятся из `data/products.api.json`.
+
+**6. Обновите QR-коды (если печатаете этикетки):**
+
+```powershell
+npm run generate-qr
+```
+
+---
+
+### Краткая шпаргалка
+
+| Действие | Команда |
+|----------|---------|
+| Обновить из Excel | `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\export-products-from-xlsx.ps1` |
+| Сгенерировать SQL для Supabase | `node .\scripts\generate-products-upsert-sql.js` |
+| Загрузить картинки в Supabase | `node .\scripts\upload-images-to-supabase.js` |
+| Сгенерировать QR-этикетки | `npm run generate-qr` |
+
 ## Notes for production
 
 - Use HTTPS for camera access on mobile.

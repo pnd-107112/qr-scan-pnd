@@ -10,7 +10,7 @@ export default async function handler(req, res) {
 
     const barcode = (req.query?.barcode || "").trim();
     if (!barcode) {
-        return res.status(400).json({ error: "Barcode is required." });
+        return res.status(400).json({ error: "Barkod gerekli." });
     }
 
     const supabaseUrl = process.env.SUPABASE_URL;
@@ -40,7 +40,7 @@ export default async function handler(req, res) {
         const product = Array.isArray(rows) && rows.length > 0 ? rows[0] : null;
 
         if (!product) {
-            return res.status(404).json({ error: "Product not found." });
+            return res.status(404).json({ error: "Ürün bulunamadı." });
         }
 
         res.setHeader("Cache-Control", "no-store");

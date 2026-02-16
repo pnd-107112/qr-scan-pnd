@@ -2,9 +2,14 @@
   "name": "pandora-scan",
   "private": true,
   "scripts": {
-    "upload-images": "node scripts/upload-images-to-supabase.js"
+    "upload-images": "node scripts/upload-images-to-supabase.js",
+    "generate-qr": "node scripts/generate-qr-codes.js",
+    "extract-docx": "node scripts/extract-docx-dimensions.js",
+    "layout": "node scripts/layout-tanex.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.0"
+    "@supabase/supabase-js": "^2.45.0",
+    "jszip": "^3.10.1",
+    "qrcode": "^1.5.4"
   }
 }

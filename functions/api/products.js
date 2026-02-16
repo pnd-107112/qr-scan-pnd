@@ -8,7 +8,7 @@ export async function onRequestGet(context) {
     const barcode = (url.searchParams.get("barcode") || "").trim();
 
     if (!barcode) {
-        return jsonResponse(400, { error: "Barcode is required." });
+        return jsonResponse(400, { error: "Barkod gerekli." });
     }
 
     const supabaseUrl = env.SUPABASE_URL;
@@ -38,7 +38,7 @@ export async function onRequestGet(context) {
         const product = Array.isArray(rows) && rows.length > 0 ? rows[0] : null;
 
         if (!product) {
-            return jsonResponse(404, { error: "Product not found." });
+            return jsonResponse(404, { error: "Ürün bulunamadı." });
         }
 
         return jsonResponse(200, {

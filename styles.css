@@ -26,7 +26,7 @@ body {
 body {
     background: linear-gradient(165deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
     color: var(--ink-strong);
-    font-family: "Sora", sans-serif;
+    font-family: "Sora", "Segoe UI", system-ui, sans-serif;
     padding: 18px 14px 28px;
     position: relative;
 }
@@ -88,6 +88,16 @@ h1 {
 
 .result-panel {
     margin-top: 14px;
+}
+
+.scanner-frame-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-out;
+}
+
+.scanner-panel--expanded .scanner-frame-wrapper {
+    max-height: 420px;
 }
 
 .scanner-frame {
@@ -224,15 +234,21 @@ h1 {
 .product-image-wrap {
     background: #edf3e7;
     border-radius: 13px;
-    max-height: 280px;
+    max-height: 320px;
+    min-height: 120px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-image-wrap img {
     display: block;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+    max-width: 100%;
+    max-height: 320px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 .product-body h2 {
@@ -329,7 +345,19 @@ h1 {
         height: 100%;
     }
 
+    .scanner-panel--expanded .scanner-frame-wrapper {
+        max-height: 380px;
+    }
+
     .scanner-frame {
         min-height: 320px;
+    }
+
+    .product-image-wrap {
+        max-height: 360px;
+    }
+
+    .product-image-wrap img {
+        max-height: 360px;
     }
 }

@@ -1,7 +1,7 @@
 {
-    "name": "Pandora Scan Mobile",
+    "name": "Pandora Barkod Tarayıcı",
     "short_name": "Pandora Scan",
-    "description": "Mobile barcode scanner with server product data.",
+    "description": "Sunucudan ürün verisi yükleyen mobil barkod tarayıcı.",
     "start_url": "./",
     "scope": "./",
     "display": "standalone",

@@ -13,6 +13,7 @@ let dom;
 
 document.addEventListener("DOMContentLoaded", () => {
     dom = {
+        scannerPanel: document.getElementById("scanner-panel"),
         scannerRoot: document.getElementById("scanner"),
         statusText: document.getElementById("status-text"),
         startBtn: document.getElementById("start-btn"),
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     bindEvents();
     setMode("idle");
-    setStatus("Ready to scan");
+    setStatus("Taramaya hazır");
     registerServiceWorker();
 });
 
@@ -88,11 +89,11 @@ async function startScanning() {
     }
 
     clearMessage();
-    setStatus("Opening camera...");
+    setStatus("Kamera açılıyor...");
 
     try {
         if (!window.Html5Qrcode) {
-            throw new Error("Scanner library could not load.");
+            throw new Error("Tarayıcı kütüphanesi yüklenemedi.");
         }
 
         if (!state.scanner) {
@@ -121,18 +122,20 @@ async function startScanning() {
         );
 
         state.scanning = true;
+        expandScanner();
         setMode("scanning");
-        setStatus("Scanning in progress...");
+        setStatus("Tarama devam ediyor...");
     } catch (error) {
         console.error("Camera start error:", error);
+        collapseScanner();
         setMode("idle");
-        setStatus("Camera error", true);
+        setStatus("Kamera hatası", true);
 
         const httpsRequired = window.location.protocol !== "https:" && window.location.hostname !== "localhost";
         if (httpsRequired) {
-            showError("Camera requires HTTPS or localhost.");
+            showError("Kamera için HTTPS veya localhost gerekir.");
         } else {
-            showError("Camera could not start. Check browser permission.");
+            showError("Kamera başlatılamadı. Tarayıcı iznini kontrol edin.");
         }
     }
 }
@@ -141,7 +144,7 @@ async function stopScanning(setIdleMode) {
     if (!state.scanner || !state.scanning) {
         if (setIdleMode) {
             setMode("idle");
-            setStatus("Ready to scan");
+            setStatus("Taramaya hazır");
         }
         return;
     }
@@ -154,8 +157,9 @@ async function stopScanning(setIdleMode) {
 
     state.scanning = false;
     if (setIdleMode) {
+        collapseScanner();
         setMode("idle");
-        setStatus("Scanner stopped");
+        setStatus("Tarama durduruldu");
     }
 }
 
@@ -164,31 +168,41 @@ async function resetAndScan() {
     dom.manualInput.value = "";
     dom.barcodeValue.textContent = "-";
     dom.productCard.hidden = true;
-    setStatus("Reset complete. Opening camera...");
+    setStatus("Sıfırlandı. Kamera açılıyor...");
     await startScanning();
 }
 
 async function processBarcode(rawCode) {
     const barcode = String(rawCode || "").trim();
     if (!barcode) {
-        showError("Barcode is empty.");
+        showError("Barkod boş.");
         return;
     }
 
     dom.barcodeValue.textContent = barcode;
     dom.productCard.hidden = true;
     clearMessage();
-    setStatus("Loading product...");
+    setStatus("Ürün yükleniyor...");
 
     try {
         const product = await fetchProduct(barcode);
         renderProduct(product, barcode);
-        setStatus("Product loaded");
+        setStatus("Ürün yüklendi");
+        collapseScanner();
     } catch (error) {
         console.error("Product fetch error:", error);
-        setStatus("Request failed", true);
-        showError(error.message || "Could not load product from server.");
+        setStatus("İstek başarısız", true);
+        showError(error.message || "Ürün sunucudan yüklenemedi.");
+        collapseScanner();
     }
+}
+
+function expandScanner() {
+    if (dom.scannerPanel) dom.scannerPanel.classList.add("scanner-panel--expanded");
+}
+
+function collapseScanner() {
+    if (dom.scannerPanel) dom.scannerPanel.classList.remove("scanner-panel--expanded");
 }
 
 async function fetchProduct(barcode) {
@@ -203,17 +217,17 @@ async function fetchProduct(barcode) {
         });
 
         if (response.status === 404) {
-            throw new Error("Product not found.");
+            throw new Error("Ürün bulunamadı.");
         }
 
         if (!response.ok) {
-            throw new Error(`Server returned status ${response.status}.`);
+            throw new Error(`Sunucu hata kodu: ${response.status}.`);
         }
 
         return await response.json();
     } catch (error) {
         if (error.name === "AbortError") {
-            throw new Error("Server timeout. Try again.");
+            throw new Error("Sunucu zaman aşımı. Tekrar deneyin.");
         }
         throw error;
     } finally {
@@ -222,23 +236,23 @@ async function fetchProduct(barcode) {
 }
 
 function renderProduct(product, scannedBarcode) {
-    const productName = product.name || "Unnamed product";
+    const productName = product.name || "İsimsiz ürün";
     const barcode = product.barcode || scannedBarcode;
-    const imageUrl = product.image_url || "https://placehold.co/700x700?text=No+Image";
-    const unit = product.unit || "unit";
+    const imageUrl = product.image_url || "https://placehold.co/700x700?text=Görsel+Yok";
+    const unit = product.unit || "adet";
     const currency = product.currency || "TRY";
 
     dom.productName.textContent = productName;
-    dom.productCode.textContent = `Code: ${barcode}`;
+    dom.productCode.textContent = `Kod: ${barcode}`;
     dom.productImage.src = imageUrl;
     dom.productImage.alt = `${productName} image`;
     dom.productImage.onerror = () => {
         dom.productImage.onerror = null;
-        dom.productImage.src = "https://placehold.co/700x700?text=No+Image";
+        dom.productImage.src = "https://placehold.co/700x700?text=Görsel+Yok";
     };
 
     dom.unitPrice.textContent = formatMoney(product.unit_price, currency);
-    dom.priceUnit.textContent = `per ${unit}`;
+    dom.priceUnit.textContent = `${unit} başına`;
 
     renderCharacteristics(product);
     dom.productCard.hidden = false;
@@ -250,7 +264,7 @@ function renderCharacteristics(product) {
     dom.charList.innerHTML = "";
 
     if (entries.length === 0) {
-        addCharacteristic("Info", "No characteristics available");
+        addCharacteristic("Bilgi", "Özellik bulunamadı");
         return;
     }
 
@@ -325,7 +339,17 @@ function formatMoney(value, currency) {
     }).format(parsed);
 }
 
+const TR_KEYS = {
+    dimensions: "Boyutlar",
+    bulb: "Ampul",
+    stock: "Stok",
+    features: "Özellikler",
+    info: "Bilgi"
+};
+
 function humanizeKey(key) {
+    const k = String(key).toLowerCase().replace(/[_-]+/g, " ");
+    if (TR_KEYS[k]) return TR_KEYS[k];
     return String(key)
         .replace(/[_-]+/g, " ")
         .replace(/([a-z])([A-Z])/g, "$1 $2")

@@ -49,13 +49,13 @@ const server = http.createServer((req, res) => {
     if (req.method === "GET" && pathname.startsWith("/api/products/")) {
         const barcode = pathname.replace("/api/products/", "").trim();
         if (!barcode) {
-            sendJson(res, 400, { error: "Barcode is required." });
+            sendJson(res, 400, { error: "Barkod gerekli." });
             return;
         }
 
         const product = findProductByBarcode(barcode);
         if (!product) {
-            sendJson(res, 404, { error: "Product not found." });
+            sendJson(res, 404, { error: "Ürün bulunamadı." });
             return;
         }
 
