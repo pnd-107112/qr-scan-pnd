@@ -89,8 +89,9 @@ function bindEvents() {
     }
     if (dom.btnMimariToggle && dom.priceMimariRow) {
         dom.btnMimariToggle.addEventListener("click", () => {
-            dom.priceMimariRow.hidden = !dom.priceMimariRow.hidden;
-            dom.btnMimariToggle.textContent = dom.priceMimariRow.hidden ? "Mimari fiyatı göster" : "Mimari fiyatı gizle";
+            const isHidden = dom.priceMimariRow.style.display === "none";
+            dom.priceMimariRow.style.display = isHidden ? "" : "none";
+            dom.btnMimariToggle.textContent = isHidden ? "Mimari fiyatı gizle" : "Mimari fiyatı göster";
         });
     }
     if (dom.scannedListToggle) {
@@ -300,7 +301,7 @@ function renderProduct(product, scannedBarcode) {
     renderCharacteristics(product);
     state.currentProduct = product;
     if (dom.shareWhatsappBtn) dom.shareWhatsappBtn.style.display = "inline-flex";
-    if (dom.priceMimariRow) dom.priceMimariRow.hidden = true;
+    if (dom.priceMimariRow) dom.priceMimariRow.style.display = "none";
     if (dom.btnMimariToggle) {
         dom.btnMimariToggle.style.display = "inline-flex";
         dom.btnMimariToggle.textContent = "Mimari fiyatı göster";

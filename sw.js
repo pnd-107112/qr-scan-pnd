@@ -1,4 +1,4 @@
-const CACHE_NAME = "pandora-scan-v2";
+const CACHE_NAME = "pandora-scan-v3";
 const STATIC_ASSETS = [
     "./",
     "./index.html",
