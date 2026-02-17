@@ -50,6 +50,98 @@ body {
 
 .hero {
     margin-bottom: 16px;
+    position: relative;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.hamburger-btn {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    background: rgba(63, 86, 52, 0.12);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hamburger-btn:hover {
+    background: rgba(63, 86, 52, 0.22);
+}
+
+.hamburger-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--primary);
+    border-radius: 1px;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 240px;
+    max-width: 85vw;
+    height: 100%;
+    background: #fff;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+    z-index: 1000;
+    padding: 70px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+}
+
+.hamburger-menu.is-open {
+    transform: translateX(0);
+}
+
+.menu-item {
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: var(--surface-soft);
+    color: var(--ink-strong);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.menu-item:hover {
+    background: rgba(63, 86, 52, 0.15);
+}
+
+.menu-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.menu-backdrop.is-visible {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .eyebrow {

@@ -52,8 +52,11 @@ document.addEventListener("DOMContentLoaded", () => {
     registerServiceWorker();
     const adminBtn = document.getElementById("admin-btn");
     if (adminBtn && window.electronAPI && window.electronAPI.openAdmin) {
-        adminBtn.style.display = "inline-flex";
-        adminBtn.addEventListener("click", () => window.electronAPI.openAdmin());
+        adminBtn.style.display = "block";
+        adminBtn.addEventListener("click", () => {
+            closeMenu();
+            window.electronAPI.openAdmin();
+        });
     }
 });
 
@@ -104,6 +107,35 @@ function bindEvents() {
     if (dom.sendTeklifBtn) {
         dom.sendTeklifBtn.addEventListener("click", () => void sendTeklifWhatsApp());
     }
+
+    const menu = document.getElementById("hamburger-menu");
+    const menuBtn = document.getElementById("hamburger-btn");
+    const backdrop = document.getElementById("menu-backdrop");
+    if (menu && menuBtn) {
+        menuBtn.addEventListener("click", () => toggleMenu());
+        if (backdrop) backdrop.addEventListener("click", () => closeMenu());
+        document.getElementById("menu-instruction")?.addEventListener("click", () => closeMenu());
+    }
+}
+
+function toggleMenu() {
+    const menu = document.getElementById("hamburger-menu");
+    const menuBtn = document.getElementById("hamburger-btn");
+    if (!menu || !menuBtn) return;
+    const open = menu.classList.toggle("is-open");
+    menu.setAttribute("aria-hidden", !open);
+    menuBtn.setAttribute("aria-expanded", open);
+    document.getElementById("menu-backdrop")?.classList.toggle("is-visible", open);
+}
+
+function closeMenu() {
+    const menu = document.getElementById("hamburger-menu");
+    const menuBtn = document.getElementById("hamburger-btn");
+    if (!menu || !menuBtn) return;
+    menu.classList.remove("is-open");
+    menu.setAttribute("aria-hidden", "true");
+    menuBtn.setAttribute("aria-expanded", "false");
+    document.getElementById("menu-backdrop")?.classList.remove("is-visible");
 }
 
 async function submitCode(code) {

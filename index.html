@@ -22,14 +22,22 @@
     <div class="ambient" aria-hidden="true"></div>
     <main class="app-shell">
         <header class="hero">
-            <p class="eyebrow">Pandora Lighting</p>
-            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+            <div class="hero-top">
                 <div>
+                    <p class="eyebrow">Pandora Lighting</p>
                     <h1 style="margin:0">Barkod Tarayıcı</h1>
-                    <p class="subtitle" style="margin:10px 0 0">Ürün barkodunu tarayarak fotoğraf, özellikler ve birim fiyatı sunucudan yükleyin.</p>
                 </div>
-                <button id="admin-btn" class="btn btn-reset" type="button" style="display:none">Veri Yönetimi</button>
+                <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Menü" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
+            <p class="subtitle" style="margin:8px 0 0">Ürün barkodunu tarayarak fotoğraf, özellikler ve birim fiyatı sunucudan yükleyin.</p>
+
+            <nav class="hamburger-menu" id="hamburger-menu" aria-hidden="true">
+                <a href="INSTRUCTION-ru.html" target="_blank" class="menu-item" id="menu-instruction">Talimat / Инструкция</a>
+                <button type="button" id="admin-btn" class="menu-item menu-btn" style="display:none">Veri Yönetimi</button>
+            </nav>
+            <div class="menu-backdrop" id="menu-backdrop"></div>
         </header>
 
         <section class="scanner-panel" id="scanner-panel" aria-label="Tarayıcı">
