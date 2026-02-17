@@ -303,7 +303,7 @@ function renderProduct(product, scannedBarcode) {
     if (dom.shareWhatsappBtn) dom.shareWhatsappBtn.style.display = "inline-flex";
     if (dom.priceMimariRow) dom.priceMimariRow.style.display = "none";
     if (dom.btnMimariToggle) {
-        dom.btnMimariToggle.style.display = "inline-flex";
+        dom.btnMimariToggle.style.display = "inline-block";
         dom.btnMimariToggle.textContent = "Mimari fiyatı göster";
     }
     dom.productCard.hidden = false;

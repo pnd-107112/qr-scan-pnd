@@ -480,18 +480,21 @@ h1 {
 }
 
 .btn-mimari-toggle {
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    background: rgba(63, 86, 52, 0.15);
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    font-size: 0.78rem;
+    background: rgba(63, 86, 52, 0.2);
     color: #3f5634;
-    border: 1px solid rgba(63, 86, 52, 0.4);
-    border-radius: 8px;
+    border: 1px solid rgba(63, 86, 52, 0.5);
+    border-radius: 6px;
     cursor: pointer;
-    margin-bottom: 4px;
+    margin: 0 0 4px;
+    max-width: fit-content;
 }
 
 .btn-mimari-toggle:hover {
-    background: rgba(63, 86, 52, 0.25);
+    background: rgba(63, 86, 52, 0.3);
 }
 
 .btn-send-teklif:disabled {
