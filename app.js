@@ -41,7 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
         scannedListToggle: document.getElementById("scanned-list-toggle"),
         scannedListBody: document.getElementById("scanned-list-body"),
         scannedList: document.getElementById("scanned-list"),
-        sendTeklifBtn: document.getElementById("send-teklif-btn")
+        sendTeklifBtn: document.getElementById("send-teklif-btn"),
+        priceMimariRow: document.getElementById("price-mimari-row"),
+        btnMimariToggle: document.getElementById("btn-mimari-toggle")
     };
 
     bindEvents();
@@ -84,6 +86,12 @@ function bindEvents() {
 
     if (dom.shareWhatsappBtn) {
         dom.shareWhatsappBtn.addEventListener("click", () => void shareViaWhatsApp());
+    }
+    if (dom.btnMimariToggle && dom.priceMimariRow) {
+        dom.btnMimariToggle.addEventListener("click", () => {
+            dom.priceMimariRow.hidden = !dom.priceMimariRow.hidden;
+            dom.btnMimariToggle.textContent = dom.priceMimariRow.hidden ? "Mimari fiyatı göster" : "Mimari fiyatı gizle";
+        });
     }
     if (dom.scannedListToggle) {
         dom.scannedListToggle.addEventListener("click", () => {
@@ -292,6 +300,11 @@ function renderProduct(product, scannedBarcode) {
     renderCharacteristics(product);
     state.currentProduct = product;
     if (dom.shareWhatsappBtn) dom.shareWhatsappBtn.style.display = "inline-flex";
+    if (dom.priceMimariRow) dom.priceMimariRow.hidden = true;
+    if (dom.btnMimariToggle) {
+        dom.btnMimariToggle.style.display = "inline-flex";
+        dom.btnMimariToggle.textContent = "Mimari fiyatı göster";
+    }
     dom.productCard.hidden = false;
     clearMessage();
 }

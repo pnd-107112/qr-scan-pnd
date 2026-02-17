@@ -92,6 +92,13 @@
         <div id="msg-delete" class="msg" style="display:none"></div>
     </div>
 
+    <div class="card">
+        <h2>5. QR etiket yazdır</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">Mevcut ürün verilerinden QR kodları oluşturur ve yazdırma sayfasını açar (TANEX layout).</p>
+        <button class="btn btn-primary" id="btn-qr-print">QR Etiketlerini Oluştur ve Yazdır</button>
+        <div id="msg-qr" class="msg" style="display:none"></div>
+    </div>
+
     <script>
         const show = (id, text, ok) => {
             const el = document.getElementById(id);
@@ -202,6 +209,30 @@
                 document.getElementById("delete-preview").style.display = "none";
             } else show("msg-delete", r ? r.error : "Hata", false);
         };
+
+        const btnQrPrint = document.getElementById("btn-qr-print");
+        if (btnQrPrint && window.electronAPI && window.electronAPI.qrGenerateAndOpenPrint) {
+            btnQrPrint.onclick = async () => {
+                hide("msg-qr");
+                btnQrPrint.disabled = true;
+                btnQrPrint.textContent = "Oluşturuluyor...";
+                try {
+                    const r = await window.electronAPI.qrGenerateAndOpenPrint();
+                    if (r && r.ok) {
+                        show("msg-qr", "QR kodları oluşturuldu. Yazdırma penceresi açıldı.", true);
+                    } else {
+                        show("msg-qr", (r && r.error) ? r.error : "Hata", false);
+                    }
+                } catch (e) {
+                    show("msg-qr", (e && e.message) ? e.message : "Hata", false);
+                }
+                btnQrPrint.disabled = false;
+                btnQrPrint.textContent = "QR Etiketlerini Oluştur ve Yazdır";
+            };
+        } else if (btnQrPrint) {
+            btnQrPrint.disabled = true;
+            btnQrPrint.title = "Sadece masaüstü uygulamasında kullanılabilir";
+        }
 
         if (window.electronAPI && (window.electronAPI.focusScanner || window.electronAPI.openAdmin)) {
             document.getElementById("btn-admin").style.display = "inline-block";

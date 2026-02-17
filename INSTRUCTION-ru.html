@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandora Scan — Инструкция</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 24px; }
+        h1 { font-size: 1.6rem; color: #3f5634; margin-bottom: 8px; }
+        h2 { font-size: 1.2rem; color: #3f5634; margin-top: 24px; margin-bottom: 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+        h3 { font-size: 1rem; margin-top: 16px; margin-bottom: 6px; }
+        code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+        pre { background: #f5f5f5; padding: 12px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
+        table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+        th { background: #e8efe5; font-weight: 600; }
+        .print-hint { background: #fff8e0; padding: 12px 16px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #e6d88a; }
+        @media print {
+            body { padding: 16px; }
+            .print-hint { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="print-hint">Для сохранения в PDF: Ctrl+P → «Сохранить как PDF» или «Microsoft Print to PDF»</div>
+
+    <h1>Pandora Scan — Инструкция</h1>
+    <p>Мобильное приложение для сканирования штрихкодов товаров Pandora Lighting.</p>
+
+    <h2>1. Установка</h2>
+
+    <h3>1.1 Node.js</h3>
+    <p>1. Скачайте Node.js LTS: <a href="https://nodejs.org">nodejs.org</a><br>
+    2. Установите<br>
+    3. Проверьте: <code>node -v</code> и <code>npm -v</code></p>
+
+    <h3>1.2 Проект</h3>
+    <p>1. Откройте папку проекта<br>
+    2. Откройте терминал<br>
+    3. Выполните: <code>npm install</code></p>
+
+    <h2>2. Запуск</h2>
+
+    <h3>Вариант A: Веб-версия</h3>
+    <pre>npm start</pre>
+    <p>Откройте в браузере: <strong>http://localhost:8080</strong></p>
+
+    <h3>Вариант B: Electron (десктоп)</h3>
+    <pre>npm run electron</pre>
+
+    <h2>3. Сканер</h2>
+
+    <h3>3.1 Сканирование</h3>
+    <p>1. Нажмите «Taramayı başlat» (Начать сканирование)<br>
+    2. Разрешите доступ к камере<br>
+    3. Наведите камеру на штрихкод или введите код вручную + Enter</p>
+
+    <h3>3.2 Карточка товара</h3>
+    <p>Показываются: фото, название, код, Satış Fiyatı (цена), характеристики.</p>
+
+    <h3>3.3 Действия</h3>
+    <p><strong>WhatsApp ile paylaş</strong> — отправить в WhatsApp (текст + картинка)<br>
+    <strong>Yeni tarama</strong> — новый скан</p>
+
+    <h2>4. Список отсканированных товаров</h2>
+    <p>Товары сохраняются в список. Кнопка ▼ сворачивает/разворачивает. <strong>SİL</strong> — удалить.<br>
+    <strong>Gönder (WhatsApp .xlsx)</strong> — создать Excel Pandora_Aydinlatma_Fiyat_Teklifi.xlsx и отправить в WhatsApp.</p>
+
+    <h2>5. Veri Yönetimi (только в Electron)</h2>
+
+    <table>
+        <tr><th>Раздел</th><th>Действие</th></tr>
+        <tr><td>1. Yeni veri yükle</td><td>Полная замена данных, QR-коды перегенерируются</td></tr>
+        <tr><td>2. Verileri güncelle</td><td>Добавить отсутствующие, изменить цены на ±%</td></tr>
+        <tr><td>3. Ürün ekle</td><td>Добавить товар вручную</td></tr>
+        <tr><td>4. Ürün sil</td><td>Удалить по штрихкоду (с подтверждением)</td></tr>
+        <tr><td>5. QR etiket yazdır</td><td>Создать QR-коды и открыть окно печати (TANEX)</td></tr>
+    </table>
+
+    <h2>6. Формат Excel</h2>
+    <p>Колонки: <strong>Barkod</strong> / <strong>KOD</strong>, <strong>Ürün Adı</strong>, <strong>Mimari iskontolu fiyat</strong> / <strong>Fiyat</strong>, <strong>Satış Fiyatı</strong>.</p>
+
+    <h2>7. Деплой на Vercel</h2>
+    <pre>git add .
+git commit -m "обновление"
+git push origin main</pre>
+    <p>Или: <code>npx vercel --prod</code></p>
+
+    <h2>8. Сборка exe</h2>
+    <pre>npm run build</pre>
+    <p>Файл в папке <strong>dist/</strong></p>
+
+    <h2>9. Команды</h2>
+    <table>
+        <tr><th>Команда</th><th>Описание</th></tr>
+        <tr><td>npm install</td><td>Установить зависимости</td></tr>
+        <tr><td>npm start</td><td>Веб-сервер</td></tr>
+        <tr><td>npm run electron</td><td>Electron</td></tr>
+        <tr><td>npm run build</td><td>Сборка exe</td></tr>
+        <tr><td>npm run generate-qr</td><td>QR-коды вручную</td></tr>
+    </table>
+
+    <h2>10. Папки</h2>
+    <table>
+        <tr><th>Путь</th><th>Описание</th></tr>
+        <tr><td>data/products.api.json</td><td>Данные товаров</td></tr>
+        <tr><td>product_images/</td><td>Изображения товаров</td></tr>
+        <tr><td>qr_codes/</td><td>QR-коды (генерируется)</td></tr>
+        <tr><td>qr_print.html</td><td>Страница печати этикеток</td></tr>
+    </table>
+
+    <p style="margin-top: 32px; color: #888; font-size: 0.9em;">Pandora Scan — Barkod Tarayıcı</p>
+</body>
+</html>

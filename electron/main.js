@@ -42,17 +42,18 @@ function runQrGeneration() {
     return new Promise((resolve, reject) => {
         const scriptPath = path.join(ROOT, "scripts", "generate-qr-codes.js");
         if (!fs.existsSync(scriptPath)) {
-            resolve({ ok: false, error: "QR script bulunamadı" });
+            reject(new Error("QR script bulunamadı: " + scriptPath));
             return;
         }
-        const child = spawn(process.execPath, [scriptPath], { cwd: ROOT, stdio: "pipe" });
+        const nodePath = process.platform === "win32" ? "node.exe" : "node";
+        const child = spawn(nodePath, [scriptPath], { cwd: ROOT, stdio: "pipe", shell: true });
         let err = "";
         child.stderr.on("data", (d) => { err += d.toString(); });
         child.on("close", (code) => {
-            if (code === 0) resolve({ ok: true });
-            else reject(new Error(err || "QR oluşturulamadı"));
+            if (code === 0) resolve();
+            else reject(new Error(err || "QR oluşturulamadı (kod: " + code + ")"));
         });
-        child.on("error", reject);
+        child.on("error", (e) => reject(new Error("Script başlatılamadı: " + e.message)));
     });
 }
 
@@ -274,7 +275,7 @@ ipcMain.handle("data:deleteProduct", async (_, barcode) => {
     return { ok: true };
 });
 
-ipcMain.handle("dialog:openFile", async (_, opts) => {
+    ipcMain.handle("dialog:openFile", async (_, opts) => {
     const r = await dialog.showOpenDialog(adminWindow || mainWindow, opts);
     return r.canceled ? null : r.filePaths[0];
 });
@@ -297,6 +298,29 @@ app.whenReady().then(() => {
     });
     ipcMain.handle("focusScanner", () => {
         if (mainWindow && !mainWindow.isDestroyed()) mainWindow.focus();
+    });
+    ipcMain.handle("qr:generateAndOpenPrint", async () => {
+        try {
+            await runQrGeneration();
+            const printPath = path.join(ROOT, "qr_print.html");
+            if (!fs.existsSync(printPath)) return { ok: false, error: "qr_print.html bulunamadı" };
+            const baseUrl = process.env.APP_URL || "http://127.0.0.1:8080";
+            const printUrl = baseUrl + "/qr_print.html";
+            const printWindow = new BrowserWindow({
+                width: 900,
+                height: 700,
+                webPreferences: { nodeIntegration: false }
+            });
+            printWindow.loadURL(printUrl);
+            printWindow.webContents.on("did-finish-load", () => {
+                printWindow.webContents.print({ silent: false, printBackground: true }, (success, err) => {
+                    if (!success && err) console.error("Print error:", err);
+                });
+            });
+            return { ok: true };
+        } catch (e) {
+            return { ok: false, error: e.message || "QR oluşturulamadı" };
+        }
     });
 });
 

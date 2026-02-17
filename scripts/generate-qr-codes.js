@@ -179,7 +179,7 @@ function generateHtml(layout) {
     </style>
 </head>
 <body>
-<div class="print-hint">Yazdırırken: Diğer ayarlar → «Üstbilgi ve altbilgi»yi kaldırın</div>
+<div class="print-hint">Yazdırırken: Diğer ayarlar → «Üstbilgi ve altbilgi»yi kaldırın. <button type="button" onclick="window.print()" style="margin-left:10px;padding:6px 14px;background:#3f5634;color:#fff;border:none;border-radius:6px;cursor:pointer;font-weight:600">Yazdır</button></div>
 ${rowsHtml.join("")}
 </body>
 </html>`;
