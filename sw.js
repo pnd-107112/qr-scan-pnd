@@ -2,8 +2,8 @@ const CACHE_NAME = "pandora-scan-v4";
 const STATIC_ASSETS = [
     "./",
     "./index.html",
-    "./styles.css",
-    "./app.js",
+    "./styles.css?v=5",
+    "./app.js?v=5",
     "./config.js",
     "./manifest.webmanifest",
     "./icons/icon.svg"
