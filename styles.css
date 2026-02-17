@@ -574,8 +574,12 @@ h1 {
 .btn-mimari-toggle {
     display: inline-block;
     width: auto;
+    flex: none;
+    min-height: auto;
     padding: 5px 10px;
     font-size: 0.78rem;
+    font-family: inherit;
+    font-weight: 600;
     background: rgba(63, 86, 52, 0.2);
     color: #3f5634;
     border: 1px solid rgba(63, 86, 52, 0.5);
