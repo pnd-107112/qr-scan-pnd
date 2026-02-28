@@ -46,8 +46,8 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    if (req.method === "GET" && pathname.startsWith("/api/products/")) {
-        const barcode = pathname.replace("/api/products/", "").trim();
+    if (req.method === "GET" && (pathname === "/api/products" || pathname.startsWith("/api/products/"))) {
+        const barcode = getRequestedBarcode(requestUrl, pathname);
         if (!barcode) {
             sendJson(res, 400, { error: "Barkod gerekli." });
             return;
@@ -120,6 +120,14 @@ function resolveDataFile() {
 function findProductByBarcode(inputBarcode) {
     const normalizedInput = normalizeBarcode(inputBarcode);
     return products.find((product) => normalizeBarcode(product.barcode) === normalizedInput) || null;
+}
+
+function getRequestedBarcode(requestUrl, pathname) {
+    if (pathname === "/api/products") {
+        return String(requestUrl.searchParams.get("barcode") || "").trim();
+    }
+
+    return pathname.replace("/api/products/", "").trim();
 }
 
 function normalizeBarcode(value) {

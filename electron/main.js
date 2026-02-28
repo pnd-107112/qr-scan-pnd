@@ -1,7 +1,7 @@
 /**
  * Electron main process — Pandora Barkod Tarayıcı
  */
-const { app, BrowserWindow, ipcMain, dialog } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu } = require("electron");
 const path = require("path");
 const fs = require("fs");
 const http = require("http");
@@ -45,8 +45,7 @@ function runQrGeneration() {
             reject(new Error("QR script bulunamadı: " + scriptPath));
             return;
         }
-        const nodePath = process.platform === "win32" ? "node.exe" : "node";
-        const child = spawn(nodePath, [scriptPath], { cwd: ROOT, stdio: "pipe", shell: true });
+        const child = spawn(process.execPath, [scriptPath], { cwd: ROOT, stdio: "pipe", shell: false });
         let err = "";
         child.stderr.on("data", (d) => { err += d.toString(); });
         child.on("close", (code) => {
@@ -80,9 +79,14 @@ function startServer() {
             res.end(JSON.stringify({ status: "ok", products_loaded: products.length }));
             return;
         }
-        if (req.method === "GET" && p.startsWith("/api/products")) {
-            const barcode = (url.searchParams.get("barcode") || p.replace("/api/products", "").replace(/^\/\?/, "")).trim();
-            const prod = products.find((x) => String(x.barcode || "").toLowerCase().replace(/[\s_-]+/g, "") === String(barcode).toLowerCase().replace(/[\s_-]+/g, ""));
+        if (req.method === "GET" && (p === "/api/products" || p.startsWith("/api/products/"))) {
+            const barcode = extractRequestedBarcode(url, p);
+            if (!barcode) {
+                res.writeHead(400, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ error: "Barkod gerekli." }));
+                return;
+            }
+            const prod = products.find((x) => norm(x.barcode) === norm(barcode));
             if (!prod) {
                 res.writeHead(404, { "Content-Type": "application/json" });
                 res.end(JSON.stringify({ error: "Ürün bulunamadı." }));
@@ -123,8 +127,7 @@ function createMainWindow() {
         height: 750,
         webPreferences: {
             nodeIntegration: false,
-            contextIsolation: true,
-            preload: path.join(__dirname, "preload.js")
+            contextIsolation: true
         }
     });
     mainWindow.loadURL(baseUrl);
@@ -143,6 +146,40 @@ function createAdminWindow() {
     });
     adminWindow.loadFile(path.join(ROOT, "admin.html"));
     adminWindow.on("closed", () => { adminWindow = null; });
+}
+
+function extractRequestedBarcode(url, pathname) {
+    if (pathname === "/api/products") {
+        return String(url.searchParams.get("barcode") || "").trim();
+    }
+    return pathname.replace("/api/products/", "").trim();
+}
+
+function openAdminWindow() {
+    if (!adminWindow || adminWindow.isDestroyed()) {
+        createAdminWindow();
+        return;
+    }
+    adminWindow.focus();
+}
+
+function focusScannerWindow() {
+    if (mainWindow && !mainWindow.isDestroyed()) {
+        mainWindow.focus();
+    }
+}
+
+function setupAppMenu() {
+    const template = [
+        {
+            label: "Window",
+            submenu: [
+                { label: "Scanner", click: focusScannerWindow },
+                { label: "Admin", click: openAdminWindow }
+            ]
+        }
+    ];
+    Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 }
 
 ipcMain.handle("data:load", () => {
@@ -275,7 +312,7 @@ ipcMain.handle("data:deleteProduct", async (_, barcode) => {
     return { ok: true };
 });
 
-    ipcMain.handle("dialog:openFile", async (_, opts) => {
+ipcMain.handle("dialog:openFile", async (_, opts) => {
     const r = await dialog.showOpenDialog(adminWindow || mainWindow, opts);
     return r.canceled ? null : r.filePaths[0];
 });
@@ -283,6 +320,7 @@ ipcMain.handle("data:deleteProduct", async (_, barcode) => {
 app.whenReady().then(() => {
     loadProducts();
     startServer();
+    setupAppMenu();
     const check = () => {
         if (process.env.APP_URL) {
             createMainWindow();
@@ -292,13 +330,8 @@ app.whenReady().then(() => {
     };
     check();
 
-    ipcMain.handle("openAdmin", () => {
-        if (!adminWindow || adminWindow.isDestroyed()) createAdminWindow();
-        else adminWindow.focus();
-    });
-    ipcMain.handle("focusScanner", () => {
-        if (mainWindow && !mainWindow.isDestroyed()) mainWindow.focus();
-    });
+    ipcMain.handle("openAdmin", () => openAdminWindow());
+    ipcMain.handle("focusScanner", () => focusScannerWindow());
     ipcMain.handle("qr:generateAndOpenPrint", async () => {
         try {
             await runQrGeneration();

@@ -44,7 +44,8 @@ Notes:
 ## API endpoints
 
 - `GET /api/health`
-- `GET /api/products/{barcode}`
+- `GET /api/products?barcode={barcode}` (primary)
+- `GET /api/products/{barcode}` (compatibility route)
 - `GET /api/reload` (reloads currently active data file)
 
 ### Example response

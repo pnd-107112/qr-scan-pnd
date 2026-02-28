@@ -1,8 +1,14 @@
 const { contextBridge, ipcRenderer } = require("electron");
 
-contextBridge.exposeInMainWorld("electronAPI", {
+const pathname = (globalThis.location && globalThis.location.pathname) || "";
+const isAdminPage = /\/admin\.html$/i.test(pathname);
+
+const sharedApi = {
     openAdmin: () => ipcRenderer.invoke("openAdmin"),
-    focusScanner: () => ipcRenderer.invoke("focusScanner"),
+    focusScanner: () => ipcRenderer.invoke("focusScanner")
+};
+
+const adminApi = {
     dataLoad: () => ipcRenderer.invoke("data:load"),
     dataGetProducts: () => ipcRenderer.invoke("data:getProducts"),
     dataLoadFromFile: (mode, options) => ipcRenderer.invoke("data:loadFromFile", mode, options),
@@ -12,4 +18,6 @@ contextBridge.exposeInMainWorld("electronAPI", {
     dataDeleteProduct: (barcode) => ipcRenderer.invoke("data:deleteProduct", barcode),
     dialogOpenFile: (opts) => ipcRenderer.invoke("dialog:openFile", opts),
     qrGenerateAndOpenPrint: () => ipcRenderer.invoke("qr:generateAndOpenPrint")
-});
+};
+
+contextBridge.exposeInMainWorld("electronAPI", isAdminPage ? { ...sharedApi, ...adminApi } : sharedApi);

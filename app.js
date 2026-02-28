@@ -198,6 +198,12 @@ async function startScanning() {
         expandScanner();
         setMode("scanning");
         setStatus("Tarama devam ediyor...");
+        void enableCameraAutoFocus();
+        setTimeout(() => {
+            if (state.scanning) {
+                void enableCameraAutoFocus();
+            }
+        }, 1200);
     } catch (error) {
         console.error("Camera start error:", error);
         collapseScanner();
@@ -694,6 +700,59 @@ async function chooseCamera() {
     }
 }
 
+async function enableCameraAutoFocus() {
+    if (!state.scanner) {
+        return false;
+    }
+
+    const focusModes = ["continuous", "single-shot", "auto"];
+
+    if (typeof state.scanner.applyVideoConstraints === "function") {
+        for (const mode of focusModes) {
+            try {
+                await state.scanner.applyVideoConstraints({
+                    advanced: [{ focusMode: mode }]
+                });
+                return true;
+            } catch (_) {
+                // Ignore unsupported modes and keep trying.
+            }
+        }
+    }
+
+    const track = getRunningVideoTrack();
+    if (!track || typeof track.applyConstraints !== "function") {
+        return false;
+    }
+
+    const capabilities = typeof track.getCapabilities === "function" ? track.getCapabilities() : null;
+    const supportedModes = Array.isArray(capabilities?.focusMode) ? capabilities.focusMode : null;
+
+    for (const mode of focusModes) {
+        if (supportedModes && !supportedModes.includes(mode)) {
+            continue;
+        }
+        try {
+            await track.applyConstraints({ advanced: [{ focusMode: mode }] });
+            return true;
+        } catch (_) {
+            // Ignore unsupported mode and continue.
+        }
+    }
+
+    return false;
+}
+
+function getRunningVideoTrack() {
+    const video = dom?.scannerRoot?.querySelector("video");
+    const stream = video?.srcObject;
+    if (!stream || typeof stream.getVideoTracks !== "function") {
+        return null;
+    }
+    const tracks = stream.getVideoTracks();
+    return tracks && tracks[0] ? tracks[0] : null;
+}
+
 function setMode(mode) {
     if (mode === "scanning") {
         dom.startBtn.style.display = "none";
@@ -732,7 +791,7 @@ function registerServiceWorker() {
         return;
     }
 
-    navigator.serviceWorker.register("./sw.js").catch((error) => {
+    navigator.serviceWorker.register("./sw.js?v=8").catch((error) => {
         console.warn("Service worker registration warning:", error);
     });
 }

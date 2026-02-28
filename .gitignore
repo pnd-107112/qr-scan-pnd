@@ -12,7 +12,6 @@ api.txt
 
 # Node
 node_modules/
-package-lock.json
 
 # Сгенерированные QR-коды
 qr_codes/

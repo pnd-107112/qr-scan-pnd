@@ -1,13 +1,21 @@
-const CACHE_NAME = "pandora-scan-v6";
+const CACHE_NAME = "pandora-scan-v8";
 const STATIC_ASSETS = [
     "./",
     "./index.html",
-    "./styles.css?v=6",
-    "./app.js?v=6",
+    "./styles.css?v=7",
+    "./app.js?v=7",
     "./config.js",
     "./manifest.webmanifest",
     "./icons/icon.svg"
 ];
+const CACHEABLE_DESTINATIONS = new Set([
+    "document",
+    "style",
+    "script",
+    "image",
+    "font",
+    "manifest"
+]);
 
 self.addEventListener("install", (event) => {
     event.waitUntil(
@@ -45,17 +53,23 @@ self.addEventListener("fetch", (event) => {
         return;
     }
 
-    event.respondWith(
-        caches.match(event.request).then((cached) => {
-            if (cached) {
-                return cached;
-            }
+    if (!CACHEABLE_DESTINATIONS.has(event.request.destination)) {
+        event.respondWith(fetch(event.request));
+        return;
+    }
 
-            return fetch(event.request).then((response) => {
-                const responseClone = response.clone();
-                caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
-                return response;
-            });
-        })
-    );
+    event.respondWith((async () => {
+        const cached = await caches.match(event.request);
+        if (cached) {
+            return cached;
+        }
+
+        const response = await fetch(event.request);
+        if (response.ok && response.status === 200 && response.type === "basic") {
+            const cache = await caches.open(CACHE_NAME);
+            await cache.put(event.request, response.clone());
+        }
+
+        return response;
+    })());
 });

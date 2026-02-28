@@ -196,7 +196,16 @@
                 show("msg-delete", "Ürün bulunamadı.", false);
                 return;
             }
-            body.innerHTML = "<strong>" + (p.name || p.barcode) + "</strong><br>Barkod: " + (p.barcode || "") + "<br>Fiyat: " + (p.unit_price != null ? p.unit_price : "-");
+            body.replaceChildren();
+            const title = document.createElement("strong");
+            title.textContent = p.name || p.barcode || "";
+            const barcodeLine = document.createElement("div");
+            barcodeLine.textContent = "Barkod: " + (p.barcode || "");
+            const priceLine = document.createElement("div");
+            priceLine.textContent = "Fiyat: " + (p.unit_price != null ? p.unit_price : "-");
+            body.appendChild(title);
+            body.appendChild(barcodeLine);
+            body.appendChild(priceLine);
             preview.style.display = "block";
         };
         document.getElementById("btn-delete-confirm").onclick = async () => {
