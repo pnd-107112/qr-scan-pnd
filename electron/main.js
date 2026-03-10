@@ -127,7 +127,8 @@ function createMainWindow() {
         height: 750,
         webPreferences: {
             nodeIntegration: false,
-            contextIsolation: true
+            contextIsolation: true,
+            preload: path.join(__dirname, "preload.js")
         }
     });
     mainWindow.loadURL(baseUrl);

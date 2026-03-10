@@ -51,12 +51,19 @@ document.addEventListener("DOMContentLoaded", () => {
     setStatus("Taramaya hazır");
     registerServiceWorker();
     const adminBtn = document.getElementById("admin-btn");
-    if (adminBtn && window.electronAPI && window.electronAPI.openAdmin) {
-        adminBtn.style.display = "block";
-        adminBtn.addEventListener("click", () => {
-            closeMenu();
-            window.electronAPI.openAdmin();
-        });
+    const adminBtnHeader = document.getElementById("admin-btn-header");
+    if (window.electronAPI && window.electronAPI.openAdmin) {
+        if (adminBtn) {
+            adminBtn.style.display = "block";
+            adminBtn.addEventListener("click", () => {
+                closeMenu();
+                window.electronAPI.openAdmin();
+            });
+        }
+        if (adminBtnHeader) {
+            adminBtnHeader.style.display = "inline-flex";
+            adminBtnHeader.addEventListener("click", () => window.electronAPI.openAdmin());
+        }
     }
 });
 
