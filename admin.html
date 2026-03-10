@@ -99,6 +99,13 @@
         <div id="msg-qr" class="msg" style="display:none"></div>
     </div>
 
+    <div class="card">
+        <h2>6. Sunucuya gönder (Supabase)</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">Mevcut verileri (Excel'den yüklenen dahil) sunucuya yükler. Sitede ve uygulamada güncel veri görünür. SYNC_API_URL ve SYNC_SECRET ortam değişkenleri gerekli.</p>
+        <button class="btn btn-primary" id="btn-sync-upload">Verileri sunucuya yükle</button>
+        <div id="msg-sync" class="msg" style="display:none"></div>
+    </div>
+
     <script>
         const show = (id, text, ok) => {
             const el = document.getElementById(id);
@@ -241,6 +248,30 @@
         } else if (btnQrPrint) {
             btnQrPrint.disabled = true;
             btnQrPrint.title = "Sadece masaüstü uygulamasında kullanılabilir";
+        }
+
+        const btnSyncUpload = document.getElementById("btn-sync-upload");
+        if (btnSyncUpload && window.electronAPI && window.electronAPI.syncUpload) {
+            btnSyncUpload.onclick = async () => {
+                document.getElementById("msg-sync").style.display = "none";
+                btnSyncUpload.disabled = true;
+                btnSyncUpload.textContent = "Gönderiliyor...";
+                try {
+                    const r = await window.electronAPI.syncUpload();
+                    if (r && r.ok) {
+                        show("msg-sync", r.count + " ürün sunucuya yüklendi.", true);
+                    } else {
+                        show("msg-sync", (r && r.error) ? r.error : "Hata", false);
+                    }
+                } catch (e) {
+                    show("msg-sync", (e && e.message) ? e.message : "Hata", false);
+                }
+                btnSyncUpload.disabled = false;
+                btnSyncUpload.textContent = "Verileri sunucuya yükle";
+            };
+        } else if (btnSyncUpload) {
+            btnSyncUpload.disabled = true;
+            btnSyncUpload.title = "Sadece masaüstü uygulamasında kullanılabilir";
         }
 
         if (window.electronAPI && (window.electronAPI.focusScanner || window.electronAPI.openAdmin)) {

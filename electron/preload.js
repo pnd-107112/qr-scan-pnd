@@ -17,7 +17,8 @@ const adminApi = {
     dataSaveImage: (opts) => ipcRenderer.invoke("data:saveImage", opts),
     dataDeleteProduct: (barcode) => ipcRenderer.invoke("data:deleteProduct", barcode),
     dialogOpenFile: (opts) => ipcRenderer.invoke("dialog:openFile", opts),
-    qrGenerateAndOpenPrint: () => ipcRenderer.invoke("qr:generateAndOpenPrint")
+    qrGenerateAndOpenPrint: () => ipcRenderer.invoke("qr:generateAndOpenPrint"),
+    syncUpload: () => ipcRenderer.invoke("sync:upload")
 };
 
 contextBridge.exposeInMainWorld("electronAPI", isAdminPage ? { ...sharedApi, ...adminApi } : sharedApi);

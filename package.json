@@ -12,6 +12,7 @@
     "layout": "node scripts/layout-tanex.js"
   },
   "dependencies": {
+    "dotenv": "^9.0.2",
     "@supabase/supabase-js": "^2.45.0",
     "jszip": "^3.10.1",
     "qrcode": "^1.5.4",

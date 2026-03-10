@@ -1,6 +1,7 @@
 /**
  * Electron main process — Pandora Barkod Tarayıcı
  */
+require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 const { app, BrowserWindow, ipcMain, dialog, Menu } = require("electron");
 const path = require("path");
 const fs = require("fs");
@@ -333,6 +334,32 @@ app.whenReady().then(() => {
 
     ipcMain.handle("openAdmin", () => openAdminWindow());
     ipcMain.handle("focusScanner", () => focusScannerWindow());
+    ipcMain.handle("sync:upload", async () => {
+        const baseUrl = (process.env.SYNC_API_URL || "").replace(/\/+$/, "");
+        const secret = process.env.SYNC_SECRET;
+        if (!baseUrl || !secret) {
+            return { ok: false, error: "SYNC_API_URL ve SYNC_SECRET ortam değişkenleri gerekli. (Örn: .env veya launch ayarları)" };
+        }
+        loadProducts();
+        if (products.length === 0) {
+            return { ok: false, error: "Yüklenecek ürün yok. Önce Excel/JSON ile veri yükleyin." };
+        }
+        try {
+            const r = await fetch(`${baseUrl}/api/sync-products`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ syncSecret: secret, products })
+            });
+            const data = await r.json().catch(() => ({}));
+            if (!r.ok) {
+                return { ok: false, error: data.error || `Sunucu ${r.status}` };
+            }
+            return { ok: true, count: data.count };
+        } catch (e) {
+            return { ok: false, error: e.message || "Bağlantı hatası" };
+        }
+    });
+
     ipcMain.handle("qr:generateAndOpenPrint", async () => {
         try {
             await runQrGeneration();

@@ -215,6 +215,21 @@ npm run generate-qr
 
 ---
 
+### Вариант C: Синхронизация из Electron на сервер (Supabase)
+
+Если вы загружаете данные из Excel в **Electron** (Veri Yönetimi → Yeni veri yükle), они сохраняются только локально. Чтобы обновить данные на сайте (Vercel + Supabase):
+
+1. **В Supabase** выполните один раз RPC для upsert: откройте SQL Editor и выполните скрипт `db/upsert_products_rpc.sql`.
+2. **На Vercel** в настройках проекта добавьте переменную окружения **`SYNC_SECRET`** (любой длинный секретный ключ).
+3. **В Electron** при запуске задайте переменные:
+   - **`SYNC_API_URL`** — URL сайта, например `https://qr-scan-pnd.vercel.app`
+   - **`SYNC_SECRET`** — тот же ключ, что и на Vercel
+4. В админке (Veri Yönetimi) нажмите **«6. Sunucuya gönder»** → **«Verileri sunucuya yükle»**. Текущие локальные товары будут отправлены в Supabase (upsert по штрихкоду).
+
+После этого сайт и приложение будут показывать обновлённые данные из Supabase.
+
+---
+
 ### Краткая шпаргалка
 
 | Действие | Команда |
@@ -223,6 +238,7 @@ npm run generate-qr
 | Сгенерировать SQL для Supabase | `node .\scripts\generate-products-upsert-sql.js` |
 | Загрузить картинки в Supabase | `node .\scripts\upload-images-to-supabase.js` |
 | Сгенерировать QR-этикетки | `npm run generate-qr` |
+| Отправить данные из Electron на сервер | Veri Yönetimi → «Verileri sunucuya yükle» (нужны SYNC_API_URL, SYNC_SECRET) |
 
 ## Notes for production
 
