@@ -7797,7 +7797,7 @@
         "barcode":  "PND1691-A",
         "name":  "MARCO\nAVİZE/CHANDELIER",
         "image_url":  "/product_images/PND1691-A-r491.png",
-        "unit_price":  22400,
+        "unit_price":  29000,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -7806,14 +7806,14 @@
                                 "bulb":  "E14x4",
                                 "stock":  "var"
                             },
-        "list_price":  32000,
+        "list_price":  38000,
         "source_row":  491
     },
     {
         "barcode":  "PND1691-B",
         "name":  "MARCO\nAVİZE/CHANDELIER",
         "image_url":  "/product_images/PND1691-B-r492.png",
-        "unit_price":  35000,
+        "unit_price":  40000,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -7822,14 +7822,14 @@
                                 "bulb":  "E14x4",
                                 "stock":  "YOK"
                             },
-        "list_price":  50000,
+        "list_price":  55000,
         "source_row":  492
     },
     {
         "barcode":  "PND1691-C",
         "name":  "MARCO\nAVİZE/CHANDELIER",
         "image_url":  "/product_images/PND1691-C-r493.png",
-        "unit_price":  7700,
+        "unit_price":  85000,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -7838,7 +7838,7 @@
                                 "bulb":  "E27x4",
                                 "stock":  "YOK"
                             },
-        "list_price":  11000,
+        "list_price":  110000,
         "source_row":  493
     },
     {
