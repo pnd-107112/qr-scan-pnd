@@ -282,9 +282,10 @@ ipcMain.handle("data:addProduct", async (_, product) => {
         name: String(product.name || "").trim() || barcode,
         image_url: product.image_url || "",
         unit_price: Number(product.unit_price) || 0,
+        list_price: product.list_price != null ? Number(product.list_price) : null,
         currency: product.currency || "TRY",
         unit: product.unit || "adet",
-        characteristics: product.characteristics || {}
+        characteristics: product.characteristics && typeof product.characteristics === "object" ? product.characteristics : {}
     };
     if (idx >= 0) products[idx] = item;
     else products.push(item);
@@ -357,6 +358,15 @@ app.whenReady().then(() => {
             return { ok: true, count: data.count };
         } catch (e) {
             return { ok: false, error: e.message || "Bağlantı hatası" };
+        }
+    });
+
+    ipcMain.handle("qr:generate", async () => {
+        try {
+            await runQrGeneration();
+            return { ok: true };
+        } catch (e) {
+            return { ok: false, error: e.message || "QR oluşturulamadı" };
         }
     });
 

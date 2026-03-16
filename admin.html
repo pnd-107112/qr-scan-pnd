@@ -76,7 +76,43 @@
     </div>
 
     <div class="card">
-        <h2>4. Ürün sil</h2>
+        <h2>4. Ürünü güncelle</h2>
+        <p style="margin:0 0 10px;color:#666;font-size:12px">Barkoda göre ürünü getirip resim, fiyat ve tüm alanları düzenleyin. Kaydettikten sonra sunucuya gönderin; barkod değiştiyse QR kodlarını yeniden oluşturun.</p>
+        <div class="row" style="margin-bottom:8px">
+            <div class="flex1">
+                <label>Barkod (getir)</label>
+                <input type="text" id="edit-barcode-find" placeholder="PND1699-A">
+            </div>
+            <button class="btn btn-primary" id="btn-edit-load">Ürünü getir</button>
+        </div>
+        <div id="edit-form-wrap" style="display:none">
+            <label>Barkod</label>
+            <input type="text" id="edit-barcode" placeholder="Barkod">
+            <label>Ürün adı</label>
+            <input type="text" id="edit-name" placeholder="Ürün adı">
+            <label>Birim fiyat</label>
+            <input type="number" id="edit-unit-price" placeholder="10000" min="0" step="0.01">
+            <label>Liste fiyatı (opsiyonel)</label>
+            <input type="number" id="edit-list-price" placeholder="12500" min="0" step="0.01">
+            <label>Para birimi</label>
+            <input type="text" id="edit-currency" placeholder="TRY" style="max-width:80px">
+            <label>Birim</label>
+            <input type="text" id="edit-unit" placeholder="adet" style="max-width:80px">
+            <label>Fotoğraf (değiştirmek için seçin)</label>
+            <input type="file" id="edit-photo" accept="image/*">
+            <label>Özellikler (JSON)</label>
+            <textarea id="edit-characteristics" rows="4" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;font-family:monospace;font-size:12px"></textarea>
+            <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+                <button class="btn btn-primary" id="btn-edit-save">Kaydet</button>
+                <button class="btn btn-primary" id="btn-edit-save-sync">Kaydet ve sunucuya gönder</button>
+                <button class="btn btn-primary" id="btn-edit-qr">QR kodlarını yeniden oluştur</button>
+            </div>
+        </div>
+        <div id="msg-edit" class="msg" style="display:none"></div>
+    </div>
+
+    <div class="card">
+        <h2>5. Ürün sil</h2>
         <p style="margin:0 0 10px;color:#666;font-size:12px">Önce barkoda göre ürünü bulun, kontrol edin, sonra silmeyi onaylayın.</p>
         <div class="row" style="margin-bottom:8px">
             <div class="flex1">
@@ -93,14 +129,14 @@
     </div>
 
     <div class="card">
-        <h2>5. QR etiket yazdır</h2>
+        <h2>6. QR etiket yazdır</h2>
         <p style="margin:0 0 10px;color:#666;font-size:12px">Mevcut ürün verilerinden QR kodları oluşturur ve yazdırma sayfasını açar (TANEX layout).</p>
         <button class="btn btn-primary" id="btn-qr-print">QR Etiketlerini Oluştur ve Yazdır</button>
         <div id="msg-qr" class="msg" style="display:none"></div>
     </div>
 
     <div class="card">
-        <h2>6. Sunucuya gönder (Supabase)</h2>
+        <h2>7. Sunucuya gönder (Supabase)</h2>
         <p style="margin:0 0 10px;color:#666;font-size:12px">Mevcut verileri (Excel'den yüklenen dahil) sunucuya yükler. Sitede ve uygulamada güncel veri görünür. SYNC_API_URL ve SYNC_SECRET ortam değişkenleri gerekli.</p>
         <button class="btn btn-primary" id="btn-sync-upload">Verileri sunucuya yükle</button>
         <div id="msg-sync" class="msg" style="display:none"></div>
@@ -189,6 +225,116 @@
                 document.getElementById("add-price").value = "";
                 document.getElementById("add-photo").value = "";
             } else show("msg-add", r ? r.error : "Hata", false);
+        };
+
+        let editOriginalBarcode = null;
+
+        document.getElementById("btn-edit-load").onclick = async () => {
+            hide("msg-edit");
+            const barcode = document.getElementById("edit-barcode-find").value.trim();
+            if (!barcode) { show("msg-edit", "Barkod girin.", false); return; }
+            const p = await window.electronAPI.dataGetProductByBarcode(barcode);
+            if (!p) {
+                document.getElementById("edit-form-wrap").style.display = "none";
+                show("msg-edit", "Ürün bulunamadı.", false);
+                return;
+            }
+            editOriginalBarcode = p.barcode || barcode;
+            document.getElementById("edit-form-wrap").dataset.currentImage = p.image_url || "";
+            document.getElementById("edit-barcode").value = p.barcode || "";
+            document.getElementById("edit-name").value = p.name || "";
+            document.getElementById("edit-unit-price").value = p.unit_price != null ? p.unit_price : "";
+            document.getElementById("edit-list-price").value = p.list_price != null ? p.list_price : "";
+            document.getElementById("edit-currency").value = p.currency || "TRY";
+            document.getElementById("edit-unit").value = p.unit || "adet";
+            document.getElementById("edit-photo").value = "";
+            document.getElementById("edit-characteristics").value = typeof p.characteristics === "object" ? JSON.stringify(p.characteristics, null, 2) : (p.characteristics || "{}");
+            document.getElementById("edit-form-wrap").style.display = "block";
+            show("msg-edit", "Ürün yüklendi. Düzenleyip Kaydet veya Kaydet ve sunucuya gönder.", true);
+        };
+
+        async function saveEditProduct() {
+            const barcode = document.getElementById("edit-barcode").value.trim();
+            if (!barcode) return { ok: false, error: "Barkod gerekli" };
+            let image_url = (document.getElementById("edit-form-wrap").dataset.currentImage || "").trim();
+            const photo = document.getElementById("edit-photo").files[0];
+            if (photo) {
+                const reader = new FileReader();
+                const base64 = await new Promise((res) => {
+                    reader.onload = () => res(reader.result.split(",")[1]);
+                    reader.readAsDataURL(photo);
+                });
+                image_url = await window.electronAPI.dataSaveImage({ barcode, base64 });
+            }
+            let characteristics = {};
+            try {
+                const chText = document.getElementById("edit-characteristics").value.trim();
+                if (chText) characteristics = JSON.parse(chText);
+            } catch (_) {}
+            if (editOriginalBarcode && editOriginalBarcode !== barcode) {
+                await window.electronAPI.dataDeleteProduct(editOriginalBarcode);
+            }
+            const r = await window.electronAPI.dataAddProduct({
+                barcode,
+                name: document.getElementById("edit-name").value.trim() || barcode,
+                unit_price: parseFloat(document.getElementById("edit-unit-price").value) || 0,
+                list_price: document.getElementById("edit-list-price").value.trim() === "" ? null : parseFloat(document.getElementById("edit-list-price").value),
+                currency: document.getElementById("edit-currency").value.trim() || "TRY",
+                unit: document.getElementById("edit-unit").value.trim() || "adet",
+                image_url,
+                characteristics
+            });
+            if (r && r.ok) {
+                document.getElementById("edit-form-wrap").dataset.currentImage = image_url;
+                editOriginalBarcode = barcode;
+            }
+            return r;
+        }
+
+        document.getElementById("btn-edit-save").onclick = async () => {
+            hide("msg-edit");
+            const r = await saveEditProduct();
+            if (r && r.ok) {
+                show("msg-edit", "Ürün kaydedildi. Sunucuya yüklemek için '7. Sunucuya gönder' kullanın.", true);
+                editOriginalBarcode = document.getElementById("edit-barcode").value.trim();
+            } else show("msg-edit", r ? r.error : "Hata", false);
+        };
+
+        document.getElementById("btn-edit-save-sync").onclick = async () => {
+            hide("msg-edit");
+            const r = await saveEditProduct();
+            if (!r || !r.ok) {
+                show("msg-edit", r ? r.error : "Hata", false);
+                return;
+            }
+            show("msg-edit", "Ürün kaydedildi. Sunucuya gönderiliyor...", true);
+            const syncRes = await window.electronAPI.syncUpload();
+            if (syncRes && syncRes.ok) {
+                show("msg-edit", "Ürün kaydedildi ve " + syncRes.count + " ürün sunucuya yüklendi.", true);
+            } else {
+                show("msg-edit", "Ürün kaydedildi ancak sunucu: " + (syncRes && syncRes.error ? syncRes.error : "Hata"), false);
+            }
+            editOriginalBarcode = document.getElementById("edit-barcode").value.trim();
+        };
+
+        const btnEditQr = document.getElementById("btn-edit-qr");
+        if (btnEditQr && (!window.electronAPI || !window.electronAPI.qrGenerate)) {
+            btnEditQr.disabled = true;
+            btnEditQr.title = "Sadece masaüstü uygulamasında kullanılabilir";
+        }
+        document.getElementById("btn-edit-qr").onclick = async () => {
+            if (!window.electronAPI || !window.electronAPI.qrGenerate) return;
+            hide("msg-edit");
+            document.getElementById("btn-edit-qr").disabled = true;
+            document.getElementById("btn-edit-qr").textContent = "Oluşturuluyor...";
+            try {
+                const r = await window.electronAPI.qrGenerate();
+                show("msg-edit", r && r.ok ? "QR kodları yeniden oluşturuldu." : (r && r.error ? r.error : "Hata"), r && r.ok);
+            } catch (e) {
+                show("msg-edit", (e && e.message) ? e.message : "Hata", false);
+            }
+            document.getElementById("btn-edit-qr").disabled = false;
+            document.getElementById("btn-edit-qr").textContent = "QR kodlarını yeniden oluştur";
         };
 
         document.getElementById("btn-delete-preview").onclick = async () => {

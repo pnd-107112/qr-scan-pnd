@@ -18,6 +18,7 @@ const adminApi = {
     dataDeleteProduct: (barcode) => ipcRenderer.invoke("data:deleteProduct", barcode),
     dialogOpenFile: (opts) => ipcRenderer.invoke("dialog:openFile", opts),
     qrGenerateAndOpenPrint: () => ipcRenderer.invoke("qr:generateAndOpenPrint"),
+    qrGenerate: () => ipcRenderer.invoke("qr:generate"),
     syncUpload: () => ipcRenderer.invoke("sync:upload")
 };
 
