@@ -1,0 +1,114 @@
+[
+    {
+        "barcode":  "PND1280A",
+        "kept_source_row":  331,
+        "dropped_source_row":  341,
+        "kept_dimensions":  null,
+        "dropped_dimensions":  "75 cm  iç çember 66 cm"
+    },
+    {
+        "barcode":  "PND1412",
+        "kept_source_row":  236,
+        "dropped_source_row":  418,
+        "kept_dimensions":  "ÖLÇÜLER\n55 CM",
+        "dropped_dimensions":  "Ø:28CM H:130CM"
+    },
+    {
+        "barcode":  "PND1387-A",
+        "kept_source_row":  421,
+        "dropped_source_row":  423,
+        "kept_dimensions":  "ÖLÇÜLER \n80 Q",
+        "dropped_dimensions":  "ÖLÇÜLER \n80 Q  X 50"
+    },
+    {
+        "barcode":  "PND1411-I",
+        "kept_source_row":  498,
+        "dropped_source_row":  499,
+        "kept_dimensions":  "ø 50 x H. 45 cm",
+        "dropped_dimensions":  "ø 50 x H. 45 cm"
+    },
+    {
+        "barcode":  "PND1411-II",
+        "kept_source_row":  500,
+        "dropped_source_row":  501,
+        "kept_dimensions":  "Ø 95 | H. 45  CM",
+        "dropped_dimensions":  "ø 95 x H. 70 CM"
+    },
+    {
+        "barcode":  "PND1218-A",
+        "kept_source_row":  349,
+        "dropped_source_row":  503,
+        "kept_dimensions":  "18X120 CM",
+        "dropped_dimensions":  "ÖLÇÜ\n20 Q"
+    },
+    {
+        "barcode":  "PND1218-B",
+        "kept_source_row":  350,
+        "dropped_source_row":  504,
+        "kept_dimensions":  "28X120 CM",
+        "dropped_dimensions":  "ÖLÇÜ\n100X20 C"
+    },
+    {
+        "barcode":  "PND1218-C",
+        "kept_source_row":  351,
+        "dropped_source_row":  505,
+        "kept_dimensions":  "38 X 120 CM",
+        "dropped_dimensions":  "ÖLÇÜ\n45 Q"
+    },
+    {
+        "barcode":  "PND1218-D",
+        "kept_source_row":  352,
+        "dropped_source_row":  506,
+        "kept_dimensions":  "48 X 120 CM",
+        "dropped_dimensions":  "ÖLÇÜ\n60 Q"
+    },
+    {
+        "barcode":  "PND1303",
+        "kept_source_row":  521,
+        "dropped_source_row":  522,
+        "kept_dimensions":  "Ölçüler\nQ  22 cm   \n  120 cm",
+        "dropped_dimensions":  "Ölçüler\nQ: 24 cm    \n 120 cm"
+    },
+    {
+        "barcode":  "PND1303",
+        "kept_source_row":  521,
+        "dropped_source_row":  523,
+        "kept_dimensions":  "Ölçüler\nQ  22 cm   \n  120 cm",
+        "dropped_dimensions":  "Ölçüler\n 25 cm     120 cm"
+    },
+    {
+        "barcode":  "PND1309",
+        "kept_source_row":  401,
+        "dropped_source_row":  575,
+        "kept_dimensions":  null,
+        "dropped_dimensions":  "120X40X 110"
+    },
+    {
+        "barcode":  "PND1363",
+        "kept_source_row":  624,
+        "dropped_source_row":  626,
+        "kept_dimensions":  "30X6 CM",
+        "dropped_dimensions":  "175X30 CM"
+    },
+    {
+        "barcode":  "PND1291-A",
+        "kept_source_row":  576,
+        "dropped_source_row":  659,
+        "kept_dimensions":  "35X90 CM",
+        "dropped_dimensions":  "Q: 40"
+    },
+    {
+        "barcode":  "PND1291",
+        "kept_source_row":  653,
+        "dropped_source_row":  660,
+        "kept_dimensions":  "Q:15",
+        "dropped_dimensions":  "Q:75 CM"
+    },
+    {
+        "barcode":  "PND1668",
+        "kept_source_row":  417,
+        "dropped_source_row":  675,
+        "kept_dimensions":  "Ø:35CM H:90CM",
+        "dropped_dimensions":  "Ø:35CM H:90CM"
+    }
+]
