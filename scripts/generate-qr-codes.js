@@ -12,18 +12,35 @@ const { getLayout } = require("./layout-tanex");
 const projectRoot = path.resolve(__dirname, "..");
 const inputPath = path.join(projectRoot, "data", "products.api.json");
 const qrDir = path.join(projectRoot, "qr_codes");
-const htmlPath = path.join(projectRoot, "qr_print.html");
 
+const filterArg = process.argv.find(arg => arg.startsWith('--prefix='));
+const prefixFilter = filterArg ? filterArg.split('=')[1] : null;
+
+let htmlFileName = "qr_print.html";
+if (prefixFilter) {
+    if (prefixFilter === "PND001-") {
+        htmlFileName = "qr_printPND.html";
+    } else {
+        htmlFileName = `qr_print_${prefixFilter.replace(/[^a-zA-Z0-9]/g, "")}.html`;
+    }
+}
+const htmlPath = path.join(projectRoot, htmlFileName);
 if (!fs.existsSync(inputPath)) {
     console.error(`Файл не найден: ${inputPath}`);
     process.exit(1);
 }
 
-const products = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+let products = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 if (!Array.isArray(products)) {
     console.error("products.api.json должен содержать массив.");
     process.exit(1);
 }
+
+if (prefixFilter) {
+    products = products.filter(p => String(p.barcode || "").trim().startsWith(prefixFilter));
+    console.log(`Filtreleme uygulandı: '${prefixFilter}' ile başlayan ${products.length} ürün bulundu.`);
+}
+
 
 if (!fs.existsSync(qrDir)) {
     fs.mkdirSync(qrDir, { recursive: true });

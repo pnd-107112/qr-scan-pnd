@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Kodları</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: Arial, sans-serif; }
+        @media print {
+            @page { size: A4; margin: 0; }
+            body { margin: 0; padding: 0; }
+            .page {
+                width: 210mm;
+                padding: 6mm 0mm 0 0mm;
+                margin: 0;
+                page-break-after: always;
+            }
+            .page:last-child { page-break-after: auto; }
+            .page { page-break-inside: avoid; }
+        }
+        .page {
+            display: block;
+            padding: 6mm 0mm 0 0mm;
+            width: 210mm;
+        }
+        .row {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 0;
+            margin: 0;
+            height: 34.99mm;
+            min-height: 34.99mm;
+            flex-shrink: 0;
+        }
+        .cell {
+            width: 34.99mm;
+            min-width: 34.99mm;
+            height: 34.99mm;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            text-align: center;
+            border: 1px dashed #ddd;
+            flex-shrink: 0;
+        }
+        @media print {
+            .cell { border: none; }
+            .print-hint { display: none; }
+        }
+        .print-hint { font-size: 12px; color: #444; margin-bottom: 10px; padding: 8px 12px; background: #f5f5f5; border-radius: 8px; }
+        .qr {
+            width: 20mm;
+            height: 20mm;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+        .barcode {
+            font-weight: bold;
+            font-size: 6px;
+            margin-top: 0.5mm;
+            word-break: break-all;
+            line-height: 1.1;
+        }
+        .name {
+            font-size: 5px;
+            color: #333;
+            margin-top: 0.3mm;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="print-hint">Yazdırırken: Diğer ayarlar → «Üstbilgi ve altbilgi»yi kaldırın. <button type="button" onclick="window.print()" style="margin-left:10px;padding:6px 14px;background:#3f5634;color:#fff;border:none;border-radius:6px;cursor:pointer;font-weight:600">Yazdır</button></div>
+<div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a1.png" alt="PND001-a1" class="qr" />
+                <div class="barcode">PND001-a1</div>
+                <div class="name">Gold Mumluk 10x26cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a2.png" alt="PND001-a2" class="qr" />
+                <div class="barcode">PND001-a2</div>
+                <div class="name">Gümüş Dövülü  Mumluk 9x22</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a3.png" alt="PND001-a3" class="qr" />
+                <div class="barcode">PND001-a3</div>
+                <div class="name">Gümüş Dövülü  Mumluk 10x2</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a4.png" alt="PND001-a4" class="qr" />
+                <div class="barcode">PND001-a4</div>
+                <div class="name">Gümüş Dövülü  Mumluk 10x3</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a5.png" alt="PND001-a5" class="qr" />
+                <div class="barcode">PND001-a5</div>
+                <div class="name">Gümüş Dövülü Mumluk 11x12</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a8.png" alt="PND001-a8" class="qr" />
+                <div class="barcode">PND001-a8</div>
+                <div class="name">Gümüş 5 Parça Set 9x32cm</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a9.png" alt="PND001-a9" class="qr" />
+                <div class="barcode">PND001-a9</div>
+                <div class="name">Gold Mermer Mumluk 17x32c</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a10.png" alt="PND001-a10" class="qr" />
+                <div class="barcode">PND001-a10</div>
+                <div class="name">Gold Mermer Mumluk 17x37c</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a12.png" alt="PND001-a12" class="qr" />
+                <div class="barcode">PND001-a12</div>
+                <div class="name">BLUE EYE MAVI BEYAZ VAZO </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a13.png" alt="PND001-a13" class="qr" />
+                <div class="barcode">PND001-a13</div>
+                <div class="name">BLUE EYE MAVI BEYAZ KARE </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a14.png" alt="PND001-a14" class="qr" />
+                <div class="barcode">PND001-a14</div>
+                <div class="name">MILLA LACIVERT KAPAKLI BU</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a15.png" alt="PND001-a15" class="qr" />
+                <div class="barcode">PND001-a15</div>
+                <div class="name">MILLA LACIVERT UZUN KAPAK</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a16.png" alt="PND001-a16" class="qr" />
+                <div class="barcode">PND001-a16</div>
+                <div class="name">MILLA LACIVERT BALKABAGI </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a17.png" alt="PND001-a17" class="qr" />
+                <div class="barcode">PND001-a17</div>
+                <div class="name">DAMAS STANDLI SIYAH BEYAZ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a18.png" alt="PND001-a18" class="qr" />
+                <div class="barcode">PND001-a18</div>
+                <div class="name">DAMAS SIYAH BEYAZ KARELI </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a24.png" alt="PND001-a24" class="qr" />
+                <div class="barcode">PND001-a24</div>
+                <div class="name">Sarı Porselen Küp 60cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a25.png" alt="PND001-a25" class="qr" />
+                <div class="barcode">PND001-a25</div>
+                <div class="name">Sarı Porselen Küp 52cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a26.png" alt="PND001-a26" class="qr" />
+                <div class="barcode">PND001-a26</div>
+                <div class="name">Sarı starlice çift dal 50</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a27.png" alt="PND001-a27" class="qr" />
+                <div class="barcode">PND001-a27</div>
+                <div class="name">Sarı renk blok 35x50 yast</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a28.png" alt="PND001-a28" class="qr" />
+                <div class="barcode">PND001-a28</div>
+                <div class="name">Siyah Kelebekli Seramik V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a29.png" alt="PND001-a29" class="qr" />
+                <div class="barcode">PND001-a29</div>
+                <div class="name">Siyah Kelebekli Seramik V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a30.png" alt="PND001-a30" class="qr" />
+                <div class="barcode">PND001-a30</div>
+                <div class="name">Siyah Kadife Kitap Kutu 3</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a31.png" alt="PND001-a31" class="qr" />
+                <div class="barcode">PND001-a31</div>
+                <div class="name">Turuncu Kitap Kutu 35x24x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a32.png" alt="PND001-a32" class="qr" />
+                <div class="barcode">PND001-a32</div>
+                <div class="name">Turuncu Kitap Kutu 30x20x</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a33.png" alt="PND001-a33" class="qr" />
+                <div class="barcode">PND001-a33</div>
+                <div class="name">Apollo Kitap Kutu  35x24x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a34.png" alt="PND001-a34" class="qr" />
+                <div class="barcode">PND001-a34</div>
+                <div class="name">Poseidon Kitap Kutu  35x2</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a35.png" alt="PND001-a35" class="qr" />
+                <div class="barcode">PND001-a35</div>
+                <div class="name">Antik Gold Palmiye 3 Koll</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a36.png" alt="PND001-a36" class="qr" />
+                <div class="barcode">PND001-a36</div>
+                <div class="name">Kahverengi Gold Seramik K</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a37.png" alt="PND001-a37" class="qr" />
+                <div class="barcode">PND001-a37</div>
+                <div class="name">Kahverengi Gold Seramik K</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a38.png" alt="PND001-a38" class="qr" />
+                <div class="barcode">PND001-a38</div>
+                <div class="name">Kırmızı Siyah Cam Kitap T</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a40.png" alt="PND001-a40" class="qr" />
+                <div class="barcode">PND001-a40</div>
+                <div class="name">Gold Çerezlik 10x7cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a41.png" alt="PND001-a41" class="qr" />
+                <div class="barcode">PND001-a41</div>
+                <div class="name">Gold Sosluklu Kase 35x28x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a42.png" alt="PND001-a42" class="qr" />
+                <div class="barcode">PND001-a42</div>
+                <div class="name">SMOKY 3LÜ ŞAH KÜP 
+SETİ 3</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a43.png" alt="PND001-a43" class="qr" />
+                <div class="barcode">PND001-a43</div>
+                <div class="name">Gri Ayaklı Dek Kase 24x20</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a44.png" alt="PND001-a44" class="qr" />
+                <div class="barcode">PND001-a44</div>
+                <div class="name">Gümüş Diamond Vazo 26cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a45.png" alt="PND001-a45" class="qr" />
+                <div class="barcode">PND001-a45</div>
+                <div class="name">Gümüş Diamond Vazo  35cm</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a48.png" alt="PND001-a48" class="qr" />
+                <div class="barcode">PND001-a48</div>
+                <div class="name">Biyeli Dik Beyaz Şapkalı </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a49.png" alt="PND001-a49" class="qr" />
+                <div class="barcode">PND001-a49</div>
+                <div class="name">Gold Camlı Metal Duvar Mu</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a50.png" alt="PND001-a50" class="qr" />
+                <div class="barcode">PND001-a50</div>
+                <div class="name">Gmş Camlı Metal Duvar Mum</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a51.png" alt="PND001-a51" class="qr" />
+                <div class="barcode">PND001-a51</div>
+                <div class="name">Bordo Puf 36x44cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a52.png" alt="PND001-a52" class="qr" />
+                <div class="barcode">PND001-a52</div>
+                <div class="name">Syh Byz Des 3lü Sandık 46</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a53.png" alt="PND001-a53" class="qr" />
+                <div class="barcode">PND001-a53</div>
+                <div class="name">İnsan Siluetli Tablo 82*6</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a54.png" alt="PND001-a54" class="qr" />
+                <div class="barcode">PND001-a54</div>
+                <div class="name">GÜMÜŞ VAZO
+7x29cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a55.png" alt="PND001-a55" class="qr" />
+                <div class="barcode">PND001-a55</div>
+                <div class="name">GÜMÜŞ VAZO
+12x18cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a56.png" alt="PND001-a56" class="qr" />
+                <div class="barcode">PND001-a56</div>
+                <div class="name">SİYAH GOLD 3 ÇEKMECELİ KO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a58.png" alt="PND001-a58" class="qr" />
+                <div class="barcode">PND001-a58</div>
+                <div class="name">Syh Şapkalı Altın Renk Ca</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a59.png" alt="PND001-a59" class="qr" />
+                <div class="barcode">PND001-a59</div>
+                <div class="name">Bordo Diamond Vazo 62cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a60.png" alt="PND001-a60" class="qr" />
+                <div class="barcode">PND001-a60</div>
+                <div class="name">Ahşap Çerçeve Kelebek Dek</div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a61.png" alt="PND001-a61" class="qr" />
+                <div class="barcode">PND001-a61</div>
+                <div class="name">Lines Tablo 85x85cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a62.png" alt="PND001-a62" class="qr" />
+                <div class="barcode">PND001-a62</div>
+                <div class="name">Cherry 3lü Kutu 30x20cm 2</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a63.png" alt="PND001-a63" class="qr" />
+                <div class="barcode">PND001-a63</div>
+                <div class="name">Siyah Cam Puro Küllüğü 15</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a64.png" alt="PND001-a64" class="qr" />
+                <div class="barcode">PND001-a64</div>
+                <div class="name">Gold Kelebekli 3 Ayaklı V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a65.png" alt="PND001-a65" class="qr" />
+                <div class="barcode">PND001-a65</div>
+                <div class="name">SIYAH BEYAZ IC ICE GECMEL</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a67.png" alt="PND001-a67" class="qr" />
+                <div class="barcode">PND001-a67</div>
+                <div class="name">BIANO SERVIS ARABASI 50X8</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a68.png" alt="PND001-a68" class="qr" />
+                <div class="barcode">PND001-a68</div>
+                <div class="name">ALVA DIKDORTGEN KAHVE MAS</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a69.png" alt="PND001-a69" class="qr" />
+                <div class="barcode">PND001-a69</div>
+                <div class="name">WELLS YUVARLAK KAHVE MASA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a70.png" alt="PND001-a70" class="qr" />
+                <div class="barcode">PND001-a70</div>
+                <div class="name">SASHA CIFT CAMLI KARE GOL</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a71.png" alt="PND001-a71" class="qr" />
+                <div class="barcode">PND001-a71</div>
+                <div class="name">BRONZ DALGALI LAMBADER 13</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a72.png" alt="PND001-a72" class="qr" />
+                <div class="barcode">PND001-a72</div>
+                <div class="name">GOLD DEKOR ABAJUR 43 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a73.png" alt="PND001-a73" class="qr" />
+                <div class="barcode">PND001-a73</div>
+                <div class="name">Siyah Şapkalı Masa Lambas</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a74.png" alt="PND001-a74" class="qr" />
+                <div class="barcode">PND001-a74</div>
+                <div class="name">Siyah Şapkalı Aplik 32x26</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a75.png" alt="PND001-a75" class="qr" />
+                <div class="barcode">PND001-a75</div>
+                <div class="name">Gri Gold Resin Takı Kutus</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a76.png" alt="PND001-a76" class="qr" />
+                <div class="barcode">PND001-a76</div>
+                <div class="name">Gri Gold Resin Takı Kutus</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a77.png" alt="PND001-a77" class="qr" />
+                <div class="barcode">PND001-a77</div>
+                <div class="name">Gümüş Büyüteç 13x27cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a78.png" alt="PND001-a78" class="qr" />
+                <div class="barcode">PND001-a78</div>
+                <div class="name">Siyah Gümüş Mektup Açacağ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a79.png" alt="PND001-a79" class="qr" />
+                <div class="barcode">PND001-a79</div>
+                <div class="name">Pembe sedefli seramik vaz</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a80.png" alt="PND001-a80" class="qr" />
+                <div class="barcode">PND001-a80</div>
+                <div class="name">Krem gold çiçek des ser k</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a81.png" alt="PND001-a81" class="qr" />
+                <div class="barcode">PND001-a81</div>
+                <div class="name">Açık Pembe Çoklu Yapay Çi</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a82.png" alt="PND001-a82" class="qr" />
+                <div class="barcode">PND001-a82</div>
+                <div class="name">LOUIS VUITTON 
+KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a83.png" alt="PND001-a83" class="qr" />
+                <div class="barcode">PND001-a83</div>
+                <div class="name">VERMER KITAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a84.png" alt="PND001-a84" class="qr" />
+                <div class="barcode">PND001-a84</div>
+                <div class="name">CHANEL NO5 KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a85.png" alt="PND001-a85" class="qr" />
+                <div class="barcode">PND001-a85</div>
+                <div class="name">VERSACE KITAP</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a86.png" alt="PND001-a86" class="qr" />
+                <div class="barcode">PND001-a86</div>
+                <div class="name">PRADA CATWALK KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a87.png" alt="PND001-a87" class="qr" />
+                <div class="barcode">PND001-a87</div>
+                <div class="name">JAZZ LIFE KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a88.png" alt="PND001-a88" class="qr" />
+                <div class="barcode">PND001-a88</div>
+                <div class="name">CHANEL ROSE KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a89.png" alt="PND001-a89" class="qr" />
+                <div class="barcode">PND001-a89</div>
+                <div class="name">CHLOE
+KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a90.png" alt="PND001-a90" class="qr" />
+                <div class="barcode">PND001-a90</div>
+                <div class="name">DİOR NEW LOOK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a91.png" alt="PND001-a91" class="qr" />
+                <div class="barcode">PND001-a91</div>
+                <div class="name">MANOLO BLAHNIK</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a92.png" alt="PND001-a92" class="qr" />
+                <div class="barcode">PND001-a92</div>
+                <div class="name">DIOR CATWALK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a93.png" alt="PND001-a93" class="qr" />
+                <div class="barcode">PND001-a93</div>
+                <div class="name">TOM FORD KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a94.png" alt="PND001-a94" class="qr" />
+                <div class="barcode">PND001-a94</div>
+                <div class="name">DİOR KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a95.png" alt="PND001-a95" class="qr" />
+                <div class="barcode">PND001-a95</div>
+                <div class="name">MARTHA STEWART
+KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a96.png" alt="PND001-a96" class="qr" />
+                <div class="barcode">PND001-a96</div>
+                <div class="name">CHANEL KİTAP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a97.png" alt="PND001-a97" class="qr" />
+                <div class="barcode">PND001-a97</div>
+                <div class="name">YVES SAİNTLAURENT
+KİTAP</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a98.png" alt="PND001-a98" class="qr" />
+                <div class="barcode">PND001-a98</div>
+                <div class="name">LOULOU&amp;YVES</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a99.png" alt="PND001-a99" class="qr" />
+                <div class="barcode">PND001-a99</div>
+                <div class="name">SIYAH TASLI KAPAKLI KUTU </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a100.png" alt="PND001-a100" class="qr" />
+                <div class="barcode">PND001-a100</div>
+                <div class="name">GOLD BY KUS 17*14*18cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a101.png" alt="PND001-a101" class="qr" />
+                <div class="barcode">PND001-a101</div>
+                <div class="name">GOLD KUS 12*10*14cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a102.png" alt="PND001-a102" class="qr" />
+                <div class="barcode">PND001-a102</div>
+                <div class="name">GOLD 3LU ZINCIR DEKOR 21*</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a103.png" alt="PND001-a103" class="qr" />
+                <div class="barcode">PND001-a103</div>
+                <div class="name">SILVER 3LU ZINCIR DEKOR 2</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a104.png" alt="PND001-a104" class="qr" />
+                <div class="barcode">PND001-a104</div>
+                <div class="name">GOLD 4LU ZINCIR DEKOR 29*</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a105.png" alt="PND001-a105" class="qr" />
+                <div class="barcode">PND001-a105</div>
+                <div class="name">LILA BLACK MUMLUK 6X15 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a106.png" alt="PND001-a106" class="qr" />
+                <div class="barcode">PND001-a106</div>
+                <div class="name">RED PARFUM SISESI 16 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a107.png" alt="PND001-a107" class="qr" />
+                <div class="barcode">PND001-a107</div>
+                <div class="name">PINK PARFUM SISESI 13 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a108.png" alt="PND001-a108" class="qr" />
+                <div class="barcode">PND001-a108</div>
+                <div class="name">ARTEMIS MOR SISE 9x13 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a109.png" alt="PND001-a109" class="qr" />
+                <div class="barcode">PND001-a109</div>
+                <div class="name">ARTEMIS MOR BY. SISE 12x1</div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a110.png" alt="PND001-a110" class="qr" />
+                <div class="barcode">PND001-a110</div>
+                <div class="name">NIS KIRMIZI MOR BY. SISE </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a111.png" alt="PND001-a111" class="qr" />
+                <div class="barcode">PND001-a111</div>
+                <div class="name">NIS KIRMIZI MOR SISE 11X1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a112.png" alt="PND001-a112" class="qr" />
+                <div class="barcode">PND001-a112</div>
+                <div class="name">YESIL DEKOR PARFUM SISESI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a113.png" alt="PND001-a113" class="qr" />
+                <div class="barcode">PND001-a113</div>
+                <div class="name">YESIL DEKOR BY PARFUM SIS</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a114.png" alt="PND001-a114" class="qr" />
+                <div class="barcode">PND001-a114</div>
+                <div class="name">ORANGE DEKOR BY PARFUM SI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a115.png" alt="PND001-a115" class="qr" />
+                <div class="barcode">PND001-a115</div>
+                <div class="name">MOR DEKOR BY PARFUM SISES</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a116.png" alt="PND001-a116" class="qr" />
+                <div class="barcode">PND001-a116</div>
+                <div class="name">JHONATEN ADLER
+DRESUAR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a117.png" alt="PND001-a117" class="qr" />
+                <div class="barcode">PND001-a117</div>
+                <div class="name">HARVEST SERISI DUVAR LAMB</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a118.png" alt="PND001-a118" class="qr" />
+                <div class="barcode">PND001-a118</div>
+                <div class="name">HARVEST SERISI 
+MASA LAMB</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a119.png" alt="PND001-a119" class="qr" />
+                <div class="barcode">PND001-a119</div>
+                <div class="name">HARVEST SERISI 
+ MASA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a120.png" alt="PND001-a120" class="qr" />
+                <div class="barcode">PND001-a120</div>
+                <div class="name">HARVEST SERISI 
+KAHVE MAS</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a121.png" alt="PND001-a121" class="qr" />
+                <div class="barcode">PND001-a121</div>
+                <div class="name">HARVEST 
+SERISI KONSOL 
+1</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a122.png" alt="PND001-a122" class="qr" />
+                <div class="barcode">PND001-a122</div>
+                <div class="name">Amber Siyah Cam Mumluk 10</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a123.png" alt="PND001-a123" class="qr" />
+                <div class="barcode">PND001-a123</div>
+                <div class="name">Amber Siyah Cam Mumluk 10</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a124.png" alt="PND001-a124" class="qr" />
+                <div class="barcode">PND001-a124</div>
+                <div class="name">Yeşil Cam Dekor Şişe 11x1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a125.png" alt="PND001-a125" class="qr" />
+                <div class="barcode">PND001-a125</div>
+                <div class="name">BLUE EYE MAVI 
+BEYAZ KAPA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a126.png" alt="PND001-a126" class="qr" />
+                <div class="barcode">PND001-a126</div>
+                <div class="name">BLUE EYE
+ MAVI BEYAZ YAPR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a127.png" alt="PND001-a127" class="qr" />
+                <div class="barcode">PND001-a127</div>
+                <div class="name">Gold Krem Cam Vazo 28x53c</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a128.png" alt="PND001-a128" class="qr" />
+                <div class="barcode">PND001-a128</div>
+                <div class="name">Gümüş Des Mumluk 10x38cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a129.png" alt="PND001-a129" class="qr" />
+                <div class="barcode">PND001-a129</div>
+                <div class="name">Mavi Puf 40x45cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a130.png" alt="PND001-a130" class="qr" />
+                <div class="barcode">PND001-a130</div>
+                <div class="name">Bordo Gold Tepsi 51x30x8c</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a131.png" alt="PND001-a131" class="qr" />
+                <div class="barcode">PND001-a131</div>
+                <div class="name">Pembe Home Kitap Kutu 30x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a132.png" alt="PND001-a132" class="qr" />
+                <div class="barcode">PND001-a132</div>
+                <div class="name">Mavi Decoration Kitap Kut</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a133.png" alt="PND001-a133" class="qr" />
+                <div class="barcode">PND001-a133</div>
+                <div class="name">Silver Aslanlı Seramik Kü</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a134.png" alt="PND001-a134" class="qr" />
+                <div class="barcode">PND001-a134</div>
+                <div class="name">Açık Pembe 2li Yapay Orki</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a135.png" alt="PND001-a135" class="qr" />
+                <div class="barcode">PND001-a135</div>
+                <div class="name">Kahverengi Design Kitap K</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a136.png" alt="PND001-a136" class="qr" />
+                <div class="barcode">PND001-a136</div>
+                <div class="name">Yeşil Cam Dekor Şişe 13x1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a137.png" alt="PND001-a137" class="qr" />
+                <div class="barcode">PND001-a137</div>
+                <div class="name">Kırmızı Cam Dekor Şişe 7x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a138.png" alt="PND001-a138" class="qr" />
+                <div class="barcode">PND001-a138</div>
+                <div class="name">Clear Yeşil Cam Vazo 8x16</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a139.png" alt="PND001-a139" class="qr" />
+                <div class="barcode">PND001-a139</div>
+                <div class="name">Marrakech Kitap Kutusu 30</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a140.png" alt="PND001-a140" class="qr" />
+                <div class="barcode">PND001-a140</div>
+                <div class="name">Marrakech Kitap Kutusu 26</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a141.png" alt="PND001-a141" class="qr" />
+                <div class="barcode">PND001-a141</div>
+                <div class="name">Gold Kırmızı Top Dekor Ka</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a142.png" alt="PND001-a142" class="qr" />
+                <div class="barcode">PND001-a142</div>
+                <div class="name">Gümüş Mumluk 10x31cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a143.png" alt="PND001-a143" class="qr" />
+                <div class="barcode">PND001-a143</div>
+                <div class="name">Gümüş Mumluk 10x46cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a144.png" alt="PND001-a144" class="qr" />
+                <div class="barcode">PND001-a144</div>
+                <div class="name">KIRMIZI EKOSE KUMASLI
+ YU</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a145.png" alt="PND001-a145" class="qr" />
+                <div class="barcode">PND001-a145</div>
+                <div class="name">KOÇAK 160 CM</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a146.png" alt="PND001-a146" class="qr" />
+                <div class="barcode">PND001-a146</div>
+                <div class="name">KOÇAK YAPAY ÇİÇEKLİ 
+STAR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a147.png" alt="PND001-a147" class="qr" />
+                <div class="barcode">PND001-a147</div>
+                <div class="name">ASC ÇİÇEK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a148.png" alt="PND001-a148" class="qr" />
+                <div class="barcode">PND001-a148</div>
+                <div class="name">ARUN MOR PUF</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a149.png" alt="PND001-a149" class="qr" />
+                <div class="barcode">PND001-a149</div>
+                <div class="name">PEMBE BERJER</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a150.png" alt="PND001-a150" class="qr" />
+                <div class="barcode">PND001-a150</div>
+                <div class="name">VENEDİK AYNA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a151.png" alt="PND001-a151" class="qr" />
+                <div class="barcode">PND001-a151</div>
+                <div class="name">MAVİ SANDALYE</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a152.png" alt="PND001-a152" class="qr" />
+                <div class="barcode">PND001-a152</div>
+                <div class="name">GOLD SANDALYE 
+KOLTUK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a153.png" alt="PND001-a153" class="qr" />
+                <div class="barcode">PND001-a153</div>
+                <div class="name">PASLANMAZ MASA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a154.png" alt="PND001-a154" class="qr" />
+                <div class="barcode">PND001-a154</div>
+                <div class="name">PASLANMAZ SEHPA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a155.png" alt="PND001-a155" class="qr" />
+                <div class="barcode">PND001-a155</div>
+                <div class="name">PASLANMAZ YAN SEHPA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a156.png" alt="PND001-a156" class="qr" />
+                <div class="barcode">PND001-a156</div>
+                <div class="name">SEDER PİRİNÇ 
+KAPAKLI KAS</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a157.png" alt="PND001-a157" class="qr" />
+                <div class="barcode">PND001-a157</div>
+                <div class="name">Dresuar
+Gold titanyum, si</div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a158.png" alt="PND001-a158" class="qr" />
+                <div class="barcode">PND001-a158</div>
+                <div class="name">Chair
+Gold titanyum</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a159.png" alt="PND001-a159" class="qr" />
+                <div class="barcode">PND001-a159</div>
+                <div class="name">Chair
+Gold titanyum</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a160.png" alt="PND001-a160" class="qr" />
+                <div class="barcode">PND001-a160</div>
+                <div class="name">Middle Table
+Gold titanyu</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a161.png" alt="PND001-a161" class="qr" />
+                <div class="barcode">PND001-a161</div>
+                <div class="name">JOKER BY VAZO 31*20*37cm</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a162.png" alt="PND001-a162" class="qr" />
+                <div class="barcode">PND001-a162</div>
+                <div class="name">VANESSA BY VAZO 35 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a163.png" alt="PND001-a163" class="qr" />
+                <div class="barcode">PND001-a163</div>
+                <div class="name">VANESSA VAZO 25 CM</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a164.png" alt="PND001-a164" class="qr" />
+                <div class="barcode">PND001-a164</div>
+                <div class="name">A21-59 / A21-61 2Lİ KÜP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a165.png" alt="PND001-a165" class="qr" />
+                <div class="barcode">PND001-a165</div>
+                <div class="name">YG1216 BEYAZ 
+MUMLUK KÇK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a166.png" alt="PND001-a166" class="qr" />
+                <div class="barcode">PND001-a166</div>
+                <div class="name">YG1215 BEYAZ
+MUMLUK BYK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a167.png" alt="PND001-a167" class="qr" />
+                <div class="barcode">PND001-a167</div>
+                <div class="name">YG1219 SİYAH 
+MUMLUK KÇK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a168.png" alt="PND001-a168" class="qr" />
+                <div class="barcode">PND001-a168</div>
+                <div class="name">JY836B SİYAH 
+VAZO 22 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a169.png" alt="PND001-a169" class="qr" />
+                <div class="barcode">PND001-a169</div>
+                <div class="name">XT576 2LÜ 
+OBJE (GOLD-KRO</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a170.png" alt="PND001-a170" class="qr" />
+                <div class="barcode">PND001-a170</div>
+                <div class="name">SK-89 /SK-90
+ /SK-91 3LÜ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a171.png" alt="PND001-a171" class="qr" />
+                <div class="barcode">PND001-a171</div>
+                <div class="name">8802B-8802C 2Lİ 
+VAZO TUR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a172.png" alt="PND001-a172" class="qr" />
+                <div class="barcode">PND001-a172</div>
+                <div class="name">Beyaz Gold Seramik Küp 52</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a173.png" alt="PND001-a173" class="qr" />
+                <div class="barcode">PND001-a173</div>
+                <div class="name">Beyaz Gold Seramik Küp 37</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a174.png" alt="PND001-a174" class="qr" />
+                <div class="barcode">PND001-a174</div>
+                <div class="name">EVZA DEKORATİF MERMER
+ Dİ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a175.png" alt="PND001-a175" class="qr" />
+                <div class="barcode">PND001-a175</div>
+                <div class="name">EVZA DİKDÖRTGEN 
+MERMER K</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a176.png" alt="PND001-a176" class="qr" />
+                <div class="barcode">PND001-a176</div>
+                <div class="name">SETA ELITE DECO PLANET 
+B</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a177.png" alt="PND001-a177" class="qr" />
+                <div class="barcode">PND001-a177</div>
+                <div class="name">SETA ELITE DECO PLANET 
+S</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a178.png" alt="PND001-a178" class="qr" />
+                <div class="barcode">PND001-a178</div>
+                <div class="name">SETA ELITE DECO PLANET
+ S</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a179.png" alt="PND001-a179" class="qr" />
+                <div class="barcode">PND001-a179</div>
+                <div class="name">HOME-10 MERMER
+ KURE OBJE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a180.png" alt="PND001-a180" class="qr" />
+                <div class="barcode">PND001-a180</div>
+                <div class="name">SEFFAF KÜRELİ GOLD 
+6 LI </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a181.png" alt="PND001-a181" class="qr" />
+                <div class="barcode">PND001-a181</div>
+                <div class="name">White Birds Tablo 95X125</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a182.png" alt="PND001-a182" class="qr" />
+                <div class="barcode">PND001-a182</div>
+                <div class="name">KAFES KITAP AYRACI SILVER</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a183.png" alt="PND001-a183" class="qr" />
+                <div class="barcode">PND001-a183</div>
+                <div class="name">Alexa Turuncu Bordürlü 50</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a184.png" alt="PND001-a184" class="qr" />
+                <div class="barcode">PND001-a184</div>
+                <div class="name">Alexa Mor Bordürlü 50x50 </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a185.png" alt="PND001-a185" class="qr" />
+                <div class="barcode">PND001-a185</div>
+                <div class="name">Beyaz 3lü Yapay Orkide 65</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a186.png" alt="PND001-a186" class="qr" />
+                <div class="barcode">PND001-a186</div>
+                <div class="name">Beyaz 2li Yapay Orkide 58</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a187.png" alt="PND001-a187" class="qr" />
+                <div class="barcode">PND001-a187</div>
+                <div class="name">Turuncu 3lü Yapay Orkide </div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a188.png" alt="PND001-a188" class="qr" />
+                <div class="barcode">PND001-a188</div>
+                <div class="name">Turuncu Çoklu Yapay Orkid</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a189.png" alt="PND001-a189" class="qr" />
+                <div class="barcode">PND001-a189</div>
+                <div class="name">Beyaz ÇokluYapay Orkide 8</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a190.png" alt="PND001-a190" class="qr" />
+                <div class="barcode">PND001-a190</div>
+                <div class="name">Turuncu 2li Yapay Orkide </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a191.png" alt="PND001-a191" class="qr" />
+                <div class="barcode">PND001-a191</div>
+                <div class="name">Beyaz Sarkan Yapay Orkide</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a192.png" alt="PND001-a192" class="qr" />
+                <div class="barcode">PND001-a192</div>
+                <div class="name">Turuncu Sarkan Yapay Orki</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a193.png" alt="PND001-a193" class="qr" />
+                <div class="barcode">PND001-a193</div>
+                <div class="name">Yapay Onion Bitkisi 90cm</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a194.png" alt="PND001-a194" class="qr" />
+                <div class="barcode">PND001-a194</div>
+                <div class="name">SIYAH BEYAZ AT DESENLI KA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a195.png" alt="PND001-a195" class="qr" />
+                <div class="barcode">PND001-a195</div>
+                <div class="name">AT DESENLI TURUNCU 
+RENK </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a196.png" alt="PND001-a196" class="qr" />
+                <div class="barcode">PND001-a196</div>
+                <div class="name">SIYAH BEYAZ 
+AT DESENLI 
+</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a197.png" alt="PND001-a197" class="qr" />
+                <div class="barcode">PND001-a197</div>
+                <div class="name">SIYAH BEYAZ
+ AT DESENLI
+ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a198.png" alt="PND001-a198" class="qr" />
+                <div class="barcode">PND001-a198</div>
+                <div class="name">BONE RESIN BEYAZ 
+KARE KU</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a199.png" alt="PND001-a199" class="qr" />
+                <div class="barcode">PND001-a199</div>
+                <div class="name">BONE RESIN BEYAZ 
+DIKDORT</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a200.png" alt="PND001-a200" class="qr" />
+                <div class="barcode">PND001-a200</div>
+                <div class="name">FROG PEMBE DEKOR 
+28X21X7</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a201.png" alt="PND001-a201" class="qr" />
+                <div class="barcode">PND001-a201</div>
+                <div class="name">KARL TIRED 
+PEMBE DEKOR
+ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a202.png" alt="PND001-a202" class="qr" />
+                <div class="barcode">PND001-a202</div>
+                <div class="name">KARL TIRED KIRMIZI DEKOR </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a203.png" alt="PND001-a203" class="qr" />
+                <div class="barcode">PND001-a203</div>
+                <div class="name">KARL TIRED 
+MAVİ DEKOR
+ 1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a204.png" alt="PND001-a204" class="qr" />
+                <div class="barcode">PND001-a204</div>
+                <div class="name">MINNIE MOUSE 
+GOLD DEKOR </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a205.png" alt="PND001-a205" class="qr" />
+                <div class="barcode">PND001-a205</div>
+                <div class="name">MINNIE MOUSE 
+GOLD DEKOR </div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a206.png" alt="PND001-a206" class="qr" />
+                <div class="barcode">PND001-a206</div>
+                <div class="name">MINNIE MOUSE SILVER DEKOR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a207.png" alt="PND001-a207" class="qr" />
+                <div class="barcode">PND001-a207</div>
+                <div class="name">MICKEY MOUSE MAVI DEKOR 1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a208.png" alt="PND001-a208" class="qr" />
+                <div class="barcode">PND001-a208</div>
+                <div class="name">MICKEY MOUSE
+ BLACK GOLD </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a209.png" alt="PND001-a209" class="qr" />
+                <div class="barcode">PND001-a209</div>
+                <div class="name">MICKEY MOUSE
+ GOLD DEKOR
+</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a210.png" alt="PND001-a210" class="qr" />
+                <div class="barcode">PND001-a210</div>
+                <div class="name">MICKEY MOUSE 
+WHITE GOLD </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a211.png" alt="PND001-a211" class="qr" />
+                <div class="barcode">PND001-a211</div>
+                <div class="name">KARL WITH TOY 
+GOLD DEKOR</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a212.png" alt="PND001-a212" class="qr" />
+                <div class="barcode">PND001-a212</div>
+                <div class="name">KARL WITH TOY 
+MAVİ DEKOR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a213.png" alt="PND001-a213" class="qr" />
+                <div class="barcode">PND001-a213</div>
+                <div class="name">KARL WITH TOY 
+KROM DEKOR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a214.png" alt="PND001-a214" class="qr" />
+                <div class="barcode">PND001-a214</div>
+                <div class="name">ANITAS GOLD DETAYLI 
+KULP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a215.png" alt="PND001-a215" class="qr" />
+                <div class="barcode">PND001-a215</div>
+                <div class="name">VIPASSI 27 CM
+ MAT BEYAZ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a216.png" alt="PND001-a216" class="qr" />
+                <div class="barcode">PND001-a216</div>
+                <div class="name">VIVALLI 35.6 CM
+ MAT BEYA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a217.png" alt="PND001-a217" class="qr" />
+                <div class="barcode">PND001-a217</div>
+                <div class="name">BEAR BUYUK 
+GOLD
+ DEKOR 
+</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a218.png" alt="PND001-a218" class="qr" />
+                <div class="barcode">PND001-a218</div>
+                <div class="name">BEAR KUCUK
+ GOLD DEKOR
+ 2</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a219.png" alt="PND001-a219" class="qr" />
+                <div class="barcode">PND001-a219</div>
+                <div class="name">SMURF DARK BLUE 
+WHITE DE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a221.png" alt="PND001-a221" class="qr" />
+                <div class="barcode">PND001-a221</div>
+                <div class="name">ASTRO KARL 
+GOLD DEKOR 
+1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a222.png" alt="PND001-a222" class="qr" />
+                <div class="barcode">PND001-a222</div>
+                <div class="name">ASTRO GIRL 
+GREEN SMALL 
+</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a223.png" alt="PND001-a223" class="qr" />
+                <div class="barcode">PND001-a223</div>
+                <div class="name">MICKEY SITTING CLEAR 
+RES</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a224.png" alt="PND001-a224" class="qr" />
+                <div class="barcode">PND001-a224</div>
+                <div class="name">MICKEY SITTING 
+CLEAR RES</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a225.png" alt="PND001-a225" class="qr" />
+                <div class="barcode">PND001-a225</div>
+                <div class="name">RABBIT CLEAR RESIN GOLD D</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a226.png" alt="PND001-a226" class="qr" />
+                <div class="barcode">PND001-a226</div>
+                <div class="name">RABBIT CLEAR RESIN GREEN </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a227.png" alt="PND001-a227" class="qr" />
+                <div class="barcode">PND001-a227</div>
+                <div class="name">RABBIT CLEAR RESIN BLUE D</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a228.png" alt="PND001-a228" class="qr" />
+                <div class="barcode">PND001-a228</div>
+                <div class="name">MICKEY SITTING CLEAR RESI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a229.png" alt="PND001-a229" class="qr" />
+                <div class="barcode">PND001-a229</div>
+                <div class="name">THINKING KARL TURUNCU DEK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a230.png" alt="PND001-a230" class="qr" />
+                <div class="barcode">PND001-a230</div>
+                <div class="name">THINKING KARL INK COLOR D</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a231.png" alt="PND001-a231" class="qr" />
+                <div class="barcode">PND001-a231</div>
+                <div class="name">BEAR CLEAR RESIN DARK GRE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a232.png" alt="PND001-a232" class="qr" />
+                <div class="barcode">PND001-a232</div>
+                <div class="name">BEAR CLEAR RESIN GOLD FOI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a233.png" alt="PND001-a233" class="qr" />
+                <div class="barcode">PND001-a233</div>
+                <div class="name">BEAR CLEAR RESIN BLUE DEC</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a234.png" alt="PND001-a234" class="qr" />
+                <div class="barcode">PND001-a234</div>
+                <div class="name">BEAR SERVING 
+CLEAR RESIN</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a235.png" alt="PND001-a235" class="qr" />
+                <div class="barcode">PND001-a235</div>
+                <div class="name">BEAR SERVING CLEAR RESIN </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a236.png" alt="PND001-a236" class="qr" />
+                <div class="barcode">PND001-a236</div>
+                <div class="name">SERVING BEAR BLUE ROSE 18</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a237.png" alt="PND001-a237" class="qr" />
+                <div class="barcode">PND001-a237</div>
+                <div class="name">SERVING BEAR BLUE SILVER </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a238.png" alt="PND001-a238" class="qr" />
+                <div class="barcode">PND001-a238</div>
+                <div class="name">SERVING BEAR SILVER GREEN</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a239.png" alt="PND001-a239" class="qr" />
+                <div class="barcode">PND001-a239</div>
+                <div class="name">SERVING BEAR SILVER PINK </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a240.png" alt="PND001-a240" class="qr" />
+                <div class="barcode">PND001-a240</div>
+                <div class="name">MOUSE CLEAR RESIN BLUE DE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a241.png" alt="PND001-a241" class="qr" />
+                <div class="barcode">PND001-a241</div>
+                <div class="name">MOUSE CLEAR RESIN GOLD DE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a242.png" alt="PND001-a242" class="qr" />
+                <div class="barcode">PND001-a242</div>
+                <div class="name">MOUSE CLEAR RESIN GREEN D</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a243.png" alt="PND001-a243" class="qr" />
+                <div class="barcode">PND001-a243</div>
+                <div class="name">MOUSE CLEAR RESIN SMOKE D</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a244.png" alt="PND001-a244" class="qr" />
+                <div class="barcode">PND001-a244</div>
+                <div class="name">GORILLA 
+20,5X19,5X30,5 C</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a245.png" alt="PND001-a245" class="qr" />
+                <div class="barcode">PND001-a245</div>
+                <div class="name">BALLOON DOG 
+40X21X41 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a246.png" alt="PND001-a246" class="qr" />
+                <div class="barcode">PND001-a246</div>
+                <div class="name">CHIHUAHUA 
+27X21X41 CM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a247.png" alt="PND001-a247" class="qr" />
+                <div class="barcode">PND001-a247</div>
+                <div class="name">RABBIT THINKING 
+SILVER D</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a248.png" alt="PND001-a248" class="qr" />
+                <div class="barcode">PND001-a248</div>
+                <div class="name">RABBIT THINKING CLEAR RES</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a249.png" alt="PND001-a249" class="qr" />
+                <div class="barcode">PND001-a249</div>
+                <div class="name">RABBIT SITTING CLEAR RESI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a250.png" alt="PND001-a250" class="qr" />
+                <div class="barcode">PND001-a250</div>
+                <div class="name">RABBIT SITTING CLEAR RESI</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a251.png" alt="PND001-a251" class="qr" />
+                <div class="barcode">PND001-a251</div>
+                <div class="name">ASTRONAUT SERVING 
+CLEAR </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a252.png" alt="PND001-a252" class="qr" />
+                <div class="barcode">PND001-a252</div>
+                <div class="name">ASTRONAUT SERVING 
+CLEAR </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a253.png" alt="PND001-a253" class="qr" />
+                <div class="barcode">PND001-a253</div>
+                <div class="name">ASTRONAUT SERVING
+ CLEAR </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a254.png" alt="PND001-a254" class="qr" />
+                <div class="barcode">PND001-a254</div>
+                <div class="name">ASTRONAUT SERVING 
+CLEAR </div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a255.png" alt="PND001-a255" class="qr" />
+                <div class="barcode">PND001-a255</div>
+                <div class="name">PIKACHU BLACK
+ DECOR 
+20X</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a256.png" alt="PND001-a256" class="qr" />
+                <div class="barcode">PND001-a256</div>
+                <div class="name">PIKACHU YELLOW
+ DECOR 20X</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a257.png" alt="PND001-a257" class="qr" />
+                <div class="barcode">PND001-a257</div>
+                <div class="name">CHARM SILVER 
+KUTU DIKDOR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a258.png" alt="PND001-a258" class="qr" />
+                <div class="barcode">PND001-a258</div>
+                <div class="name">JOYCE SEFFAF ORTA BOY
+ VA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a259.png" alt="PND001-a259" class="qr" />
+                <div class="barcode">PND001-a259</div>
+                <div class="name">JOYCE SEFFAF KUCUK
+ BOY V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a260.png" alt="PND001-a260" class="qr" />
+                <div class="barcode">PND001-a260</div>
+                <div class="name">POSITE SIYAH 
+BUYUK BOY 
+</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a261.png" alt="PND001-a261" class="qr" />
+                <div class="barcode">PND001-a261</div>
+                <div class="name">POSITE SIYAH 
+KUCUK BOY O</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a262.png" alt="PND001-a262" class="qr" />
+                <div class="barcode">PND001-a262</div>
+                <div class="name">PERCEIVE GUMUS ALTIN 
+REN</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a263.png" alt="PND001-a263" class="qr" />
+                <div class="barcode">PND001-a263</div>
+                <div class="name">DECORA DIKDORTGEN 
+KAHVE </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a264.png" alt="PND001-a264" class="qr" />
+                <div class="barcode">PND001-a264</div>
+                <div class="name">DECORA KARE 
+YAN SEHPA
+ 5</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a265.png" alt="PND001-a265" class="qr" />
+                <div class="barcode">PND001-a265</div>
+                <div class="name">DECORA DRESUAR
+130X40X80 </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a266.png" alt="PND001-a266" class="qr" />
+                <div class="barcode">PND001-a266</div>
+                <div class="name">SHAYA GOLD SILVER 
+KONSOL</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a267.png" alt="PND001-a267" class="qr" />
+                <div class="barcode">PND001-a267</div>
+                <div class="name">KOLTUK ARASI SEHPA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a268.png" alt="PND001-a268" class="qr" />
+                <div class="barcode">PND001-a268</div>
+                <div class="name">2'li Piemonte Sehpa seti</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a269.png" alt="PND001-a269" class="qr" />
+                <div class="barcode">PND001-a269</div>
+                <div class="name">ROYALE SIYAH 
+SURAT VAZO </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a270.png" alt="PND001-a270" class="qr" />
+                <div class="barcode">PND001-a270</div>
+                <div class="name">CACTUS SMALL CANDLE 
+STAN</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a271.png" alt="PND001-a271" class="qr" />
+                <div class="barcode">PND001-a271</div>
+                <div class="name">LEAF 3 LAYER FRUIT 
+BOWL </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a272.png" alt="PND001-a272" class="qr" />
+                <div class="barcode">PND001-a272</div>
+                <div class="name">Doku Concept DK-7383 
+84x</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a273.png" alt="PND001-a273" class="qr" />
+                <div class="barcode">PND001-a273</div>
+                <div class="name">Doku Concept DK-7689
+ 75x</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a274.png" alt="PND001-a274" class="qr" />
+                <div class="barcode">PND001-a274</div>
+                <div class="name">Doku Concept DK-7395 
+94X</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a275.png" alt="PND001-a275" class="qr" />
+                <div class="barcode">PND001-a275</div>
+                <div class="name">Doku Concept DK-10736 
+94</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a276.png" alt="PND001-a276" class="qr" />
+                <div class="barcode">PND001-a276</div>
+                <div class="name">Doku Concept DK-10710 
+94</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a277.png" alt="PND001-a277" class="qr" />
+                <div class="barcode">PND001-a277</div>
+                <div class="name">Doku Concept DK-7235 
+105</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a278.png" alt="PND001-a278" class="qr" />
+                <div class="barcode">PND001-a278</div>
+                <div class="name">Doku Concept DK-7384 
+65x</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a280.png" alt="PND001-a280" class="qr" />
+                <div class="barcode">PND001-a280</div>
+                <div class="name">PİRİNÇ KÜLLÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a281.png" alt="PND001-a281" class="qr" />
+                <div class="barcode">PND001-a281</div>
+                <div class="name">MARKA PÜRO KÜLLÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a282.png" alt="PND001-a282" class="qr" />
+                <div class="barcode">PND001-a282</div>
+                <div class="name">FİNCAN SETİ 6 L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a283.png" alt="PND001-a283" class="qr" />
+                <div class="barcode">PND001-a283</div>
+                <div class="name">GÖZ YEMEK TAKIMI 
+SETİ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a284.png" alt="PND001-a284" class="qr" />
+                <div class="barcode">PND001-a284</div>
+                <div class="name">GÖZ SALATA KASE 2 L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a285.png" alt="PND001-a285" class="qr" />
+                <div class="barcode">PND001-a285</div>
+                <div class="name">GÖZ 3 L SERVİS TABAĞI</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a286.png" alt="PND001-a286" class="qr" />
+                <div class="barcode">PND001-a286</div>
+                <div class="name">KAHVE FİNCAN SETİ 6 L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a287.png" alt="PND001-a287" class="qr" />
+                <div class="barcode">PND001-a287</div>
+                <div class="name">PİRİNÇ KELEBEK DEKOR 
+3L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a288.png" alt="PND001-a288" class="qr" />
+                <div class="barcode">PND001-a288</div>
+                <div class="name">PİRİNÇ YENGEÇ 
+KÜLLÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a289.png" alt="PND001-a289" class="qr" />
+                <div class="barcode">PND001-a289</div>
+                <div class="name">PİRİNÇ UĞUR BÖCEĞİ
+KÜLLÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a291.png" alt="PND001-a291" class="qr" />
+                <div class="barcode">PND001-a291</div>
+                <div class="name">PİRİNÇ 3 L BAYKUL
+DEKOR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a292.png" alt="PND001-a292" class="qr" />
+                <div class="barcode">PND001-a292</div>
+                <div class="name">3 L PİRİNÇ 
+PRAMİT DEKOR</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a293.png" alt="PND001-a293" class="qr" />
+                <div class="barcode">PND001-a293</div>
+                <div class="name">MERMER SEDEF 
+BARDAK ALTL</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a295.png" alt="PND001-a295" class="qr" />
+                <div class="barcode">PND001-a295</div>
+                <div class="name">PÜRO KÜLLÜĞÜ
+MERMER</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a298.png" alt="PND001-a298" class="qr" />
+                <div class="barcode">PND001-a298</div>
+                <div class="name">ZEN EL DETAY
+MERMER KUTU
+</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a299.png" alt="PND001-a299" class="qr" />
+                <div class="barcode">PND001-a299</div>
+                <div class="name">ZEN EL DETAY
+MERMER KUTU </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a300.png" alt="PND001-a300" class="qr" />
+                <div class="barcode">PND001-a300</div>
+                <div class="name">2 Lİ DİNAR YARIM AY
+DERİ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a301.png" alt="PND001-a301" class="qr" />
+                <div class="barcode">PND001-a301</div>
+                <div class="name">NAGI BİBLO DOĞAL
+TAŞ KOMP</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a302.png" alt="PND001-a302" class="qr" />
+                <div class="barcode">PND001-a302</div>
+                <div class="name">NAGI BİBLO DOĞAL
+TAŞ KOMP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a303.png" alt="PND001-a303" class="qr" />
+                <div class="barcode">PND001-a303</div>
+                <div class="name">TRUST SİYAH
+MERMER KUTU
+Y</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a304.png" alt="PND001-a304" class="qr" />
+                <div class="barcode">PND001-a304</div>
+                <div class="name">TRUST SİYAH
+MERMER KUTU D</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a305.png" alt="PND001-a305" class="qr" />
+                <div class="barcode">PND001-a305</div>
+                <div class="name">PETEK MODEL DERİ
+KUTU SİY</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a306.png" alt="PND001-a306" class="qr" />
+                <div class="barcode">PND001-a306</div>
+                <div class="name">PETEK MODEL DERİ
+KUTU SİY</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a307.png" alt="PND001-a307" class="qr" />
+                <div class="barcode">PND001-a307</div>
+                <div class="name">2 Lİ KETEN KUTU
+KAHVE KEM</div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a308.png" alt="PND001-a308" class="qr" />
+                <div class="barcode">PND001-a308</div>
+                <div class="name">2 Lİ KETEN KUTU
+SİYAH KEM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a309.png" alt="PND001-a309" class="qr" />
+                <div class="barcode">PND001-a309</div>
+                <div class="name">KETEN TEPSİ SİYAH
+KEMERLİ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a310.png" alt="PND001-a310" class="qr" />
+                <div class="barcode">PND001-a310</div>
+                <div class="name">2 Lİ DOĞAL TAŞLI
+HİLAL OB</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a311.png" alt="PND001-a311" class="qr" />
+                <div class="barcode">PND001-a311</div>
+                <div class="name">İTHAL CAM KUTU SİYAH
+DOĞA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a312.png" alt="PND001-a312" class="qr" />
+                <div class="barcode">PND001-a312</div>
+                <div class="name">İTHAL CAM KUTU TURUNCU
+DO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a313.png" alt="PND001-a313" class="qr" />
+                <div class="barcode">PND001-a313</div>
+                <div class="name">İTHAL CAM KUTU KREM
+DOĞAL</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a314.png" alt="PND001-a314" class="qr" />
+                <div class="barcode">PND001-a314</div>
+                <div class="name">İTHAL LUMİN KAHVE
+GEÇİŞ C</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a315.png" alt="PND001-a315" class="qr" />
+                <div class="barcode">PND001-a315</div>
+                <div class="name">İTHAL LUMİN KAHVE
+GEÇİŞ C</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a316.png" alt="PND001-a316" class="qr" />
+                <div class="barcode">PND001-a316</div>
+                <div class="name">İTHAL ROSİVA CAM
+VAZO FÜM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a317.png" alt="PND001-a317" class="qr" />
+                <div class="barcode">PND001-a317</div>
+                <div class="name">İTHAL ROSİVA CAM
+VAZO FÜM</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a318.png" alt="PND001-a318" class="qr" />
+                <div class="barcode">PND001-a318</div>
+                <div class="name">İTHAL VİORA AMBER
+CAM VAZ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a319.png" alt="PND001-a319" class="qr" />
+                <div class="barcode">PND001-a319</div>
+                <div class="name">İTHAL VİORA AMBER
+CAM VAZ</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a320.png" alt="PND001-a320" class="qr" />
+                <div class="barcode">PND001-a320</div>
+                <div class="name">İTHAL LİNE CAM VAZO
+FÜME </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a321.png" alt="PND001-a321" class="qr" />
+                <div class="barcode">PND001-a321</div>
+                <div class="name">İTHAL LİNE CAM VAZO
+FÜME </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a322.png" alt="PND001-a322" class="qr" />
+                <div class="barcode">PND001-a322</div>
+                <div class="name">İTHAL LİNE CAM VAZO
+AMBER</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a323.png" alt="PND001-a323" class="qr" />
+                <div class="barcode">PND001-a323</div>
+                <div class="name">İTHAL LİNE CAM VAZO
+AMBER</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a324.png" alt="PND001-a324" class="qr" />
+                <div class="barcode">PND001-a324</div>
+                <div class="name">İTHAL ICED CAM VAZO
+FÜME </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a325.png" alt="PND001-a325" class="qr" />
+                <div class="barcode">PND001-a325</div>
+                <div class="name">İTHAL ICED CAM VAZO
+FÜME </div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a326.png" alt="PND001-a326" class="qr" />
+                <div class="barcode">PND001-a326</div>
+                <div class="name">İTHAL STONE FÜME CAM
+VAZO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a327.png" alt="PND001-a327" class="qr" />
+                <div class="barcode">PND001-a327</div>
+                <div class="name">İTHAL STONE FÜME CAM
+VAZO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a328.png" alt="PND001-a328" class="qr" />
+                <div class="barcode">PND001-a328</div>
+                <div class="name">İTHAL LEOPAR UFO CAM
+VAZO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a329.png" alt="PND001-a329" class="qr" />
+                <div class="barcode">PND001-a329</div>
+                <div class="name">İTHAL LEOPAR UFO CAM
+VAZO</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a330.png" alt="PND001-a330" class="qr" />
+                <div class="barcode">PND001-a330</div>
+                <div class="name">PERSON AMBER
+CAM VAZO KÜÇ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a331.png" alt="PND001-a331" class="qr" />
+                <div class="barcode">PND001-a331</div>
+                <div class="name">PERSON AMBER
+CAM VAZO BÜY</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a332.png" alt="PND001-a332" class="qr" />
+                <div class="barcode">PND001-a332</div>
+                <div class="name">ROSELLA TOPLU
+CAM VAZO OR</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a333.png" alt="PND001-a333" class="qr" />
+                <div class="barcode">PND001-a333</div>
+                <div class="name">ROSELLA TOPLU
+CAM VAZO KÜ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a334.png" alt="PND001-a334" class="qr" />
+                <div class="barcode">PND001-a334</div>
+                <div class="name">ROSELLA TOPLU
+CAM KASE</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a335.png" alt="PND001-a335" class="qr" />
+                <div class="barcode">PND001-a335</div>
+                <div class="name">FİORA CAM VAZO
+YELLOW ORT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a336.png" alt="PND001-a336" class="qr" />
+                <div class="barcode">PND001-a336</div>
+                <div class="name">FİORA CAM VAZO
+GREEN BÜYÜ</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a337.png" alt="PND001-a337" class="qr" />
+                <div class="barcode">PND001-a337</div>
+                <div class="name">ORİNA CAM VAZO
+KÜÇÜK</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a338.png" alt="PND001-a338" class="qr" />
+                <div class="barcode">PND001-a338</div>
+                <div class="name">ORİNA CAM VAZO
+BÜYÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a339.png" alt="PND001-a339" class="qr" />
+                <div class="barcode">PND001-a339</div>
+                <div class="name">KAHVE LEOPAR
+TRİORA CAM V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a340.png" alt="PND001-a340" class="qr" />
+                <div class="barcode">PND001-a340</div>
+                <div class="name">KAHVE LEOPAR
+TRİORA CAM V</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a341.png" alt="PND001-a341" class="qr" />
+                <div class="barcode">PND001-a341</div>
+                <div class="name">MOORY CAM
+VAZO KÜÇÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a342.png" alt="PND001-a342" class="qr" />
+                <div class="barcode">PND001-a342</div>
+                <div class="name">MOORY CAM
+VAZO BÜYÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a343.png" alt="PND001-a343" class="qr" />
+                <div class="barcode">PND001-a343</div>
+                <div class="name">PEARL SERAMİK
+VAZO BÜYÜK</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a344.png" alt="PND001-a344" class="qr" />
+                <div class="barcode">PND001-a344</div>
+                <div class="name">PEARL SERAMİK
+VAZO ORTA</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a345.png" alt="PND001-a345" class="qr" />
+                <div class="barcode">PND001-a345</div>
+                <div class="name">PEARL SERAMİK
+VAZO KÜÇÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a346.png" alt="PND001-a346" class="qr" />
+                <div class="barcode">PND001-a346</div>
+                <div class="name">FLİRA BLUE CAM
+VAZO KÜÇÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a347.png" alt="PND001-a347" class="qr" />
+                <div class="barcode">PND001-a347</div>
+                <div class="name">FLİRA BLUE CAM
+VAZO BÜYÜK</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a348.png" alt="PND001-a348" class="qr" />
+                <div class="barcode">PND001-a348</div>
+                <div class="name">CRİSTALLO AMBER CAM
+VAZO </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a349.png" alt="PND001-a349" class="qr" />
+                <div class="barcode">PND001-a349</div>
+                <div class="name">CRİSTALLO AMBER CAM
+VAZO </div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a350.png" alt="PND001-a350" class="qr" />
+                <div class="barcode">PND001-a350</div>
+                <div class="name">VASTELLE CAM VAZO 
+BÜYÜK </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a351.png" alt="PND001-a351" class="qr" />
+                <div class="barcode">PND001-a351</div>
+                <div class="name">PASTELLE
+ PİNK CAM VAZO
+K</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a352.png" alt="PND001-a352" class="qr" />
+                <div class="barcode">PND001-a352</div>
+                <div class="name">PASTELLE PİNK 
+CAM VAZO B</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a353.png" alt="PND001-a353" class="qr" />
+                <div class="barcode">PND001-a353</div>
+                <div class="name">CHAIN GOLD LARGE 
+DECORAT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a354.png" alt="PND001-a354" class="qr" />
+                <div class="barcode">PND001-a354</div>
+                <div class="name">DECO GOLD OBJECT ,
+24X20X</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a355.png" alt="PND001-a355" class="qr" />
+                <div class="barcode">PND001-a355</div>
+                <div class="name">CIRCLES GOLD LARGE 
+SCULP</div>
+            </div>
+        </div></div><div class="page"><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a356.png" alt="PND001-a356" class="qr" />
+                <div class="barcode">PND001-a356</div>
+                <div class="name">CIRCLES GOLD SMALL 
+SCULP</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a357.png" alt="PND001-a357" class="qr" />
+                <div class="barcode">PND001-a357</div>
+                <div class="name">BUTTERFLY GOLD SMALL
+ DEC</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a358.png" alt="PND001-a358" class="qr" />
+                <div class="barcode">PND001-a358</div>
+                <div class="name">GINKGO GOLD LARGE 
+SCULPT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a359.png" alt="PND001-a359" class="qr" />
+                <div class="barcode">PND001-a359</div>
+                <div class="name">GINKGO GOLD SMALL 
+SCULPT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a360.png" alt="PND001-a360" class="qr" />
+                <div class="barcode">PND001-a360</div>
+                <div class="name">TIGER GOLD MEDIUM
+ BALL 1</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a361.png" alt="PND001-a361" class="qr" />
+                <div class="barcode">PND001-a361</div>
+                <div class="name">TIGER GOLD SMALL 
+BALL 10</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a362.png" alt="PND001-a362" class="qr" />
+                <div class="barcode">PND001-a362</div>
+                <div class="name">TIGER GOLD SMALL 
+DECORAT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a363.png" alt="PND001-a363" class="qr" />
+                <div class="barcode">PND001-a363</div>
+                <div class="name">TIGER GOLD SMALL 
+DECORAT</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a364.png" alt="PND001-a364" class="qr" />
+                <div class="barcode">PND001-a364</div>
+                <div class="name">HANDS YUMRUK
+ GORUNUMLU
+ </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a365.png" alt="PND001-a365" class="qr" />
+                <div class="barcode">PND001-a365</div>
+                <div class="name">PEARL VASE SHAPE SMALL 
+C</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a366.png" alt="PND001-a366" class="qr" />
+                <div class="barcode">PND001-a366</div>
+                <div class="name">PEARL VASE SHAPE 
+LARGE C</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a367.png" alt="PND001-a367" class="qr" />
+                <div class="barcode">PND001-a367</div>
+                <div class="name">GORILLA BLACK 
+KITAP TUTU</div>
+            </div>
+        </div><div class="row">
+            <div class="cell">
+                <img src="qr_codes/PND001-a368.png" alt="PND001-a368" class="qr" />
+                <div class="barcode">PND001-a368</div>
+                <div class="name">MICKEY MOUSE LIGHT
+ BLUE </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a369.png" alt="PND001-a369" class="qr" />
+                <div class="barcode">PND001-a369</div>
+                <div class="name">MICKEY MOUSE WITH 
+LIGHT </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a370.png" alt="PND001-a370" class="qr" />
+                <div class="barcode">PND001-a370</div>
+                <div class="name">ASTRONAUT ON MOON WITH
+ L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a371.png" alt="PND001-a371" class="qr" />
+                <div class="barcode">PND001-a371</div>
+                <div class="name">ASTRONAUT ON MOON 
+WITH L</div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a372.png" alt="PND001-a372" class="qr" />
+                <div class="barcode">PND001-a372</div>
+                <div class="name">GREY LILAC LARGE
+ SQUARE </div>
+            </div>
+        
+            <div class="cell">
+                <img src="qr_codes/PND001-a373.png" alt="PND001-a373" class="qr" />
+                <div class="barcode">PND001-a373</div>
+                <div class="name">GREY LILAC SMALL
+ SQUARE </div>
+            </div>
+        </div></div>
+</body>
+</html>
