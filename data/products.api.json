@@ -11016,7 +11016,7 @@
         "barcode":  "PND001-a4",
         "name":  "Gümüş Dövülü  Mumluk 10x32cm",
         "image_url":  "/product_images/PND001-a4-r732.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11029,7 +11029,7 @@
         "barcode":  "PND001-a5",
         "name":  "Gümüş Dövülü Mumluk 11x12x20cm",
         "image_url":  "/product_images/PND001-a5-r733.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11042,7 +11042,7 @@
         "barcode":  "PND001-a8",
         "name":  "Gümüş 5 Parça Set 9x32cm",
         "image_url":  "/product_images/PND001-a8-r734.jpeg",
-        "unit_price":  2900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11055,7 +11055,7 @@
         "barcode":  "PND001-a9",
         "name":  "Gold Mermer Mumluk 17x32cm",
         "image_url":  "/product_images/PND001-a9-r735.jpeg",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11068,7 +11068,7 @@
         "barcode":  "PND001-a10",
         "name":  "Gold Mermer Mumluk 17x37cm",
         "image_url":  "/product_images/PND001-a10-r736.jpeg",
-        "unit_price":  3700,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11081,7 +11081,7 @@
         "barcode":  "PND001-a12",
         "name":  "BLUE EYE MAVI BEYAZ VAZO 19,4X19,4X23 CM",
         "image_url":  "/product_images/PND001-a12-r737.png",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11094,7 +11094,7 @@
         "barcode":  "PND001-a13",
         "name":  "BLUE EYE MAVI BEYAZ KARE DEKORATIF 11,2X11,2X2,6 CM (4)",
         "image_url":  "/product_images/PND001-a13-r738.png",
-        "unit_price":  550,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11107,7 +11107,7 @@
         "barcode":  "PND001-a14",
         "name":  "MILLA LACIVERT KAPAKLI BUYUK BOY VAZO 25.5X25.5X47 CM (2)",
         "image_url":  "/product_images/PND001-a14-r739.png",
-        "unit_price":  6500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11120,7 +11120,7 @@
         "barcode":  "PND001-a15",
         "name":  "MILLA LACIVERT UZUN KAPAKLI KUP 21.2X21.2X31.4 CM (4)",
         "image_url":  "/product_images/PND001-a15-r740.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11133,7 +11133,7 @@
         "barcode":  "PND001-a16",
         "name":  "MILLA LACIVERT BALKABAGI BUYUK BOY 18X18X21.5 CM (4)",
         "image_url":  "/product_images/PND001-a16-r741.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11146,7 +11146,7 @@
         "barcode":  "PND001-a17",
         "name":  "DAMAS STANDLI SIYAH BEYAZ KARELI BUYUTEC SETI 25X7.5X15.5 CM",
         "image_url":  "/product_images/PND001-a17-r742.png",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11159,7 +11159,7 @@
         "barcode":  "PND001-a18",
         "name":  "DAMAS SIYAH BEYAZ KARELI BUYUTEC SETI 10X32.5 CM",
         "image_url":  "/product_images/PND001-a18-r743.png",
-        "unit_price":  2100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11172,7 +11172,7 @@
         "barcode":  "PND001-a24",
         "name":  "Sarı Porselen Küp 60cm",
         "image_url":  "/product_images/PND001-a24-r744.jpeg",
-        "unit_price":  9500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11185,7 +11185,7 @@
         "barcode":  "PND001-a25",
         "name":  "Sarı Porselen Küp 52cm",
         "image_url":  "/product_images/PND001-a25-r745.jpeg",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11198,7 +11198,7 @@
         "barcode":  "PND001-a26",
         "name":  "Sarı starlice çift dal 50x50 yastık",
         "image_url":  "/product_images/PND001-a26-r746.jpeg",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11211,7 +11211,7 @@
         "barcode":  "PND001-a27",
         "name":  "Sarı renk blok 35x50 yastık",
         "image_url":  "/product_images/PND001-a27-r747.jpeg",
-        "unit_price":  1400,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11224,7 +11224,7 @@
         "barcode":  "PND001-a28",
         "name":  "Siyah Kelebekli Seramik Vazo 12x43cm",
         "image_url":  "/product_images/PND001-a28-r748.jpeg",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11237,7 +11237,7 @@
         "barcode":  "PND001-a29",
         "name":  "Siyah Kelebekli Seramik Vazo 15x32cm",
         "image_url":  "/product_images/PND001-a29-r749.jpeg",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11250,7 +11250,7 @@
         "barcode":  "PND001-a30",
         "name":  "Siyah Kadife Kitap Kutu 35x24x3cm",
         "image_url":  "/product_images/PND001-a30-r750.jpeg",
-        "unit_price":  750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11263,7 +11263,7 @@
         "barcode":  "PND001-a31",
         "name":  "Turuncu Kitap Kutu 35x24x3cm",
         "image_url":  "/product_images/PND001-a31-r751.jpeg",
-        "unit_price":  650,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11276,7 +11276,7 @@
         "barcode":  "PND001-a32",
         "name":  "Turuncu Kitap Kutu 30x20x5cm",
         "image_url":  "/product_images/PND001-a32-r752.jpeg",
-        "unit_price":  750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11289,7 +11289,7 @@
         "barcode":  "PND001-a33",
         "name":  "Apollo Kitap Kutu  35x24x3cm",
         "image_url":  "/product_images/PND001-a33-r753.jpeg",
-        "unit_price":  600,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11302,7 +11302,7 @@
         "barcode":  "PND001-a34",
         "name":  "Poseidon Kitap Kutu  35x24x3cm",
         "image_url":  "/product_images/PND001-a34-r754.jpeg",
-        "unit_price":  600,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11315,7 +11315,7 @@
         "barcode":  "PND001-a35",
         "name":  "Antik Gold Palmiye 3 Kollu Mumluk 24x14x38cm",
         "image_url":  "/product_images/PND001-a35-r755.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11328,7 +11328,7 @@
         "barcode":  "PND001-a36",
         "name":  "Kahverengi Gold Seramik Küp 25x45cm",
         "image_url":  "/product_images/PND001-a36-r756.jpeg",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11341,7 +11341,7 @@
         "barcode":  "PND001-a37",
         "name":  "Kahverengi Gold Seramik Küp 31x60cm",
         "image_url":  "/product_images/PND001-a37-r757.jpeg",
-        "unit_price":  9500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11354,7 +11354,7 @@
         "barcode":  "PND001-a38",
         "name":  "Kırmızı Siyah Cam Kitap Tutucu 10x12x15cm",
         "image_url":  "/product_images/PND001-a38-r758.jpeg",
-        "unit_price":  2850,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11367,7 +11367,7 @@
         "barcode":  "PND001-a40",
         "name":  "Gold Çerezlik 10x7cm",
         "image_url":  "/product_images/PND001-a40-r759.jpeg",
-        "unit_price":  880,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11380,7 +11380,7 @@
         "barcode":  "PND001-a41",
         "name":  "Gold Sosluklu Kase 35x28x10cm",
         "image_url":  "/product_images/PND001-a41-r760.jpeg",
-        "unit_price":  3880,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11393,7 +11393,7 @@
         "barcode":  "PND001-a42",
         "name":  "SMOKY 3LÜ ŞAH KÜP \nSETİ 31-26-20 CMH",
         "image_url":  "/product_images/PND001-a42-r761.jpeg",
-        "unit_price":  1750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11406,7 +11406,7 @@
         "barcode":  "PND001-a43",
         "name":  "Gri Ayaklı Dek Kase 24x20cm",
         "image_url":  "/product_images/PND001-a43-r762.jpeg",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11419,7 +11419,7 @@
         "barcode":  "PND001-a44",
         "name":  "Gümüş Diamond Vazo 26cm",
         "image_url":  "/product_images/PND001-a44-r763.jpeg",
-        "unit_price":  900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11432,7 +11432,7 @@
         "barcode":  "PND001-a45",
         "name":  "Gümüş Diamond Vazo  35cm",
         "image_url":  "/product_images/PND001-a45-r764.jpeg",
-        "unit_price":  1250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11445,7 +11445,7 @@
         "barcode":  "PND001-a48",
         "name":  "Biyeli Dik Beyaz Şapkalı Cam Abajur 46x70cm",
         "image_url":  "/product_images/PND001-a48-r765.jpeg",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11458,7 +11458,7 @@
         "barcode":  "PND001-a49",
         "name":  "Gold Camlı Metal Duvar Mumluk 74cm",
         "image_url":  "/product_images/PND001-a49-r766.jpeg",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11471,7 +11471,7 @@
         "barcode":  "PND001-a50",
         "name":  "Gmş Camlı Metal Duvar Mumluk 74cm",
         "image_url":  "/product_images/PND001-a50-r767.jpeg",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11484,7 +11484,7 @@
         "barcode":  "PND001-a51",
         "name":  "Bordo Puf 36x44cm",
         "image_url":  "/product_images/PND001-a51-r768.jpeg",
-        "unit_price":  6500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11497,7 +11497,7 @@
         "barcode":  "PND001-a52",
         "name":  "Syh Byz Des 3lü Sandık 46x34x20-40x28x17-35x23x14cm",
         "image_url":  "/product_images/PND001-a52-r769.jpeg",
-        "unit_price":  8000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11510,7 +11510,7 @@
         "barcode":  "PND001-a53",
         "name":  "İnsan Siluetli Tablo 82*62cm",
         "image_url":  "/product_images/PND001-a53-r770.jpeg",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11523,7 +11523,7 @@
         "barcode":  "PND001-a54",
         "name":  "GÜMÜŞ VAZO\n7x29cm",
         "image_url":  "/product_images/PND001-a54-r771.jpeg",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11536,7 +11536,7 @@
         "barcode":  "PND001-a55",
         "name":  "GÜMÜŞ VAZO\n12x18cm",
         "image_url":  "/product_images/PND001-a55-r772.jpeg",
-        "unit_price":  900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11549,7 +11549,7 @@
         "barcode":  "PND001-a56",
         "name":  "SİYAH GOLD 3 ÇEKMECELİ KOMODİN\n46*33*72 cm",
         "image_url":  "/product_images/PND001-a56-r773.png",
-        "unit_price":  11000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11562,7 +11562,7 @@
         "barcode":  "PND001-a58",
         "name":  "Syh Şapkalı Altın Renk Cam Abajur 36x66cm",
         "image_url":  "/product_images/PND001-a58-r774.jpeg",
-        "unit_price":  13500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11575,7 +11575,7 @@
         "barcode":  "PND001-a59",
         "name":  "Bordo Diamond Vazo 62cm",
         "image_url":  "/product_images/PND001-a59-r775.jpeg",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11588,7 +11588,7 @@
         "barcode":  "PND001-a60",
         "name":  "Ahşap Çerçeve Kelebek Dekor 60x60cm",
         "image_url":  "/product_images/PND001-a60-r776.jpeg",
-        "unit_price":  3250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11601,7 +11601,7 @@
         "barcode":  "PND001-a61",
         "name":  "Lines Tablo 85x85cm",
         "image_url":  "/product_images/PND001-a61-r777.jpeg",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11614,7 +11614,7 @@
         "barcode":  "PND001-a62",
         "name":  "Cherry 3lü Kutu 30x20cm 26x16cm 22x13cm",
         "image_url":  "/product_images/PND001-a62-r778.jpeg",
-        "unit_price":  1500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11627,7 +11627,7 @@
         "barcode":  "PND001-a63",
         "name":  "Siyah Cam Puro Küllüğü 15x3cm",
         "image_url":  null,
-        "unit_price":  2200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11640,7 +11640,7 @@
         "barcode":  "PND001-a64",
         "name":  "Gold Kelebekli 3 Ayaklı Vazo 36cm",
         "image_url":  "/product_images/PND001-a64-r780.jpeg",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11653,7 +11653,7 @@
         "barcode":  "PND001-a65",
         "name":  "SIYAH BEYAZ IC ICE GECMELI OBJE 10.16x10.16x2.5 CM",
         "image_url":  "/product_images/PND001-a65-r781.png",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11666,7 +11666,7 @@
         "barcode":  "PND001-a67",
         "name":  "BIANO SERVIS ARABASI 50X80 CM",
         "image_url":  "/product_images/PND001-a67-r782.png",
-        "unit_price":  22000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11679,7 +11679,7 @@
         "barcode":  "PND001-a68",
         "name":  "ALVA DIKDORTGEN KAHVE MASASI GOLD SIYAH CAMLI 130X70X43 CM",
         "image_url":  "/product_images/PND001-a68-r783.png",
-        "unit_price":  16000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11692,7 +11692,7 @@
         "barcode":  "PND001-a69",
         "name":  "WELLS YUVARLAK KAHVE MASASI GOLD CIFT SIYAH CAMLI 90X43 CM",
         "image_url":  "/product_images/PND001-a69-r784.png",
-        "unit_price":  17000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11705,7 +11705,7 @@
         "barcode":  "PND001-a70",
         "name":  "SASHA CIFT CAMLI KARE GOLD SEHPA 51x51x51CM",
         "image_url":  "/product_images/PND001-a70-r785.png",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11718,7 +11718,7 @@
         "barcode":  "PND001-a71",
         "name":  "BRONZ DALGALI LAMBADER 135 CM",
         "image_url":  "/product_images/PND001-a71-r786.png",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11731,7 +11731,7 @@
         "barcode":  "PND001-a72",
         "name":  "GOLD DEKOR ABAJUR 43 CM",
         "image_url":  "/product_images/PND001-a72-r787.png",
-        "unit_price":  9800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11744,7 +11744,7 @@
         "barcode":  "PND001-a73",
         "name":  "Siyah Şapkalı Masa Lambası 45x85cm",
         "image_url":  "/product_images/PND001-a73-r788.jpeg",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11757,7 +11757,7 @@
         "barcode":  "PND001-a74",
         "name":  "Siyah Şapkalı Aplik 32x26x89cm\npirinç malzeme",
         "image_url":  "/product_images/PND001-a74-r789.jpeg",
-        "unit_price":  9500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11770,7 +11770,7 @@
         "barcode":  "PND001-a75",
         "name":  "Gri Gold Resin Takı Kutusu 21x12x8cm",
         "image_url":  "/product_images/PND001-a75-r790.jpeg",
-        "unit_price":  2800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11783,7 +11783,7 @@
         "barcode":  "PND001-a76",
         "name":  "Gri Gold Resin Takı Kutusu 29x18x11cm",
         "image_url":  "/product_images/PND001-a76-r791.jpeg",
-        "unit_price":  3800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11796,7 +11796,7 @@
         "barcode":  "PND001-a77",
         "name":  "Gümüş Büyüteç 13x27cm",
         "image_url":  "/product_images/PND001-a77-r792.jpeg",
-        "unit_price":  1850,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11809,7 +11809,7 @@
         "barcode":  "PND001-a78",
         "name":  "Siyah Gümüş Mektup Açacağı ve Büyüteç 19z15x25cm",
         "image_url":  "/product_images/PND001-a78-r793.jpeg",
-        "unit_price":  2700,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11822,7 +11822,7 @@
         "barcode":  "PND001-a79",
         "name":  "Pembe sedefli seramik vazo 27x21cm",
         "image_url":  "/product_images/PND001-a79-r794.jpeg",
-        "unit_price":  3800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11835,7 +11835,7 @@
         "barcode":  "PND001-a80",
         "name":  "Krem gold çiçek des ser küp 19x48cm",
         "image_url":  "/product_images/PND001-a80-r795.jpeg",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11848,7 +11848,7 @@
         "barcode":  "PND001-a81",
         "name":  "Açık Pembe Çoklu Yapay Çiçek",
         "image_url":  "/product_images/PND001-a81-r796.jpeg",
-        "unit_price":  400,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11861,7 +11861,7 @@
         "barcode":  "PND001-a82",
         "name":  "LOUIS VUITTON \nKİTAP",
         "image_url":  "/product_images/PND001-a82-r797.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11874,7 +11874,7 @@
         "barcode":  "PND001-a83",
         "name":  "VERMER KITAP",
         "image_url":  "/product_images/PND001-a83-r798.jpeg",
-        "unit_price":  12000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11887,7 +11887,7 @@
         "barcode":  "PND001-a84",
         "name":  "CHANEL NO5 KİTAP",
         "image_url":  "/product_images/PND001-a84-r799.jpeg",
-        "unit_price":  17500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11900,7 +11900,7 @@
         "barcode":  "PND001-a85",
         "name":  "VERSACE KITAP",
         "image_url":  "/product_images/PND001-a85-r800.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11913,7 +11913,7 @@
         "barcode":  "PND001-a86",
         "name":  "PRADA CATWALK KİTAP",
         "image_url":  "/product_images/PND001-a86-r801.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11926,7 +11926,7 @@
         "barcode":  "PND001-a87",
         "name":  "JAZZ LIFE KİTAP",
         "image_url":  "/product_images/PND001-a87-r802.png",
-        "unit_price":  12000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11939,7 +11939,7 @@
         "barcode":  "PND001-a88",
         "name":  "CHANEL ROSE KİTAP",
         "image_url":  "/product_images/PND001-a88-r803.jpeg",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11952,7 +11952,7 @@
         "barcode":  "PND001-a89",
         "name":  "CHLOE\nKİTAP",
         "image_url":  "/product_images/PND001-a89-r804.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11965,7 +11965,7 @@
         "barcode":  "PND001-a90",
         "name":  "DİOR NEW LOOK",
         "image_url":  "/product_images/PND001-a90-r805.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11978,7 +11978,7 @@
         "barcode":  "PND001-a91",
         "name":  "MANOLO BLAHNIK",
         "image_url":  "/product_images/PND001-a91-r806.jpeg",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -11991,7 +11991,7 @@
         "barcode":  "PND001-a92",
         "name":  "DIOR CATWALK",
         "image_url":  "/product_images/PND001-a92-r807.png",
-        "unit_price":  18900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12004,7 +12004,7 @@
         "barcode":  "PND001-a93",
         "name":  "TOM FORD KİTAP",
         "image_url":  "/product_images/PND001-a93-r808.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12017,7 +12017,7 @@
         "barcode":  "PND001-a94",
         "name":  "DİOR KİTAP",
         "image_url":  "/product_images/PND001-a94-r809.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12030,7 +12030,7 @@
         "barcode":  "PND001-a95",
         "name":  "MARTHA STEWART\nKİTAP",
         "image_url":  "/product_images/PND001-a95-r810.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12043,7 +12043,7 @@
         "barcode":  "PND001-a96",
         "name":  "CHANEL KİTAP",
         "image_url":  "/product_images/PND001-a96-r811.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12056,7 +12056,7 @@
         "barcode":  "PND001-a97",
         "name":  "YVES SAİNTLAURENT\nKİTAP",
         "image_url":  "/product_images/PND001-a97-r812.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12069,7 +12069,7 @@
         "barcode":  "PND001-a98",
         "name":  "LOULOU\u0026YVES",
         "image_url":  "/product_images/PND001-a98-r813.jpeg",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12082,7 +12082,7 @@
         "barcode":  "PND001-a99",
         "name":  "SIYAH TASLI KAPAKLI KUTU 22X22X10",
         "image_url":  "/product_images/PND001-a99-r814.png",
-        "unit_price":  4200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12095,7 +12095,7 @@
         "barcode":  "PND001-a100",
         "name":  "GOLD BY KUS 17*14*18cm",
         "image_url":  "/product_images/PND001-a100-r815.png",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12108,7 +12108,7 @@
         "barcode":  "PND001-a101",
         "name":  "GOLD KUS 12*10*14cm",
         "image_url":  "/product_images/PND001-a101-r816.png",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12121,7 +12121,7 @@
         "barcode":  "PND001-a102",
         "name":  "GOLD 3LU ZINCIR DEKOR 21*9*12cm",
         "image_url":  "/product_images/PND001-a102-r817.png",
-        "unit_price":  1000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12134,7 +12134,7 @@
         "barcode":  "PND001-a103",
         "name":  "SILVER 3LU ZINCIR DEKOR 21*9*12cm",
         "image_url":  "/product_images/PND001-a103-r818.png",
-        "unit_price":  1000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12147,7 +12147,7 @@
         "barcode":  "PND001-a104",
         "name":  "GOLD 4LU ZINCIR DEKOR 29*10*10cm",
         "image_url":  "/product_images/PND001-a104-r819.png",
-        "unit_price":  1300,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12160,7 +12160,7 @@
         "barcode":  "PND001-a105",
         "name":  "LILA BLACK MUMLUK 6X15 CM",
         "image_url":  "/product_images/PND001-a105-r820.png",
-        "unit_price":  1480,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12173,7 +12173,7 @@
         "barcode":  "PND001-a106",
         "name":  "RED PARFUM SISESI 16 CM",
         "image_url":  "/product_images/PND001-a106-r821.png",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12186,7 +12186,7 @@
         "barcode":  "PND001-a107",
         "name":  "PINK PARFUM SISESI 13 CM",
         "image_url":  "/product_images/PND001-a107-r822.png",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12199,7 +12199,7 @@
         "barcode":  "PND001-a108",
         "name":  "ARTEMIS MOR SISE 9x13 CM",
         "image_url":  "/product_images/PND001-a108-r823.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12212,7 +12212,7 @@
         "barcode":  "PND001-a109",
         "name":  "ARTEMIS MOR BY. SISE 12x16 CM",
         "image_url":  "/product_images/PND001-a109-r824.png",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12225,7 +12225,7 @@
         "barcode":  "PND001-a110",
         "name":  "NIS KIRMIZI MOR BY. SISE 14X17 CM",
         "image_url":  "/product_images/PND001-a110-r825.png",
-        "unit_price":  2800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12238,7 +12238,7 @@
         "barcode":  "PND001-a111",
         "name":  "NIS KIRMIZI MOR SISE 11X13 CM",
         "image_url":  "/product_images/PND001-a111-r826.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12303,7 +12303,7 @@
         "barcode":  "PND001-a116",
         "name":  "JHONATEN ADLER\nDRESUAR",
         "image_url":  "/product_images/PND001-a116-r831.jpeg",
-        "unit_price":  38000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12316,7 +12316,7 @@
         "barcode":  "PND001-a117",
         "name":  "HARVEST SERISI DUVAR LAMBASI 47X24X53 CM",
         "image_url":  "/product_images/PND001-a117-r832.png",
-        "unit_price":  17500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12329,7 +12329,7 @@
         "barcode":  "PND001-a118",
         "name":  "HARVEST SERISI \nMASA LAMBASI\n 28X45X85 CM",
         "image_url":  "/product_images/PND001-a118-r833.png",
-        "unit_price":  22500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12342,7 +12342,7 @@
         "barcode":  "PND001-a119",
         "name":  "HARVEST SERISI \n MASA",
         "image_url":  "/product_images/PND001-a119-r834.png",
-        "unit_price":  85000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12355,7 +12355,7 @@
         "barcode":  "PND001-a120",
         "name":  "HARVEST SERISI \nKAHVE MASASI \n80X80X55 CM",
         "image_url":  "/product_images/PND001-a120-r835.png",
-        "unit_price":  40000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12368,7 +12368,7 @@
         "barcode":  "PND001-a121",
         "name":  "HARVEST \nSERISI KONSOL \n120X45X80 CM",
         "image_url":  "/product_images/PND001-a121-r836.png",
-        "unit_price":  65000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12381,7 +12381,7 @@
         "barcode":  "PND001-a122",
         "name":  "Amber Siyah Cam Mumluk 10x10x39cm",
         "image_url":  "/product_images/PND001-a122-r837.jpeg",
-        "unit_price":  3200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12394,7 +12394,7 @@
         "barcode":  "PND001-a123",
         "name":  "Amber Siyah Cam Mumluk 10x10x49cm",
         "image_url":  "/product_images/PND001-a123-r838.jpeg",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12407,7 +12407,7 @@
         "barcode":  "PND001-a124",
         "name":  "Yeşil Cam Dekor Şişe 11x14",
         "image_url":  "/product_images/PND001-a124-r839.jpeg",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12420,7 +12420,7 @@
         "barcode":  "PND001-a125",
         "name":  "BLUE EYE MAVI \nBEYAZ KAPAKLI VAZO",
         "image_url":  "/product_images/PND001-a125-r840.png",
-        "unit_price":  2900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12433,7 +12433,7 @@
         "barcode":  "PND001-a126",
         "name":  "BLUE EYE\n MAVI BEYAZ YAPRAK\nDETAYLI KAPAKLI VAZO\n 11,2X11,2X24,8 CM",
         "image_url":  "/product_images/PND001-a126-r841.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12446,7 +12446,7 @@
         "barcode":  "PND001-a127",
         "name":  "Gold Krem Cam Vazo 28x53cm",
         "image_url":  "/product_images/PND001-a127-r842.jpeg",
-        "unit_price":  6900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12459,7 +12459,7 @@
         "barcode":  "PND001-a128",
         "name":  "Gümüş Des Mumluk 10x38cm",
         "image_url":  "/product_images/PND001-a128-r843.jpeg",
-        "unit_price":  1890,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12472,7 +12472,7 @@
         "barcode":  "PND001-a129",
         "name":  "Mavi Puf 40x45cm",
         "image_url":  "/product_images/PND001-a129-r844.jpeg",
-        "unit_price":  4900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12485,7 +12485,7 @@
         "barcode":  "PND001-a130",
         "name":  "Bordo Gold Tepsi 51x30x8cm",
         "image_url":  "/product_images/PND001-a130-r845.jpeg",
-        "unit_price":  3300,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12498,7 +12498,7 @@
         "barcode":  "PND001-a131",
         "name":  "Pembe Home Kitap Kutu 30x21x7cm",
         "image_url":  "/product_images/PND001-a131-r846.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12511,7 +12511,7 @@
         "barcode":  "PND001-a132",
         "name":  "Mavi Decoration Kitap Kutu 33x22x7cm",
         "image_url":  "/product_images/PND001-a132-r847.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12524,7 +12524,7 @@
         "barcode":  "PND001-a133",
         "name":  "Silver Aslanlı Seramik Küp 82cm",
         "image_url":  "/product_images/PND001-a133-r848.jpeg",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12537,7 +12537,7 @@
         "barcode":  "PND001-a134",
         "name":  "Açık Pembe 2li Yapay Orkide 58cm",
         "image_url":  "/product_images/PND001-a134-r849.jpeg",
-        "unit_price":  1700,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12550,7 +12550,7 @@
         "barcode":  "PND001-a135",
         "name":  "Kahverengi Design Kitap Kutu 30x21x7cm",
         "image_url":  "/product_images/PND001-a135-r850.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12563,7 +12563,7 @@
         "barcode":  "PND001-a136",
         "name":  "Yeşil Cam Dekor Şişe 13x17",
         "image_url":  "/product_images/PND001-a136-r851.jpeg",
-        "unit_price":  2800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12576,7 +12576,7 @@
         "barcode":  "PND001-a137",
         "name":  "Kırmızı Cam Dekor Şişe 7x13",
         "image_url":  "/product_images/PND001-a137-r852.jpeg",
-        "unit_price":  1750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12589,7 +12589,7 @@
         "barcode":  "PND001-a138",
         "name":  "Clear Yeşil Cam Vazo 8x16",
         "image_url":  null,
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12602,7 +12602,7 @@
         "barcode":  "PND001-a139",
         "name":  "Marrakech Kitap Kutusu 30x21x7cm",
         "image_url":  "/product_images/PND001-a139-r854.jpeg",
-        "unit_price":  900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12615,7 +12615,7 @@
         "barcode":  "PND001-a140",
         "name":  "Marrakech Kitap Kutusu 26x17x5cm",
         "image_url":  "/product_images/PND001-a140-r855.jpeg",
-        "unit_price":  700,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12628,7 +12628,7 @@
         "barcode":  "PND001-a141",
         "name":  "Gold Kırmızı Top Dekor Kase 17x12cm",
         "image_url":  "/product_images/PND001-a141-r856.jpeg",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12641,7 +12641,7 @@
         "barcode":  "PND001-a142",
         "name":  "Gümüş Mumluk 10x31cm",
         "image_url":  "/product_images/PND001-a142-r857.jpeg",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12654,7 +12654,7 @@
         "barcode":  "PND001-a143",
         "name":  "Gümüş Mumluk 10x46cm",
         "image_url":  "/product_images/PND001-a143-r858.jpeg",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12667,7 +12667,7 @@
         "barcode":  "PND001-a144",
         "name":  "KIRMIZI EKOSE KUMASLI\n YUVARLAK SANDIK",
         "image_url":  null,
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12680,7 +12680,7 @@
         "barcode":  "PND001-a145",
         "name":  "KOÇAK 160 CM",
         "image_url":  "/product_images/PND001-a145-r860.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12693,7 +12693,7 @@
         "barcode":  "PND001-a146",
         "name":  "KOÇAK YAPAY ÇİÇEKLİ \nSTARLİÇE",
         "image_url":  "/product_images/PND001-a146-r861.jpeg",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12706,7 +12706,7 @@
         "barcode":  "PND001-a147",
         "name":  "ASC ÇİÇEK",
         "image_url":  "/product_images/PND001-a147-r862.jpeg",
-        "unit_price":  9000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12719,7 +12719,7 @@
         "barcode":  "PND001-a148",
         "name":  "ARUN MOR PUF",
         "image_url":  "/product_images/PND001-a148-r863.png",
-        "unit_price":  6500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12732,7 +12732,7 @@
         "barcode":  "PND001-a149",
         "name":  "PEMBE BERJER",
         "image_url":  "/product_images/PND001-a149-r864.jpeg",
-        "unit_price":  29000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12745,7 +12745,7 @@
         "barcode":  "PND001-a150",
         "name":  "VENEDİK AYNA",
         "image_url":  "/product_images/PND001-a150-r865.jpeg",
-        "unit_price":  25000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12758,7 +12758,7 @@
         "barcode":  "PND001-a151",
         "name":  "MAVİ SANDALYE",
         "image_url":  "/product_images/PND001-a151-r866.jpeg",
-        "unit_price":  14000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12771,7 +12771,7 @@
         "barcode":  "PND001-a152",
         "name":  "GOLD SANDALYE \nKOLTUK",
         "image_url":  "/product_images/PND001-a152-r867.jpeg",
-        "unit_price":  15000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12784,7 +12784,7 @@
         "barcode":  "PND001-a153",
         "name":  "PASLANMAZ MASA",
         "image_url":  "/product_images/PND001-a153-r868.jpeg",
-        "unit_price":  275000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12797,7 +12797,7 @@
         "barcode":  "PND001-a154",
         "name":  "PASLANMAZ SEHPA",
         "image_url":  "/product_images/PND001-a154-r869.jpeg",
-        "unit_price":  90000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12810,7 +12810,7 @@
         "barcode":  "PND001-a155",
         "name":  "PASLANMAZ YAN SEHPA",
         "image_url":  "/product_images/PND001-a155-r870.jpeg",
-        "unit_price":  35000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12823,7 +12823,7 @@
         "barcode":  "PND001-a156",
         "name":  "SEDER PİRİNÇ \nKAPAKLI KASE",
         "image_url":  "/product_images/PND001-a156-r871.jpeg",
-        "unit_price":  3300,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12836,7 +12836,7 @@
         "barcode":  "PND001-a157",
         "name":  "Dresuar\nGold titanyum, siyah parlak",
         "image_url":  "/product_images/PND001-a157-r872.png",
-        "unit_price":  125000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12849,7 +12849,7 @@
         "barcode":  "PND001-a158",
         "name":  "Chair\nGold titanyum",
         "image_url":  "/product_images/PND001-a158-r873.png",
-        "unit_price":  29000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12862,7 +12862,7 @@
         "barcode":  "PND001-a159",
         "name":  "Chair\nGold titanyum",
         "image_url":  "/product_images/PND001-a159-r874.jpeg",
-        "unit_price":  19000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12875,7 +12875,7 @@
         "barcode":  "PND001-a160",
         "name":  "Middle Table\nGold titanyum",
         "image_url":  "/product_images/PND001-a160-r875.jpeg",
-        "unit_price":  85000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12888,7 +12888,7 @@
         "barcode":  "PND001-a161",
         "name":  "JOKER BY VAZO 31*20*37cm",
         "image_url":  "/product_images/PND001-a161-r876.png",
-        "unit_price":  4200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12901,7 +12901,7 @@
         "barcode":  "PND001-a162",
         "name":  "VANESSA BY VAZO 35 CM",
         "image_url":  "/product_images/PND001-a162-r877.png",
-        "unit_price":  2980,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12914,7 +12914,7 @@
         "barcode":  "PND001-a163",
         "name":  "VANESSA VAZO 25 CM",
         "image_url":  "/product_images/PND001-a163-r878.png",
-        "unit_price":  2450,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12927,7 +12927,7 @@
         "barcode":  "PND001-a164",
         "name":  "A21-59 / A21-61 2Lİ KÜP",
         "image_url":  "/product_images/PND001-a164-r879.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12940,7 +12940,7 @@
         "barcode":  "PND001-a165",
         "name":  "YG1216 BEYAZ \nMUMLUK KÇK",
         "image_url":  "/product_images/PND001-a165-r880.png",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12953,7 +12953,7 @@
         "barcode":  "PND001-a166",
         "name":  "YG1215 BEYAZ\nMUMLUK BYK",
         "image_url":  "/product_images/PND001-a166-r881.png",
-        "unit_price":  1400,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12966,7 +12966,7 @@
         "barcode":  "PND001-a167",
         "name":  "YG1219 SİYAH \nMUMLUK KÇK",
         "image_url":  "/product_images/PND001-a167-r882.png",
-        "unit_price":  1100,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12979,7 +12979,7 @@
         "barcode":  "PND001-a168",
         "name":  "JY836B SİYAH \nVAZO 22 CM",
         "image_url":  "/product_images/PND001-a168-r883.png",
-        "unit_price":  650,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -12992,7 +12992,7 @@
         "barcode":  "PND001-a169",
         "name":  "XT576 2LÜ \nOBJE (GOLD-KROM)",
         "image_url":  "/product_images/PND001-a169-r884.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13005,7 +13005,7 @@
         "barcode":  "PND001-a170",
         "name":  "SK-89 /SK-90\n /SK-91 3LÜ OBJE",
         "image_url":  "/product_images/PND001-a170-r885.png",
-        "unit_price":  3900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13018,7 +13018,7 @@
         "barcode":  "PND001-a171",
         "name":  "8802B-8802C 2Lİ \nVAZO TURUNCU",
         "image_url":  "/product_images/PND001-a171-r886.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13031,7 +13031,7 @@
         "barcode":  "PND001-a172",
         "name":  "Beyaz Gold Seramik Küp 52 cm",
         "image_url":  "/product_images/PND001-a172-r887.jpeg",
-        "unit_price":  7800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13044,7 +13044,7 @@
         "barcode":  "PND001-a173",
         "name":  "Beyaz Gold Seramik Küp 37cm",
         "image_url":  "/product_images/PND001-a173-r888.jpeg",
-        "unit_price":  6900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13057,7 +13057,7 @@
         "barcode":  "PND001-a174",
         "name":  "EVZA DEKORATİF MERMER\n DİSK GOLD SİYAH 8x28x50 CM",
         "image_url":  "/product_images/PND001-a174-r889.png",
-        "unit_price":  2850,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13070,7 +13070,7 @@
         "barcode":  "PND001-a175",
         "name":  "EVZA DİKDÖRTGEN \nMERMER KAİDELİ \nOK ATAN ADAM 8*17.5*13.5 CM",
         "image_url":  "/product_images/PND001-a175-r890.png",
-        "unit_price":  1700,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13083,7 +13083,7 @@
         "barcode":  "PND001-a176",
         "name":  "SETA ELITE DECO PLANET \nBEYAZ MUMLUK 14*6*9CM",
         "image_url":  "/product_images/PND001-a176-r891.png",
-        "unit_price":  800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13096,7 +13096,7 @@
         "barcode":  "PND001-a177",
         "name":  "SETA ELITE DECO PLANET \nSİYAH MUMLUK 14*6*9CM",
         "image_url":  "/product_images/PND001-a177-r892.png",
-        "unit_price":  800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13109,7 +13109,7 @@
         "barcode":  "PND001-a178",
         "name":  "SETA ELITE DECO PLANET\n SİYAH KAPAKLI DEKOR 16*16*23CM",
         "image_url":  "/product_images/PND001-a178-r893.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13122,7 +13122,7 @@
         "barcode":  "PND001-a179",
         "name":  "HOME-10 MERMER\n KURE OBJE - BUYUK",
         "image_url":  "/product_images/PND001-a179-r894.png",
-        "unit_price":  1600,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13135,7 +13135,7 @@
         "barcode":  "PND001-a180",
         "name":  "SEFFAF KÜRELİ GOLD \n6 LI CAY KASIGI SETİ 12 cm",
         "image_url":  null,
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13148,7 +13148,7 @@
         "barcode":  "PND001-a181",
         "name":  "White Birds Tablo 95X125",
         "image_url":  "/product_images/PND001-a181-r896.jpeg",
-        "unit_price":  11500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13161,7 +13161,7 @@
         "barcode":  "PND001-a182",
         "name":  "KAFES KITAP AYRACI SILVER 12.7X10.1X20.3 CM",
         "image_url":  "/product_images/PND001-a182-r897.png",
-        "unit_price":  2900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13174,7 +13174,7 @@
         "barcode":  "PND001-a183",
         "name":  "Alexa Turuncu Bordürlü 50x50 yastık",
         "image_url":  "/product_images/PND001-a183-r898.jpeg",
-        "unit_price":  1850,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13187,7 +13187,7 @@
         "barcode":  "PND001-a184",
         "name":  "Alexa Mor Bordürlü 50x50 yastık",
         "image_url":  "/product_images/PND001-a184-r899.jpeg",
-        "unit_price":  1850,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13200,7 +13200,7 @@
         "barcode":  "PND001-a185",
         "name":  "Beyaz 3lü Yapay Orkide 65cm",
         "image_url":  "/product_images/PND001-a185-r900.jpeg",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13213,7 +13213,7 @@
         "barcode":  "PND001-a186",
         "name":  "Beyaz 2li Yapay Orkide 58cm",
         "image_url":  "/product_images/PND001-a186-r901.jpeg",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13226,7 +13226,7 @@
         "barcode":  "PND001-a187",
         "name":  "Turuncu 3lü Yapay Orkide 65cm",
         "image_url":  "/product_images/PND001-a187-r902.jpeg",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13239,7 +13239,7 @@
         "barcode":  "PND001-a188",
         "name":  "Turuncu Çoklu Yapay Orkide 82cm",
         "image_url":  "/product_images/PND001-a188-r903.jpeg",
-        "unit_price":  6500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13252,7 +13252,7 @@
         "barcode":  "PND001-a189",
         "name":  "Beyaz ÇokluYapay Orkide 85cm",
         "image_url":  "/product_images/PND001-a189-r904.jpeg",
-        "unit_price":  6500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13265,7 +13265,7 @@
         "barcode":  "PND001-a190",
         "name":  "Turuncu 2li Yapay Orkide 53cm",
         "image_url":  "/product_images/PND001-a190-r905.jpeg",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13278,7 +13278,7 @@
         "barcode":  "PND001-a191",
         "name":  "Beyaz Sarkan Yapay Orkide 33cm",
         "image_url":  "/product_images/PND001-a191-r906.jpeg",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13291,7 +13291,7 @@
         "barcode":  "PND001-a192",
         "name":  "Turuncu Sarkan Yapay Orkide 33cm",
         "image_url":  "/product_images/PND001-a192-r907.jpeg",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13304,7 +13304,7 @@
         "barcode":  "PND001-a193",
         "name":  "Yapay Onion Bitkisi 90cm",
         "image_url":  "/product_images/PND001-a193-r908.jpeg",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13317,7 +13317,7 @@
         "barcode":  "PND001-a194",
         "name":  "SIYAH BEYAZ AT DESENLI KAPAKLI VAZO KUCUK BOY21,5x25 CM",
         "image_url":  "/product_images/PND001-a194-r909.png",
-        "unit_price":  15000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13330,7 +13330,7 @@
         "barcode":  "PND001-a195",
         "name":  "AT DESENLI TURUNCU \nRENK KAPAKLI VAZO \nBUYUK BOY26x30 CM",
         "image_url":  "/product_images/PND001-a195-r910.png",
-        "unit_price":  19000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13343,7 +13343,7 @@
         "barcode":  "PND001-a196",
         "name":  "SIYAH BEYAZ \nAT DESENLI \nUZUN VAZO \n27X82 CM",
         "image_url":  "/product_images/PND001-a196-r911.png",
-        "unit_price":  32000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13356,7 +13356,7 @@
         "barcode":  "PND001-a197",
         "name":  "SIYAH BEYAZ\n AT DESENLI\n INCE AGIZLI VAZO\n KUCUKBOY 22X87 CM",
         "image_url":  "/product_images/PND001-a197-r912.png",
-        "unit_price":  275000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13369,7 +13369,7 @@
         "barcode":  "PND001-a198",
         "name":  "BONE RESIN BEYAZ \nKARE KUTU \n15X15X8 CM",
         "image_url":  "/product_images/PND001-a198-r913.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13382,7 +13382,7 @@
         "barcode":  "PND001-a199",
         "name":  "BONE RESIN BEYAZ \nDIKDORTGEN KUTU\n 23X15X8 CM",
         "image_url":  "/product_images/PND001-a199-r914.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13395,7 +13395,7 @@
         "barcode":  "PND001-a200",
         "name":  "FROG PEMBE DEKOR \n28X21X72 CM",
         "image_url":  "/product_images/PND001-a200-r915.png",
-        "unit_price":  22000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13408,7 +13408,7 @@
         "barcode":  "PND001-a201",
         "name":  "KARL TIRED \nPEMBE DEKOR\n 14X15X13 CM",
         "image_url":  "/product_images/PND001-a201-r916.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13421,7 +13421,7 @@
         "barcode":  "PND001-a202",
         "name":  "KARL TIRED KIRMIZI DEKOR 14X15X13 CM",
         "image_url":  "/product_images/PND001-a202-r917.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13434,7 +13434,7 @@
         "barcode":  "PND001-a203",
         "name":  "KARL TIRED \nMAVİ DEKOR\n 14X15X13 CM",
         "image_url":  "/product_images/PND001-a203-r918.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13447,7 +13447,7 @@
         "barcode":  "PND001-a204",
         "name":  "MINNIE MOUSE \nGOLD DEKOR \n18X11X29 CM",
         "image_url":  "/product_images/PND001-a204-r919.png",
-        "unit_price":  23347.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13460,7 +13460,7 @@
         "barcode":  "PND001-a205",
         "name":  "MINNIE MOUSE \nGOLD DEKOR \n18X11X29 CM",
         "image_url":  null,
-        "unit_price":  23347.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13473,7 +13473,7 @@
         "barcode":  "PND001-a206",
         "name":  "MINNIE MOUSE SILVER DEKOR 18X11X29 CM",
         "image_url":  null,
-        "unit_price":  23347.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13486,7 +13486,7 @@
         "barcode":  "PND001-a207",
         "name":  "MICKEY MOUSE MAVI DEKOR 18X11X29 CM",
         "image_url":  "/product_images/PND001-a207-r922.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13499,7 +13499,7 @@
         "barcode":  "PND001-a208",
         "name":  "MICKEY MOUSE\n BLACK GOLD DEKOR 18X11X29 CM",
         "image_url":  "/product_images/PND001-a208-r923.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13512,7 +13512,7 @@
         "barcode":  "PND001-a209",
         "name":  "MICKEY MOUSE\n GOLD DEKOR\n 18X11X29 CM",
         "image_url":  "/product_images/PND001-a209-r924.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13525,7 +13525,7 @@
         "barcode":  "PND001-a210",
         "name":  "MICKEY MOUSE \nWHITE GOLD DEKOR \n18X11X29 CM",
         "image_url":  "/product_images/PND001-a210-r925.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13538,7 +13538,7 @@
         "barcode":  "PND001-a211",
         "name":  "KARL WITH TOY \nGOLD DEKOR\n 13X8X30 CM",
         "image_url":  "/product_images/PND001-a211-r926.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13551,7 +13551,7 @@
         "barcode":  "PND001-a212",
         "name":  "KARL WITH TOY \nMAVİ DEKOR\n 13X8X30 CM",
         "image_url":  "/product_images/PND001-a212-r927.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13564,7 +13564,7 @@
         "barcode":  "PND001-a213",
         "name":  "KARL WITH TOY \nKROM DEKOR\n 13X8X30 CM",
         "image_url":  "/product_images/PND001-a213-r928.png",
-        "unit_price":  21592.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13577,7 +13577,7 @@
         "barcode":  "PND001-a214",
         "name":  "ANITAS GOLD DETAYLI \nKULPLU DEKORATIF \n23,8X11X21,5 CM",
         "image_url":  "/product_images/PND001-a214-r929.png",
-        "unit_price":  2900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13590,7 +13590,7 @@
         "barcode":  "PND001-a215",
         "name":  "VIPASSI 27 CM\n MAT BEYAZ \nBUDDHA VAZO",
         "image_url":  "/product_images/PND001-a215-r930.png",
-        "unit_price":  2200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13603,7 +13603,7 @@
         "barcode":  "PND001-a216",
         "name":  "VIVALLI 35.6 CM\n MAT BEYAZ \nBUDDHA SURATI VAZO",
         "image_url":  "/product_images/PND001-a216-r931.png",
-        "unit_price":  2900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13616,7 +13616,7 @@
         "barcode":  "PND001-a217",
         "name":  "BEAR BUYUK \nGOLD\n DEKOR \n42X28X51 CM",
         "image_url":  "/product_images/PND001-a217-r932.png",
-        "unit_price":  10000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13629,7 +13629,7 @@
         "barcode":  "PND001-a218",
         "name":  "BEAR KUCUK\n GOLD DEKOR\n 27X22X36 CM",
         "image_url":  "/product_images/PND001-a218-r933.png",
-        "unit_price":  7000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13642,7 +13642,7 @@
         "barcode":  "PND001-a219",
         "name":  "SMURF DARK BLUE \nWHITE DECOR \n26X20X39 CM",
         "image_url":  "/product_images/PND001-a219-r934.png",
-        "unit_price":  7900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13655,7 +13655,7 @@
         "barcode":  "PND001-a221",
         "name":  "ASTRO KARL \nGOLD DEKOR \n12X11X28 CM",
         "image_url":  "/product_images/PND001-a221-r935.png",
-        "unit_price":  17992.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13668,7 +13668,7 @@
         "barcode":  "PND001-a222",
         "name":  "ASTRO GIRL \nGREEN SMALL \nDECOR 33 CM",
         "image_url":  "/product_images/PND001-a222-r936.png",
-        "unit_price":  6900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13681,7 +13681,7 @@
         "barcode":  "PND001-a223",
         "name":  "MICKEY SITTING CLEAR \nRESIN BLUE DECOR\n23X21X22 CM",
         "image_url":  "/product_images/PND001-a223-r937.png",
-        "unit_price":  5350,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13694,7 +13694,7 @@
         "barcode":  "PND001-a224",
         "name":  "MICKEY SITTING \nCLEAR RESIN SMOKE\n DECOR23X21X22 CM",
         "image_url":  "/product_images/PND001-a224-r938.png",
-        "unit_price":  4350,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13707,7 +13707,7 @@
         "barcode":  "PND001-a225",
         "name":  "RABBIT CLEAR RESIN GOLD DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a225-r939.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13720,7 +13720,7 @@
         "barcode":  "PND001-a226",
         "name":  "RABBIT CLEAR RESIN GREEN DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a226-r940.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13733,7 +13733,7 @@
         "barcode":  "PND001-a227",
         "name":  "RABBIT CLEAR RESIN BLUE DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a227-r941.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13746,7 +13746,7 @@
         "barcode":  "PND001-a228",
         "name":  "MICKEY SITTING CLEAR RESIN\nORANGE DECOR\n23X21X22 CM",
         "image_url":  "/product_images/PND001-a228-r942.png",
-        "unit_price":  13372.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13759,7 +13759,7 @@
         "barcode":  "PND001-a229",
         "name":  "THINKING KARL TURUNCU DEKOR 19X15,5X27 CM",
         "image_url":  "/product_images/PND001-a229-r943.png",
-        "unit_price":  23392.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13772,7 +13772,7 @@
         "barcode":  "PND001-a230",
         "name":  "THINKING KARL INK COLOR DEKOR 19X15,5X27 CM",
         "image_url":  "/product_images/PND001-a230-r944.png",
-        "unit_price":  23392.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13785,7 +13785,7 @@
         "barcode":  "PND001-a231",
         "name":  "BEAR CLEAR RESIN DARK GREEN DECOR 25 CM",
         "image_url":  "/product_images/PND001-a231-r945.png",
-        "unit_price":  17272.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13798,7 +13798,7 @@
         "barcode":  "PND001-a232",
         "name":  "BEAR CLEAR RESIN GOLD FOIL DECOR 25 CM",
         "image_url":  "/product_images/PND001-a232-r946.png",
-        "unit_price":  17272.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13811,7 +13811,7 @@
         "barcode":  "PND001-a233",
         "name":  "BEAR CLEAR RESIN BLUE DECOR 25 CM",
         "image_url":  "/product_images/PND001-a233-r947.png",
-        "unit_price":  17272.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13824,7 +13824,7 @@
         "barcode":  "PND001-a234",
         "name":  "BEAR SERVING \nCLEAR RESIN BLUE\n 18X18X30 CM",
         "image_url":  "/product_images/PND001-a234-r948.png",
-        "unit_price":  16500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13837,7 +13837,7 @@
         "barcode":  "PND001-a235",
         "name":  "BEAR SERVING CLEAR RESIN SMOKE 18X18X30 CM",
         "image_url":  "/product_images/PND001-a235-r949.png",
-        "unit_price":  16500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13850,7 +13850,7 @@
         "barcode":  "PND001-a236",
         "name":  "SERVING BEAR BLUE ROSE 18X15X22 CM",
         "image_url":  "/product_images/PND001-a236-r950.png",
-        "unit_price":  9375,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13863,7 +13863,7 @@
         "barcode":  "PND001-a237",
         "name":  "SERVING BEAR BLUE SILVER 18X15X22 CM",
         "image_url":  "/product_images/PND001-a237-r951.png",
-        "unit_price":  9375,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13876,7 +13876,7 @@
         "barcode":  "PND001-a238",
         "name":  "SERVING BEAR SILVER GREEN 18X15X22 CM",
         "image_url":  "/product_images/PND001-a238-r952.png",
-        "unit_price":  9375,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13889,7 +13889,7 @@
         "barcode":  "PND001-a239",
         "name":  "SERVING BEAR SILVER PINK 18X15X22 CM",
         "image_url":  "/product_images/PND001-a239-r953.png",
-        "unit_price":  9375,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13902,7 +13902,7 @@
         "barcode":  "PND001-a240",
         "name":  "MOUSE CLEAR RESIN BLUE DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a240-r954.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13915,7 +13915,7 @@
         "barcode":  "PND001-a241",
         "name":  "MOUSE CLEAR RESIN GOLD DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a241-r955.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13928,7 +13928,7 @@
         "barcode":  "PND001-a242",
         "name":  "MOUSE CLEAR RESIN GREEN DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a242-r956.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13941,7 +13941,7 @@
         "barcode":  "PND001-a243",
         "name":  "MOUSE CLEAR RESIN SMOKE DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a243-r957.png",
-        "unit_price":  20250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13954,7 +13954,7 @@
         "barcode":  "PND001-a244",
         "name":  "GORILLA \n20,5X19,5X30,5 CM",
         "image_url":  null,
-        "unit_price":  17250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13967,7 +13967,7 @@
         "barcode":  "PND001-a245",
         "name":  "BALLOON DOG \n40X21X41 CM",
         "image_url":  "/product_images/PND001-a245-r959.png",
-        "unit_price":  13000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13980,7 +13980,7 @@
         "barcode":  "PND001-a246",
         "name":  "CHIHUAHUA \n27X21X41 CM",
         "image_url":  "/product_images/PND001-a246-r960.png",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -13993,7 +13993,7 @@
         "barcode":  "PND001-a247",
         "name":  "RABBIT THINKING \nSILVER DEKOR \n11X12X19 CM",
         "image_url":  "/product_images/PND001-a247-r961.png",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14006,7 +14006,7 @@
         "barcode":  "PND001-a248",
         "name":  "RABBIT THINKING CLEAR RESIN GOLD DECOR 11X10X18,5 CM",
         "image_url":  "/product_images/PND001-a248-r962.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14019,7 +14019,7 @@
         "barcode":  "PND001-a249",
         "name":  "RABBIT SITTING CLEAR RESIN PINK DECOR13X13,5X24,5 CM",
         "image_url":  "/product_images/PND001-a249-r963.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14032,7 +14032,7 @@
         "barcode":  "PND001-a250",
         "name":  "RABBIT SITTING CLEAR RESIN GOLD DECOR13X13,5X24,5 CM",
         "image_url":  "/product_images/PND001-a250-r964.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14045,7 +14045,7 @@
         "barcode":  "PND001-a251",
         "name":  "ASTRONAUT SERVING \nCLEAR RESIN BLUE \n15X14X17CM",
         "image_url":  "/product_images/PND001-a251-r965.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14058,7 +14058,7 @@
         "barcode":  "PND001-a252",
         "name":  "ASTRONAUT SERVING \nCLEAR RESIN GOLD \n15X14X17CM",
         "image_url":  "/product_images/PND001-a252-r966.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14071,7 +14071,7 @@
         "barcode":  "PND001-a253",
         "name":  "ASTRONAUT SERVING\n CLEAR RESIN GREEN \n15X14X17CM",
         "image_url":  "/product_images/PND001-a253-r967.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14084,7 +14084,7 @@
         "barcode":  "PND001-a254",
         "name":  "ASTRONAUT SERVING \nCLEAR RESIN SMOKE GREY\n15X14X17 CM",
         "image_url":  "/product_images/PND001-a254-r968.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14097,7 +14097,7 @@
         "barcode":  "PND001-a255",
         "name":  "PIKACHU BLACK\n DECOR \n20X18X32 CM",
         "image_url":  "/product_images/PND001-a255-r969.png",
-        "unit_price":  16500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14110,7 +14110,7 @@
         "barcode":  "PND001-a256",
         "name":  "PIKACHU YELLOW\n DECOR 20X18X32 CM",
         "image_url":  "/product_images/PND001-a256-r970.png",
-        "unit_price":  16500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14123,7 +14123,7 @@
         "barcode":  "PND001-a257",
         "name":  "CHARM SILVER \nKUTU DIKDORTGEN \nBUYUK 29,2x19x16,5 CM",
         "image_url":  "/product_images/PND001-a257-r971.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14136,7 +14136,7 @@
         "barcode":  "PND001-a258",
         "name":  "JOYCE SEFFAF ORTA BOY\n VAZO 6X6X16 CM",
         "image_url":  "/product_images/PND001-a258-r972.png",
-        "unit_price":  10800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14149,7 +14149,7 @@
         "barcode":  "PND001-a259",
         "name":  "JOYCE SEFFAF KUCUK\n BOY VAZO 5X5X11 CM",
         "image_url":  "/product_images/PND001-a259-r973.png",
-        "unit_price":  10800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14162,7 +14162,7 @@
         "barcode":  "PND001-a260",
         "name":  "POSITE SIYAH \nBUYUK BOY \nOBJE 8X8X34 CM",
         "image_url":  "/product_images/PND001-a260-r974.png",
-        "unit_price":  25252.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14175,7 +14175,7 @@
         "barcode":  "PND001-a261",
         "name":  "POSITE SIYAH \nKUCUK BOY OBJE\n 7X7X30 CM",
         "image_url":  "/product_images/PND001-a261-r975.png",
-        "unit_price":  21750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14188,7 +14188,7 @@
         "barcode":  "PND001-a262",
         "name":  "PERCEIVE GUMUS ALTIN \nRENK KARE ORTA SEHPA",
         "image_url":  "/product_images/PND001-a262-r976.png",
-        "unit_price":  38400,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14201,7 +14201,7 @@
         "barcode":  "PND001-a263",
         "name":  "DECORA DIKDORTGEN \nKAHVE MASASI \n130X80X45 CM",
         "image_url":  "/product_images/PND001-a263-r977.png",
-        "unit_price":  38400,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14214,7 +14214,7 @@
         "barcode":  "PND001-a264",
         "name":  "DECORA KARE \nYAN SEHPA\n 50X50X53 CM",
         "image_url":  "/product_images/PND001-a264-r978.png",
-        "unit_price":  19200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14227,7 +14227,7 @@
         "barcode":  "PND001-a265",
         "name":  "DECORA DRESUAR\n130X40X80 CM",
         "image_url":  "/product_images/PND001-a265-r979.png",
-        "unit_price":  57600,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14240,7 +14240,7 @@
         "barcode":  "PND001-a266",
         "name":  "SHAYA GOLD SILVER \nKONSOL\n 120X40X80 CM",
         "image_url":  "/product_images/PND001-a266-r980.png",
-        "unit_price":  97500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14253,7 +14253,7 @@
         "barcode":  "PND001-a267",
         "name":  "KOLTUK ARASI SEHPA",
         "image_url":  "/product_images/PND001-a267-r981.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14266,7 +14266,7 @@
         "barcode":  "PND001-a268",
         "name":  "2\u0027li Piemonte Sehpa seti",
         "image_url":  "/product_images/PND001-a268-r982.png",
-        "unit_price":  78000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14279,7 +14279,7 @@
         "barcode":  "PND001-a269",
         "name":  "ROYALE SIYAH \nSURAT VAZO \n30X30X18 CM",
         "image_url":  "/product_images/PND001-a269-r983.png",
-        "unit_price":  18750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14292,7 +14292,7 @@
         "barcode":  "PND001-a270",
         "name":  "CACTUS SMALL CANDLE \nSTAND 5LIGHTS\n NICKEL15X15X44 CM",
         "image_url":  "/product_images/PND001-a270-r984.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14305,7 +14305,7 @@
         "barcode":  "PND001-a271",
         "name":  "LEAF 3 LAYER FRUIT \nBOWL BRASSANTIQUE\n56X33X63,5 CM",
         "image_url":  "/product_images/PND001-a271-r985.png",
-        "unit_price":  13417.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14318,7 +14318,7 @@
         "barcode":  "PND001-a272",
         "name":  "Doku Concept DK-7383 \n84x84 cm",
         "image_url":  "/product_images/PND001-a272-r986.png",
-        "unit_price":  15000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14331,7 +14331,7 @@
         "barcode":  "PND001-a273",
         "name":  "Doku Concept DK-7689\n 75x100cm",
         "image_url":  "/product_images/PND001-a273-r987.png",
-        "unit_price":  10000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14344,7 +14344,7 @@
         "barcode":  "PND001-a274",
         "name":  "Doku Concept DK-7395 \n94X94 cm",
         "image_url":  "/product_images/PND001-a274-r988.png",
-        "unit_price":  18000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14357,7 +14357,7 @@
         "barcode":  "PND001-a275",
         "name":  "Doku Concept DK-10736 \n94x124cm",
         "image_url":  "/product_images/PND001-a275-r989.png",
-        "unit_price":  13000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14370,7 +14370,7 @@
         "barcode":  "PND001-a276",
         "name":  "Doku Concept DK-10710 \n94x124cm",
         "image_url":  "/product_images/PND001-a276-r990.png",
-        "unit_price":  13000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14383,7 +14383,7 @@
         "barcode":  "PND001-a277",
         "name":  "Doku Concept DK-7235 \n105x135cm",
         "image_url":  "/product_images/PND001-a277-r991.png",
-        "unit_price":  22000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14396,7 +14396,7 @@
         "barcode":  "PND001-a278",
         "name":  "Doku Concept DK-7384 \n65x125 cm",
         "image_url":  "/product_images/PND001-a278-r992.png",
-        "unit_price":  16000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14409,7 +14409,7 @@
         "barcode":  "PND001-a280",
         "name":  "PİRİNÇ KÜLLÜK",
         "image_url":  "/product_images/PND001-a280-r993.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14422,7 +14422,7 @@
         "barcode":  "PND001-a281",
         "name":  "MARKA PÜRO KÜLLÜK",
         "image_url":  "/product_images/PND001-a281-r994.png",
-        "unit_price":  2450,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14435,7 +14435,7 @@
         "barcode":  "PND001-a282",
         "name":  "FİNCAN SETİ 6 L",
         "image_url":  "/product_images/PND001-a282-r995.png",
-        "unit_price":  2450,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14448,7 +14448,7 @@
         "barcode":  "PND001-a283",
         "name":  "GÖZ YEMEK TAKIMI \nSETİ",
         "image_url":  "/product_images/PND001-a283-r996.png",
-        "unit_price":  45000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14461,7 +14461,7 @@
         "barcode":  "PND001-a284",
         "name":  "GÖZ SALATA KASE 2 L",
         "image_url":  "/product_images/PND001-a284-r997.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14474,7 +14474,7 @@
         "barcode":  "PND001-a285",
         "name":  "GÖZ 3 L SERVİS TABAĞI",
         "image_url":  "/product_images/PND001-a285-r998.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14487,7 +14487,7 @@
         "barcode":  "PND001-a286",
         "name":  "KAHVE FİNCAN SETİ 6 L",
         "image_url":  "/product_images/PND001-a286-r999.png",
-        "unit_price":  5625,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14500,7 +14500,7 @@
         "barcode":  "PND001-a287",
         "name":  "PİRİNÇ KELEBEK DEKOR \n3L",
         "image_url":  "/product_images/PND001-a287-r1000.png",
-        "unit_price":  3200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14513,7 +14513,7 @@
         "barcode":  "PND001-a288",
         "name":  "PİRİNÇ YENGEÇ \nKÜLLÜK",
         "image_url":  "/product_images/PND001-a288-r1001.png",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14526,7 +14526,7 @@
         "barcode":  "PND001-a289",
         "name":  "PİRİNÇ UĞUR BÖCEĞİ\nKÜLLÜK",
         "image_url":  "/product_images/PND001-a289-r1002.png",
-        "unit_price":  1500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14539,7 +14539,7 @@
         "barcode":  "PND001-a291",
         "name":  "PİRİNÇ 3 L BAYKUL\nDEKOR",
         "image_url":  "/product_images/PND001-a291-r1003.png",
-        "unit_price":  6000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14552,7 +14552,7 @@
         "barcode":  "PND001-a292",
         "name":  "3 L PİRİNÇ \nPRAMİT DEKOR",
         "image_url":  "/product_images/PND001-a292-r1004.png",
-        "unit_price":  6750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14565,7 +14565,7 @@
         "barcode":  "PND001-a293",
         "name":  "MERMER SEDEF \nBARDAK ALTLIĞI",
         "image_url":  "/product_images/PND001-a293-r1005.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14578,7 +14578,7 @@
         "barcode":  "PND001-a295",
         "name":  "PÜRO KÜLLÜĞÜ\nMERMER",
         "image_url":  "/product_images/PND001-a295-r1006.png",
-        "unit_price":  5250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14591,7 +14591,7 @@
         "barcode":  "PND001-a298",
         "name":  "ZEN EL DETAY\nMERMER KUTU\nYATAY",
         "image_url":  "/product_images/PND001-a298-r1007.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14604,7 +14604,7 @@
         "barcode":  "PND001-a299",
         "name":  "ZEN EL DETAY\nMERMER KUTU DİKEY",
         "image_url":  "/product_images/PND001-a299-r1008.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14617,7 +14617,7 @@
         "barcode":  "PND001-a300",
         "name":  "2 Lİ DİNAR YARIM AY\nDERİ KUTU SİYAH",
         "image_url":  "/product_images/PND001-a300-r1009.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14630,7 +14630,7 @@
         "barcode":  "PND001-a301",
         "name":  "NAGI BİBLO DOĞAL\nTAŞ KOMPLE PİRİNÇ",
         "image_url":  "/product_images/PND001-a301-r1010.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14643,7 +14643,7 @@
         "barcode":  "PND001-a302",
         "name":  "NAGI BİBLO DOĞAL\nTAŞ KOMPLE PİRİNÇ",
         "image_url":  "/product_images/PND001-a302-r1011.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14656,7 +14656,7 @@
         "barcode":  "PND001-a303",
         "name":  "TRUST SİYAH\nMERMER KUTU\nYATAY",
         "image_url":  "/product_images/PND001-a303-r1012.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14669,7 +14669,7 @@
         "barcode":  "PND001-a304",
         "name":  "TRUST SİYAH\nMERMER KUTU DİKEY",
         "image_url":  "/product_images/PND001-a304-r1013.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14682,7 +14682,7 @@
         "barcode":  "PND001-a305",
         "name":  "PETEK MODEL DERİ\nKUTU SİYAH ALTIN",
         "image_url":  "/product_images/PND001-a305-r1014.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14695,7 +14695,7 @@
         "barcode":  "PND001-a306",
         "name":  "PETEK MODEL DERİ\nKUTU SİYAH KROM",
         "image_url":  "/product_images/PND001-a306-r1015.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14708,7 +14708,7 @@
         "barcode":  "PND001-a307",
         "name":  "2 Lİ KETEN KUTU\nKAHVE KEMERLİ",
         "image_url":  "/product_images/PND001-a307-r1016.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14721,7 +14721,7 @@
         "barcode":  "PND001-a308",
         "name":  "2 Lİ KETEN KUTU\nSİYAH KEMERLİ",
         "image_url":  "/product_images/PND001-a308-r1017.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14734,7 +14734,7 @@
         "barcode":  "PND001-a309",
         "name":  "KETEN TEPSİ SİYAH\nKEMERLİ",
         "image_url":  "/product_images/PND001-a309-r1018.png",
-        "unit_price":  7031.25,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14747,7 +14747,7 @@
         "barcode":  "PND001-a310",
         "name":  "2 Lİ DOĞAL TAŞLI\nHİLAL OBJE ESKİTME",
         "image_url":  "/product_images/PND001-a310-r1019.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14760,7 +14760,7 @@
         "barcode":  "PND001-a311",
         "name":  "İTHAL CAM KUTU SİYAH\nDOĞAL TAŞ",
         "image_url":  "/product_images/PND001-a311-r1020.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14773,7 +14773,7 @@
         "barcode":  "PND001-a312",
         "name":  "İTHAL CAM KUTU TURUNCU\nDOĞAL TAŞ",
         "image_url":  "/product_images/PND001-a312-r1021.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14786,7 +14786,7 @@
         "barcode":  "PND001-a313",
         "name":  "İTHAL CAM KUTU KREM\nDOĞAL TAŞ",
         "image_url":  "/product_images/PND001-a313-r1022.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14799,7 +14799,7 @@
         "barcode":  "PND001-a314",
         "name":  "İTHAL LUMİN KAHVE\nGEÇİŞ CAM VAZO\nBÜYÜK",
         "image_url":  "/product_images/PND001-a314-r1023.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14812,7 +14812,7 @@
         "barcode":  "PND001-a315",
         "name":  "İTHAL LUMİN KAHVE\nGEÇİŞ CAM VAZO\nKÜÇÜK",
         "image_url":  "/product_images/PND001-a315-r1024.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14825,7 +14825,7 @@
         "barcode":  "PND001-a316",
         "name":  "İTHAL ROSİVA CAM\nVAZO FÜME KÜÇÜK",
         "image_url":  "/product_images/PND001-a316-r1025.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14838,7 +14838,7 @@
         "barcode":  "PND001-a317",
         "name":  "İTHAL ROSİVA CAM\nVAZO FÜME BÜYÜK",
         "image_url":  "/product_images/PND001-a317-r1026.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14851,7 +14851,7 @@
         "barcode":  "PND001-a318",
         "name":  "İTHAL VİORA AMBER\nCAM VAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a318-r1027.png",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14864,7 +14864,7 @@
         "barcode":  "PND001-a319",
         "name":  "İTHAL VİORA AMBER\nCAM VAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a319-r1028.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14877,7 +14877,7 @@
         "barcode":  "PND001-a320",
         "name":  "İTHAL LİNE CAM VAZO\nFÜME AMBER KÜÇÜK",
         "image_url":  "/product_images/PND001-a320-r1029.png",
-        "unit_price":  1500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14890,7 +14890,7 @@
         "barcode":  "PND001-a321",
         "name":  "İTHAL LİNE CAM VAZO\nFÜME AMBER BÜYÜK",
         "image_url":  "/product_images/PND001-a321-r1030.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14903,7 +14903,7 @@
         "barcode":  "PND001-a322",
         "name":  "İTHAL LİNE CAM VAZO\nAMBER MAVİ KÜÇÜK",
         "image_url":  "/product_images/PND001-a322-r1031.png",
-        "unit_price":  1500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14916,7 +14916,7 @@
         "barcode":  "PND001-a323",
         "name":  "İTHAL LİNE CAM VAZO\nAMBER MAVİ BÜYÜK",
         "image_url":  "/product_images/PND001-a323-r1032.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14929,7 +14929,7 @@
         "barcode":  "PND001-a324",
         "name":  "İTHAL ICED CAM VAZO\nFÜME KÜÇÜK",
         "image_url":  "/product_images/PND001-a324-r1033.png",
-        "unit_price":  1500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14942,7 +14942,7 @@
         "barcode":  "PND001-a325",
         "name":  "İTHAL ICED CAM VAZO\nFÜME BÜYÜK",
         "image_url":  "/product_images/PND001-a325-r1034.png",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14955,7 +14955,7 @@
         "barcode":  "PND001-a326",
         "name":  "İTHAL STONE FÜME CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a326-r1035.png",
-        "unit_price":  1900,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14968,7 +14968,7 @@
         "barcode":  "PND001-a327",
         "name":  "İTHAL STONE FÜME CAM\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a327-r1036.png",
-        "unit_price":  2200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14981,7 +14981,7 @@
         "barcode":  "PND001-a328",
         "name":  "İTHAL LEOPAR UFO CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a328-r1037.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -14994,7 +14994,7 @@
         "barcode":  "PND001-a329",
         "name":  "İTHAL LEOPAR UFO CAM\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a329-r1038.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15007,7 +15007,7 @@
         "barcode":  "PND001-a330",
         "name":  "PERSON AMBER\nCAM VAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a330-r1039.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15020,7 +15020,7 @@
         "barcode":  "PND001-a331",
         "name":  "PERSON AMBER\nCAM VAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a331-r1040.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15033,7 +15033,7 @@
         "barcode":  "PND001-a332",
         "name":  "ROSELLA TOPLU\nCAM VAZO ORTA",
         "image_url":  "/product_images/PND001-a332-r1041.png",
-        "unit_price":  2750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15046,7 +15046,7 @@
         "barcode":  "PND001-a333",
         "name":  "ROSELLA TOPLU\nCAM VAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a333-r1042.png",
-        "unit_price":  4250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15059,7 +15059,7 @@
         "barcode":  "PND001-a334",
         "name":  "ROSELLA TOPLU\nCAM KASE",
         "image_url":  "/product_images/PND001-a334-r1043.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15072,7 +15072,7 @@
         "barcode":  "PND001-a335",
         "name":  "FİORA CAM VAZO\nYELLOW ORTA",
         "image_url":  "/product_images/PND001-a335-r1044.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15085,7 +15085,7 @@
         "barcode":  "PND001-a336",
         "name":  "FİORA CAM VAZO\nGREEN BÜYÜK",
         "image_url":  "/product_images/PND001-a336-r1045.png",
-        "unit_price":  5625,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15098,7 +15098,7 @@
         "barcode":  "PND001-a337",
         "name":  "ORİNA CAM VAZO\nKÜÇÜK",
         "image_url":  "/product_images/PND001-a337-r1046.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15111,7 +15111,7 @@
         "barcode":  "PND001-a338",
         "name":  "ORİNA CAM VAZO\nBÜYÜK",
         "image_url":  "/product_images/PND001-a338-r1047.png",
-        "unit_price":  6875,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15124,7 +15124,7 @@
         "barcode":  "PND001-a339",
         "name":  "KAHVE LEOPAR\nTRİORA CAM VAZO\nKÜÇÜK",
         "image_url":  "/product_images/PND001-a339-r1048.png",
-        "unit_price":  3500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15137,7 +15137,7 @@
         "barcode":  "PND001-a340",
         "name":  "KAHVE LEOPAR\nTRİORA CAM VAZO\nBÜYÜK",
         "image_url":  "/product_images/PND001-a340-r1049.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15150,7 +15150,7 @@
         "barcode":  "PND001-a341",
         "name":  "MOORY CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a341-r1050.png",
-        "unit_price":  5625,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15163,7 +15163,7 @@
         "barcode":  "PND001-a342",
         "name":  "MOORY CAM\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a342-r1051.png",
-        "unit_price":  6250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15176,7 +15176,7 @@
         "barcode":  "PND001-a343",
         "name":  "PEARL SERAMİK\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a343-r1052.png",
-        "unit_price":  7500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15189,7 +15189,7 @@
         "barcode":  "PND001-a344",
         "name":  "PEARL SERAMİK\nVAZO ORTA",
         "image_url":  "/product_images/PND001-a344-r1053.png",
-        "unit_price":  6250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15202,7 +15202,7 @@
         "barcode":  "PND001-a345",
         "name":  "PEARL SERAMİK\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a345-r1054.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15215,7 +15215,7 @@
         "barcode":  "PND001-a346",
         "name":  "FLİRA BLUE CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a346-r1055.png",
-        "unit_price":  1800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15228,7 +15228,7 @@
         "barcode":  "PND001-a347",
         "name":  "FLİRA BLUE CAM\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a347-r1056.png",
-        "unit_price":  2000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15241,7 +15241,7 @@
         "barcode":  "PND001-a348",
         "name":  "CRİSTALLO AMBER CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a348-r1057.png",
-        "unit_price":  9750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15254,7 +15254,7 @@
         "barcode":  "PND001-a349",
         "name":  "CRİSTALLO AMBER CAM\nVAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a349-r1058.png",
-        "unit_price":  12500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15267,7 +15267,7 @@
         "barcode":  "PND001-a350",
         "name":  "VASTELLE CAM VAZO \nBÜYÜK BROWN/GREEN",
         "image_url":  "/product_images/PND001-a350-r1059.png",
-        "unit_price":  6250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15280,7 +15280,7 @@
         "barcode":  "PND001-a351",
         "name":  "PASTELLE\n PİNK CAM VAZO\nKÜÇÜK",
         "image_url":  "/product_images/PND001-a351-r1060.png",
-        "unit_price":  8125,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15293,7 +15293,7 @@
         "barcode":  "PND001-a352",
         "name":  "PASTELLE PİNK \nCAM VAZO BÜYÜK",
         "image_url":  "/product_images/PND001-a352-r1061.png",
-        "unit_price":  9062.5,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15306,7 +15306,7 @@
         "barcode":  "PND001-a353",
         "name":  "CHAIN GOLD LARGE \nDECORATIVE \nOBJECT 34X18X11 CM",
         "image_url":  "/product_images/PND001-a353-r1062.png",
-        "unit_price":  3750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15319,7 +15319,7 @@
         "barcode":  "PND001-a354",
         "name":  "DECO GOLD OBJECT ,\n24X20X14 CM",
         "image_url":  "/product_images/PND001-a354-r1063.png",
-        "unit_price":  2500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15332,7 +15332,7 @@
         "barcode":  "PND001-a355",
         "name":  "CIRCLES GOLD LARGE \nSCULPTURE 26X7X46 CM",
         "image_url":  "/product_images/PND001-a355-r1064.png",
-        "unit_price":  6250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15345,7 +15345,7 @@
         "barcode":  "PND001-a356",
         "name":  "CIRCLES GOLD SMALL \nSCULPTURE 19X6X39 CM",
         "image_url":  "/product_images/PND001-a356-r1065.png",
-        "unit_price":  2250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15358,7 +15358,7 @@
         "barcode":  "PND001-a357",
         "name":  "BUTTERFLY GOLD SMALL\n DECORATIVE ORB 12 CM",
         "image_url":  "/product_images/PND001-a357-r1066.png",
-        "unit_price":  1000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15371,7 +15371,7 @@
         "barcode":  "PND001-a358",
         "name":  "GINKGO GOLD LARGE \nSCULPTURE 39X10X47 CM",
         "image_url":  "/product_images/PND001-a358-r1067.png",
-        "unit_price":  4000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15384,7 +15384,7 @@
         "barcode":  "PND001-a359",
         "name":  "GINKGO GOLD SMALL \nSCULPTURE\n 30X8X38 CM",
         "image_url":  "/product_images/PND001-a359-r1068.png",
-        "unit_price":  3000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15397,7 +15397,7 @@
         "barcode":  "PND001-a360",
         "name":  "TIGER GOLD MEDIUM\n BALL 15 CM",
         "image_url":  "/product_images/PND001-a360-r1069.png",
-        "unit_price":  3750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15410,7 +15410,7 @@
         "barcode":  "PND001-a361",
         "name":  "TIGER GOLD SMALL \nBALL 10 CM",
         "image_url":  "/product_images/PND001-a361-r1070.png",
-        "unit_price":  1200,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15423,7 +15423,7 @@
         "barcode":  "PND001-a362",
         "name":  "TIGER GOLD SMALL \nDECORATIVE \nBOWL 30X30X13 CM",
         "image_url":  "/product_images/PND001-a362-r1071.png",
-        "unit_price":  2800,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15436,7 +15436,7 @@
         "barcode":  "PND001-a363",
         "name":  "TIGER GOLD SMALL \nDECORATIVE VASE\n 24X24X39 CM",
         "image_url":  "/product_images/PND001-a363-r1072.png",
-        "unit_price":  5750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15449,7 +15449,7 @@
         "barcode":  "PND001-a364",
         "name":  "HANDS YUMRUK\n GORUNUMLU\n BEYAZ VAZO\n 12,5X7,6X14,8 CM",
         "image_url":  "/product_images/PND001-a364-r1073.png",
-        "unit_price":  1000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15462,7 +15462,7 @@
         "barcode":  "PND001-a365",
         "name":  "PEARL VASE SHAPE SMALL \nCANDLE HOLDER\n 15X48 CM",
         "image_url":  "/product_images/PND001-a365-r1074.png",
-        "unit_price":  5600,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15475,7 +15475,7 @@
         "barcode":  "PND001-a366",
         "name":  "PEARL VASE SHAPE \nLARGE CANDLE\n HOLDER 15X61 CM",
         "image_url":  "/product_images/PND001-a366-r1075.png",
-        "unit_price":  16250,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15488,7 +15488,7 @@
         "barcode":  "PND001-a367",
         "name":  "GORILLA BLACK \nKITAP TUTUCU\n SET 23X13X23,5 CM",
         "image_url":  "/product_images/PND001-a367-r1076.png",
-        "unit_price":  4500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15501,7 +15501,7 @@
         "barcode":  "PND001-a368",
         "name":  "MICKEY MOUSE LIGHT\n BLUE WAITER\n 31X16X29 CM",
         "image_url":  "/product_images/PND001-a368-r1077.png",
-        "unit_price":  5000,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15514,7 +15514,7 @@
         "barcode":  "PND001-a369",
         "name":  "MICKEY MOUSE WITH \nLIGHT BALL, PINK \n27X15,5X36 CM",
         "image_url":  "/product_images/PND001-a369-r1078.png",
-        "unit_price":  5500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15527,7 +15527,7 @@
         "barcode":  "PND001-a370",
         "name":  "ASTRONAUT ON MOON WITH\n LIGHT BALL,\n LIGHT GREEN\n19X19X64 CM",
         "image_url":  "/product_images/PND001-a370-r1079.png",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15540,7 +15540,7 @@
         "barcode":  "PND001-a371",
         "name":  "ASTRONAUT ON MOON \nWITH LIGHT BALL,\n PINK 19X19X64 CM",
         "image_url":  "/product_images/PND001-a371-r1080.png",
-        "unit_price":  8500,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15553,7 +15553,7 @@
         "barcode":  "PND001-a372",
         "name":  "GREY LILAC LARGE\n SQUARE BOX \n21X21X10 CM",
         "image_url":  "/product_images/PND001-a372-r1081.png",
-        "unit_price":  14375,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
@@ -15566,7 +15566,7 @@
         "barcode":  "PND001-a373",
         "name":  "GREY LILAC SMALL\n SQUARE BOX \n16X16X8 CM",
         "image_url":  "/product_images/PND001-a373-r1082.png",
-        "unit_price":  4750,
+        "unit_price":  null,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
