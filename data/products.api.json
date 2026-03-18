@@ -11022,7 +11022,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  1100,
         "source_row":  732
     },
     {
@@ -11035,7 +11035,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1000,
+        "list_price":  1100,
         "source_row":  733
     },
     {
@@ -11048,7 +11048,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1050,
+        "list_price":  2900,
         "source_row":  734
     },
     {
@@ -11061,7 +11061,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  3000,
         "source_row":  735
     },
     {
@@ -11074,7 +11074,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  3700,
         "source_row":  736
     },
     {
@@ -11087,7 +11087,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2900,
+        "list_price":  3900,
         "source_row":  737
     },
     {
@@ -11100,7 +11100,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  550,
         "source_row":  738
     },
     {
@@ -11113,7 +11113,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3700,
+        "list_price":  6500,
         "source_row":  739
     },
     {
@@ -11126,7 +11126,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3900,
+        "list_price":  5500,
         "source_row":  740
     },
     {
@@ -11139,7 +11139,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  550,
+        "list_price":  2500,
         "source_row":  741
     },
     {
@@ -11152,7 +11152,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  2750,
         "source_row":  742
     },
     {
@@ -11165,7 +11165,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5500,
+        "list_price":  2100,
         "source_row":  743
     },
     {
@@ -11178,7 +11178,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  9500,
         "source_row":  744
     },
     {
@@ -11191,7 +11191,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2750,
+        "list_price":  8500,
         "source_row":  745
     },
     {
@@ -11204,7 +11204,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2100,
+        "list_price":  1800,
         "source_row":  746
     },
     {
@@ -11217,7 +11217,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9500,
+        "list_price":  1400,
         "source_row":  747
     },
     {
@@ -11230,7 +11230,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8500,
+        "list_price":  5500,
         "source_row":  748
     },
     {
@@ -11243,7 +11243,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  4500,
         "source_row":  749
     },
     {
@@ -11256,7 +11256,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1400,
+        "list_price":  750,
         "source_row":  750
     },
     {
@@ -11269,7 +11269,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  5500,
+        "list_price":  650,
         "source_row":  751
     },
     {
@@ -11282,7 +11282,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  4500,
+        "list_price":  750,
         "source_row":  752
     },
     {
@@ -11295,7 +11295,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  750,
+        "list_price":  600,
         "source_row":  753
     },
     {
@@ -11308,7 +11308,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  650,
+        "list_price":  600,
         "source_row":  754
     },
     {
@@ -11321,7 +11321,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  750,
+        "list_price":  7500,
         "source_row":  755
     },
     {
@@ -11334,7 +11334,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  600,
+        "list_price":  8500,
         "source_row":  756
     },
     {
@@ -11347,7 +11347,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  600,
+        "list_price":  9500,
         "source_row":  757
     },
     {
@@ -11360,7 +11360,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7500,
+        "list_price":  2850,
         "source_row":  758
     },
     {
@@ -11373,7 +11373,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  8500,
+        "list_price":  880,
         "source_row":  759
     },
     {
@@ -11386,7 +11386,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9500,
+        "list_price":  3880,
         "source_row":  760
     },
     {
@@ -11399,7 +11399,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2850,
+        "list_price":  1750,
         "source_row":  761
     },
     {
@@ -11412,7 +11412,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  880,
+        "list_price":  2750,
         "source_row":  762
     },
     {
@@ -11425,7 +11425,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3880,
+        "list_price":  900,
         "source_row":  763
     },
     {
@@ -11438,7 +11438,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1750,
+        "list_price":  1250,
         "source_row":  764
     },
     {
@@ -11451,7 +11451,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2750,
+        "list_price":  12500,
         "source_row":  765
     },
     {
@@ -11464,7 +11464,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  900,
+        "list_price":  3900,
         "source_row":  766
     },
     {
@@ -11477,7 +11477,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1250,
+        "list_price":  3900,
         "source_row":  767
     },
     {
@@ -11490,7 +11490,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  12500,
+        "list_price":  6500,
         "source_row":  768
     },
     {
@@ -11503,7 +11503,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3900,
+        "list_price":  8000,
         "source_row":  769
     },
     {
@@ -11516,7 +11516,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3900,
+        "list_price":  3500,
         "source_row":  770
     },
     {
@@ -11529,7 +11529,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  1200,
         "source_row":  771
     },
     {
@@ -11542,7 +11542,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8000,
+        "list_price":  900,
         "source_row":  772
     },
     {
@@ -11555,7 +11555,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  11000,
         "source_row":  773
     },
     {
@@ -11568,7 +11568,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  13500,
         "source_row":  774
     },
     {
@@ -11581,7 +11581,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  900,
+        "list_price":  3500,
         "source_row":  775
     },
     {
@@ -11594,7 +11594,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  11000,
+        "list_price":  3250,
         "source_row":  776
     },
     {
@@ -11607,7 +11607,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  13500,
+        "list_price":  8500,
         "source_row":  777
     },
     {
@@ -11620,7 +11620,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  1500,
         "source_row":  778
     },
     {
@@ -11633,7 +11633,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3250,
+        "list_price":  2200,
         "source_row":  779
     },
     {
@@ -11646,7 +11646,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8500,
+        "list_price":  2750,
         "source_row":  780
     },
     {
@@ -11659,7 +11659,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  1200,
         "source_row":  781
     },
     {
@@ -11672,7 +11672,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2200,
+        "list_price":  22000,
         "source_row":  782
     },
     {
@@ -11685,7 +11685,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2750,
+        "list_price":  16000,
         "source_row":  783
     },
     {
@@ -11698,7 +11698,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  17000,
         "source_row":  784
     },
     {
@@ -11711,7 +11711,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  22000,
+        "list_price":  12500,
         "source_row":  785
     },
     {
@@ -11724,7 +11724,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  16000,
+        "list_price":  12500,
         "source_row":  786
     },
     {
@@ -11737,7 +11737,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  17000,
+        "list_price":  9800,
         "source_row":  787
     },
     {
@@ -11763,7 +11763,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  12500,
+        "list_price":  9500,
         "source_row":  789
     },
     {
@@ -11776,7 +11776,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9800,
+        "list_price":  2800,
         "source_row":  790
     },
     {
@@ -11789,7 +11789,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  12500,
+        "list_price":  3800,
         "source_row":  791
     },
     {
@@ -11802,7 +11802,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9500,
+        "list_price":  1850,
         "source_row":  792
     },
     {
@@ -11815,7 +11815,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2800,
+        "list_price":  2700,
         "source_row":  793
     },
     {
@@ -11841,7 +11841,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1850,
+        "list_price":  3900,
         "source_row":  795
     },
     {
@@ -11854,7 +11854,7 @@
         "characteristics":  {
                                 "stock":  "6"
                             },
-        "list_price":  2700,
+        "list_price":  400,
         "source_row":  796
     },
     {
@@ -11867,7 +11867,7 @@
         "characteristics":  {
                                 "stock":  "0"
                             },
-        "list_price":  3800,
+        "list_price":  7500,
         "source_row":  797
     },
     {
@@ -11880,7 +11880,7 @@
         "characteristics":  {
                                 "stock":  "0"
                             },
-        "list_price":  3900,
+        "list_price":  12000,
         "source_row":  798
     },
     {
@@ -11893,7 +11893,7 @@
         "characteristics":  {
                                 "stock":  "0"
                             },
-        "list_price":  400,
+        "list_price":  17500,
         "source_row":  799
     },
     {
@@ -11919,7 +11919,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  12000,
+        "list_price":  7500,
         "source_row":  801
     },
     {
@@ -11932,7 +11932,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  17500,
+        "list_price":  12000,
         "source_row":  802
     },
     {
@@ -11945,7 +11945,7 @@
         "characteristics":  {
                                 "stock":  "3"
                             },
-        "list_price":  7500,
+        "list_price":  4500,
         "source_row":  803
     },
     {
@@ -11971,7 +11971,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  12000,
+        "list_price":  7500,
         "source_row":  805
     },
     {
@@ -11984,20 +11984,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  12500,
         "source_row":  806
     },
     {
         "barcode":  "PND001-a92",
         "name":  "DIOR CATWALK",
         "image_url":  "/product_images/PND001-a92-r807.png",
-        "unit_price":  22500,
+        "unit_price":  18900,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7500,
+        "list_price":  6300,
         "source_row":  807
     },
     {
@@ -12023,7 +12023,7 @@
         "characteristics":  {
                                 "stock":  "0"
                             },
-        "list_price":  12500,
+        "list_price":  7500,
         "source_row":  809
     },
     {
@@ -12036,7 +12036,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6300,
+        "list_price":  7500,
         "source_row":  810
     },
     {
@@ -12075,7 +12075,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7500,
+        "list_price":  3000,
         "source_row":  813
     },
     {
@@ -12088,7 +12088,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  7500,
+        "list_price":  4200,
         "source_row":  814
     },
     {
@@ -12101,7 +12101,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  7500,
+        "list_price":  1200,
         "source_row":  815
     },
     {
@@ -12114,7 +12114,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  3000,
+        "list_price":  1100,
         "source_row":  816
     },
     {
@@ -12127,7 +12127,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  4200,
+        "list_price":  1000,
         "source_row":  817
     },
     {
@@ -12140,7 +12140,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1200,
+        "list_price":  1000,
         "source_row":  818
     },
     {
@@ -12153,7 +12153,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  1300,
         "source_row":  819
     },
     {
@@ -12166,7 +12166,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1000,
+        "list_price":  1480,
         "source_row":  820
     },
     {
@@ -12179,7 +12179,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1000,
+        "list_price":  1200,
         "source_row":  821
     },
     {
@@ -12192,7 +12192,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1300,
+        "list_price":  1100,
         "source_row":  822
     },
     {
@@ -12205,7 +12205,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1480,
+        "list_price":  1800,
         "source_row":  823
     },
     {
@@ -12218,7 +12218,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  2750,
         "source_row":  824
     },
     {
@@ -12231,7 +12231,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  2800,
         "source_row":  825
     },
     {
@@ -12257,7 +12257,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2750,
+        "list_price":  838,
         "source_row":  827
     },
     {
@@ -12270,7 +12270,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2800,
+        "list_price":  1100,
         "source_row":  828
     },
     {
@@ -12283,7 +12283,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  1005.6,
         "source_row":  829
     },
     {
@@ -12296,7 +12296,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  838,
+        "list_price":  1005.6,
         "source_row":  830
     },
     {
@@ -12309,7 +12309,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1100,
+        "list_price":  38000,
         "source_row":  831
     },
     {
@@ -12322,7 +12322,7 @@
         "characteristics":  {
                                 "stock":  "6"
                             },
-        "list_price":  1005.6,
+        "list_price":  17500,
         "source_row":  832
     },
     {
@@ -12335,7 +12335,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1005.6,
+        "list_price":  22500,
         "source_row":  833
     },
     {
@@ -12348,7 +12348,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  38000,
+        "list_price":  85000,
         "source_row":  834
     },
     {
@@ -12361,7 +12361,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  17500,
+        "list_price":  40000,
         "source_row":  835
     },
     {
@@ -12374,7 +12374,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  22500,
+        "list_price":  65000,
         "source_row":  836
     },
     {
@@ -12387,7 +12387,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  85000,
+        "list_price":  3200,
         "source_row":  837
     },
     {
@@ -12400,7 +12400,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  40000,
+        "list_price":  3900,
         "source_row":  838
     },
     {
@@ -12413,7 +12413,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  65000,
+        "list_price":  1800,
         "source_row":  839
     },
     {
@@ -12426,7 +12426,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3200,
+        "list_price":  2900,
         "source_row":  840
     },
     {
@@ -12439,7 +12439,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3900,
+        "list_price":  2500,
         "source_row":  841
     },
     {
@@ -12452,7 +12452,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  6900,
         "source_row":  842
     },
     {
@@ -12465,7 +12465,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2900,
+        "list_price":  1890,
         "source_row":  843
     },
     {
@@ -12478,7 +12478,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  4900,
         "source_row":  844
     },
     {
@@ -12491,7 +12491,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6900,
+        "list_price":  3300,
         "source_row":  845
     },
     {
@@ -12504,7 +12504,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1890,
+        "list_price":  1100,
         "source_row":  846
     },
     {
@@ -12517,7 +12517,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4900,
+        "list_price":  1100,
         "source_row":  847
     },
     {
@@ -12530,7 +12530,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3300,
+        "list_price":  7500,
         "source_row":  848
     },
     {
@@ -12543,7 +12543,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  1700,
         "source_row":  849
     },
     {
@@ -12569,7 +12569,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7500,
+        "list_price":  2800,
         "source_row":  851
     },
     {
@@ -12582,7 +12582,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1700,
+        "list_price":  1750,
         "source_row":  852
     },
     {
@@ -12595,7 +12595,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1100,
+        "list_price":  1800,
         "source_row":  853
     },
     {
@@ -12608,7 +12608,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2800,
+        "list_price":  900,
         "source_row":  854
     },
     {
@@ -12621,7 +12621,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1750,
+        "list_price":  700,
         "source_row":  855
     },
     {
@@ -12634,7 +12634,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  1100,
         "source_row":  856
     },
     {
@@ -12647,7 +12647,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  900,
+        "list_price":  5000,
         "source_row":  857
     },
     {
@@ -12660,7 +12660,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  700,
+        "list_price":  6000,
         "source_row":  858
     },
     {
@@ -12673,7 +12673,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1100,
+        "list_price":  3500,
         "source_row":  859
     },
     {
@@ -12686,7 +12686,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  6000,
         "source_row":  860
     },
     {
@@ -12712,7 +12712,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  9000,
         "source_row":  862
     },
     {
@@ -12725,7 +12725,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6000,
+        "list_price":  6500,
         "source_row":  863
     },
     {
@@ -12738,7 +12738,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6000,
+        "list_price":  29000,
         "source_row":  864
     },
     {
@@ -12751,7 +12751,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9000,
+        "list_price":  25000,
         "source_row":  865
     },
     {
@@ -12764,7 +12764,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  14000,
         "source_row":  866
     },
     {
@@ -12777,7 +12777,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  29000,
+        "list_price":  15000,
         "source_row":  867
     },
     {
@@ -12790,7 +12790,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  25000,
+        "list_price":  275000,
         "source_row":  868
     },
     {
@@ -12803,7 +12803,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  14000,
+        "list_price":  90000,
         "source_row":  869
     },
     {
@@ -12816,7 +12816,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  15000,
+        "list_price":  35000,
         "source_row":  870
     },
     {
@@ -12829,7 +12829,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  275000,
+        "list_price":  3300,
         "source_row":  871
     },
     {
@@ -12842,7 +12842,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  90000,
+        "list_price":  125000,
         "source_row":  872
     },
     {
@@ -12855,7 +12855,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  35000,
+        "list_price":  29000,
         "source_row":  873
     },
     {
@@ -12868,7 +12868,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3300,
+        "list_price":  19000,
         "source_row":  874
     },
     {
@@ -12881,7 +12881,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  125000,
+        "list_price":  85000,
         "source_row":  875
     },
     {
@@ -12894,7 +12894,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  29000,
+        "list_price":  4200,
         "source_row":  876
     },
     {
@@ -12907,7 +12907,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  19000,
+        "list_price":  2980,
         "source_row":  877
     },
     {
@@ -12920,7 +12920,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  85000,
+        "list_price":  2450,
         "source_row":  878
     },
     {
@@ -12933,7 +12933,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4200,
+        "list_price":  3500,
         "source_row":  879
     },
     {
@@ -12946,7 +12946,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2980,
+        "list_price":  1100,
         "source_row":  880
     },
     {
@@ -12959,7 +12959,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2450,
+        "list_price":  1400,
         "source_row":  881
     },
     {
@@ -12972,7 +12972,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  1100,
         "source_row":  882
     },
     {
@@ -12985,7 +12985,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1100,
+        "list_price":  650,
         "source_row":  883
     },
     {
@@ -12998,7 +12998,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1400,
+        "list_price":  1800,
         "source_row":  884
     },
     {
@@ -13011,7 +13011,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1100,
+        "list_price":  3900,
         "source_row":  885
     },
     {
@@ -13024,7 +13024,7 @@
         "characteristics":  {
 
                             },
-        "list_price":  650,
+        "list_price":  1800,
         "source_row":  886
     },
     {
@@ -13037,7 +13037,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1800,
+        "list_price":  7800,
         "source_row":  887
     },
     {
@@ -13050,7 +13050,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  3900,
+        "list_price":  6900,
         "source_row":  888
     },
     {
@@ -13063,7 +13063,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  2850,
         "source_row":  889
     },
     {
@@ -13076,7 +13076,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7800,
+        "list_price":  1700,
         "source_row":  890
     },
     {
@@ -13089,7 +13089,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  6900,
+        "list_price":  800,
         "source_row":  891
     },
     {
@@ -13102,7 +13102,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2850,
+        "list_price":  800,
         "source_row":  892
     },
     {
@@ -13115,7 +13115,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1700,
+        "list_price":  2250,
         "source_row":  893
     },
     {
@@ -13128,7 +13128,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  800,
+        "list_price":  1600,
         "source_row":  894
     },
     {
@@ -13141,7 +13141,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  800,
+        "list_price":  1200,
         "source_row":  895
     },
     {
@@ -13154,7 +13154,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  11500,
         "source_row":  896
     },
     {
@@ -13167,7 +13167,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1600,
+        "list_price":  2900,
         "source_row":  897
     },
     {
@@ -13180,7 +13180,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  1850,
         "source_row":  898
     },
     {
@@ -13193,7 +13193,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  11500,
+        "list_price":  1850,
         "source_row":  899
     },
     {
@@ -13206,7 +13206,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2900,
+        "list_price":  2500,
         "source_row":  900
     },
     {
@@ -13219,7 +13219,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  1850,
+        "list_price":  2000,
         "source_row":  901
     },
     {
@@ -13232,7 +13232,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1850,
+        "list_price":  2500,
         "source_row":  902
     },
     {
@@ -13245,7 +13245,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  6500,
         "source_row":  903
     },
     {
@@ -13258,7 +13258,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2000,
+        "list_price":  6500,
         "source_row":  904
     },
     {
@@ -13271,7 +13271,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2500,
+        "list_price":  2000,
         "source_row":  905
     },
     {
@@ -13284,7 +13284,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  3000,
         "source_row":  906
     },
     {
@@ -13297,7 +13297,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  3000,
         "source_row":  907
     },
     {
@@ -13310,7 +13310,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2000,
+        "list_price":  2750,
         "source_row":  908
     },
     {
@@ -13323,7 +13323,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  15000,
         "source_row":  909
     },
     {
@@ -13336,7 +13336,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  19000,
         "source_row":  910
     },
     {
@@ -13349,7 +13349,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2750,
+        "list_price":  32000,
         "source_row":  911
     },
     {
@@ -13362,7 +13362,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  15000,
+        "list_price":  275000,
         "source_row":  912
     },
     {
@@ -13375,7 +13375,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  19000,
+        "list_price":  5500,
         "source_row":  913
     },
     {
@@ -13388,7 +13388,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  32000,
+        "list_price":  6000,
         "source_row":  914
     },
     {
@@ -13401,7 +13401,7 @@
         "characteristics":  {
                                 "stock":  "3"
                             },
-        "list_price":  275000,
+        "list_price":  22000,
         "source_row":  915
     },
     {
@@ -13414,7 +13414,7 @@
         "characteristics":  {
                                 "stock":  "3"
                             },
-        "list_price":  5500,
+        "list_price":  5000,
         "source_row":  916
     },
     {
@@ -13427,7 +13427,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6000,
+        "list_price":  5000,
         "source_row":  917
     },
     {
@@ -13440,85 +13440,85 @@
         "characteristics":  {
                                 "stock":  "3"
                             },
-        "list_price":  22000,
+        "list_price":  5000,
         "source_row":  918
     },
     {
         "barcode":  "PND001-a204",
         "name":  "MINNIE MOUSE \nGOLD DEKOR \n18X11X29 CM",
         "image_url":  "/product_images/PND001-a204-r919.png",
-        "unit_price":  12500,
+        "unit_price":  23347.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "4"
                             },
-        "list_price":  5000,
+        "list_price":  9339,
         "source_row":  919
     },
     {
         "barcode":  "PND001-a205",
         "name":  "MINNIE MOUSE \nGOLD DEKOR \n18X11X29 CM",
         "image_url":  null,
-        "unit_price":  12500,
+        "unit_price":  23347.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  9339,
         "source_row":  920
     },
     {
         "barcode":  "PND001-a206",
         "name":  "MINNIE MOUSE SILVER DEKOR 18X11X29 CM",
         "image_url":  null,
-        "unit_price":  12500,
+        "unit_price":  23347.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  5000,
+        "list_price":  9339,
         "source_row":  921
     },
     {
         "barcode":  "PND001-a207",
         "name":  "MICKEY MOUSE MAVI DEKOR 18X11X29 CM",
         "image_url":  "/product_images/PND001-a207-r922.png",
-        "unit_price":  23347.5,
+        "unit_price":  21592.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  9339,
+        "list_price":  8637,
         "source_row":  922
     },
     {
         "barcode":  "PND001-a208",
         "name":  "MICKEY MOUSE\n BLACK GOLD DEKOR 18X11X29 CM",
         "image_url":  "/product_images/PND001-a208-r923.png",
-        "unit_price":  23347.5,
+        "unit_price":  21592.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "3"
                             },
-        "list_price":  9339,
+        "list_price":  8637,
         "source_row":  923
     },
     {
         "barcode":  "PND001-a209",
         "name":  "MICKEY MOUSE\n GOLD DEKOR\n 18X11X29 CM",
         "image_url":  "/product_images/PND001-a209-r924.png",
-        "unit_price":  23347.5,
+        "unit_price":  21592.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "5"
                             },
-        "list_price":  9339,
+        "list_price":  8637,
         "source_row":  924
     },
     {
@@ -13583,7 +13583,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8637,
+        "list_price":  2900,
         "source_row":  929
     },
     {
@@ -13596,7 +13596,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8637,
+        "list_price":  2200,
         "source_row":  930
     },
     {
@@ -13609,7 +13609,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8637,
+        "list_price":  2900,
         "source_row":  931
     },
     {
@@ -13622,7 +13622,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  2900,
+        "list_price":  10000,
         "source_row":  932
     },
     {
@@ -13635,7 +13635,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2200,
+        "list_price":  7000,
         "source_row":  933
     },
     {
@@ -13648,20 +13648,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2900,
+        "list_price":  7900,
         "source_row":  934
     },
     {
         "barcode":  "PND001-a221",
         "name":  "ASTRO KARL \nGOLD DEKOR \n12X11X28 CM",
         "image_url":  "/product_images/PND001-a221-r935.png",
-        "unit_price":  25000,
+        "unit_price":  17992.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  10000,
+        "list_price":  7197,
         "source_row":  935
     },
     {
@@ -13674,7 +13674,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7000,
+        "list_price":  6900,
         "source_row":  936
     },
     {
@@ -13687,7 +13687,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  7900,
+        "list_price":  5350,
         "source_row":  937
     },
     {
@@ -13700,189 +13700,189 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  7197,
+        "list_price":  4350,
         "source_row":  938
     },
     {
         "barcode":  "PND001-a225",
         "name":  "RABBIT CLEAR RESIN GOLD DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a225-r939.png",
-        "unit_price":  17250,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6900,
+        "list_price":  8100,
         "source_row":  939
     },
     {
         "barcode":  "PND001-a226",
         "name":  "RABBIT CLEAR RESIN GREEN DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a226-r940.png",
-        "unit_price":  13375,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5350,
+        "list_price":  8100,
         "source_row":  940
     },
     {
         "barcode":  "PND001-a227",
         "name":  "RABBIT CLEAR RESIN BLUE DECOR 13X12X27 CM",
         "image_url":  "/product_images/PND001-a227-r941.png",
-        "unit_price":  10875,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4350,
+        "list_price":  8100,
         "source_row":  941
     },
     {
         "barcode":  "PND001-a228",
         "name":  "MICKEY SITTING CLEAR RESIN\nORANGE DECOR\n23X21X22 CM",
         "image_url":  "/product_images/PND001-a228-r942.png",
-        "unit_price":  20250,
+        "unit_price":  13372.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  8100,
+        "list_price":  5349,
         "source_row":  942
     },
     {
         "barcode":  "PND001-a229",
         "name":  "THINKING KARL TURUNCU DEKOR 19X15,5X27 CM",
         "image_url":  "/product_images/PND001-a229-r943.png",
-        "unit_price":  20250,
+        "unit_price":  23392.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8100,
+        "list_price":  9357,
         "source_row":  943
     },
     {
         "barcode":  "PND001-a230",
         "name":  "THINKING KARL INK COLOR DEKOR 19X15,5X27 CM",
         "image_url":  "/product_images/PND001-a230-r944.png",
-        "unit_price":  20250,
+        "unit_price":  23392.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8100,
+        "list_price":  9357,
         "source_row":  944
     },
     {
         "barcode":  "PND001-a231",
         "name":  "BEAR CLEAR RESIN DARK GREEN DECOR 25 CM",
         "image_url":  "/product_images/PND001-a231-r945.png",
-        "unit_price":  13372.5,
+        "unit_price":  17272.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5349,
+        "list_price":  6909,
         "source_row":  945
     },
     {
         "barcode":  "PND001-a232",
         "name":  "BEAR CLEAR RESIN GOLD FOIL DECOR 25 CM",
         "image_url":  "/product_images/PND001-a232-r946.png",
-        "unit_price":  23392.5,
+        "unit_price":  17272.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  9357,
+        "list_price":  6909,
         "source_row":  946
     },
     {
         "barcode":  "PND001-a233",
         "name":  "BEAR CLEAR RESIN BLUE DECOR 25 CM",
         "image_url":  "/product_images/PND001-a233-r947.png",
-        "unit_price":  23392.5,
+        "unit_price":  17272.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9357,
+        "list_price":  6909,
         "source_row":  947
     },
     {
         "barcode":  "PND001-a234",
         "name":  "BEAR SERVING \nCLEAR RESIN BLUE\n 18X18X30 CM",
         "image_url":  "/product_images/PND001-a234-r948.png",
-        "unit_price":  17272.5,
+        "unit_price":  16500,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  6909,
+        "list_price":  6600,
         "source_row":  948
     },
     {
         "barcode":  "PND001-a235",
         "name":  "BEAR SERVING CLEAR RESIN SMOKE 18X18X30 CM",
         "image_url":  "/product_images/PND001-a235-r949.png",
-        "unit_price":  17272.5,
+        "unit_price":  16500,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  6909,
+        "list_price":  6600,
         "source_row":  949
     },
     {
         "barcode":  "PND001-a236",
         "name":  "SERVING BEAR BLUE ROSE 18X15X22 CM",
         "image_url":  "/product_images/PND001-a236-r950.png",
-        "unit_price":  17272.5,
+        "unit_price":  9375,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  6909,
+        "list_price":  3750,
         "source_row":  950
     },
     {
         "barcode":  "PND001-a237",
         "name":  "SERVING BEAR BLUE SILVER 18X15X22 CM",
         "image_url":  "/product_images/PND001-a237-r951.png",
-        "unit_price":  16500,
+        "unit_price":  9375,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6600,
+        "list_price":  3750,
         "source_row":  951
     },
     {
         "barcode":  "PND001-a238",
         "name":  "SERVING BEAR SILVER GREEN 18X15X22 CM",
         "image_url":  "/product_images/PND001-a238-r952.png",
-        "unit_price":  16500,
+        "unit_price":  9375,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6600,
+        "list_price":  3750,
         "source_row":  952
     },
     {
@@ -13902,39 +13902,39 @@
         "barcode":  "PND001-a240",
         "name":  "MOUSE CLEAR RESIN BLUE DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a240-r954.png",
-        "unit_price":  9375,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3750,
+        "list_price":  8100,
         "source_row":  954
     },
     {
         "barcode":  "PND001-a241",
         "name":  "MOUSE CLEAR RESIN GOLD DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a241-r955.png",
-        "unit_price":  9375,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  3750,
+        "list_price":  8100,
         "source_row":  955
     },
     {
         "barcode":  "PND001-a242",
         "name":  "MOUSE CLEAR RESIN GREEN DECOR 14X10X24 CM",
         "image_url":  "/product_images/PND001-a242-r956.png",
-        "unit_price":  9375,
+        "unit_price":  20250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3750,
+        "list_price":  8100,
         "source_row":  956
     },
     {
@@ -13954,13 +13954,13 @@
         "barcode":  "PND001-a244",
         "name":  "GORILLA \n20,5X19,5X30,5 CM",
         "image_url":  null,
-        "unit_price":  20250,
+        "unit_price":  17250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8100,
+        "list_price":  6900,
         "source_row":  958
     },
     {
@@ -13973,7 +13973,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  8100,
+        "list_price":  13000,
         "source_row":  959
     },
     {
@@ -13986,7 +13986,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  8100,
+        "list_price":  8500,
         "source_row":  960
     },
     {
@@ -13999,7 +13999,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6900,
+        "list_price":  3000,
         "source_row":  961
     },
     {
@@ -14012,7 +14012,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  13000,
+        "list_price":  3500,
         "source_row":  962
     },
     {
@@ -14025,7 +14025,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  8500,
+        "list_price":  6000,
         "source_row":  963
     },
     {
@@ -14038,7 +14038,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  6000,
         "source_row":  964
     },
     {
@@ -14051,7 +14051,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  4000,
         "source_row":  965
     },
     {
@@ -14064,7 +14064,7 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  6000,
+        "list_price":  4000,
         "source_row":  966
     },
     {
@@ -14077,7 +14077,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6000,
+        "list_price":  4000,
         "source_row":  967
     },
     {
@@ -14097,26 +14097,26 @@
         "barcode":  "PND001-a255",
         "name":  "PIKACHU BLACK\n DECOR \n20X18X32 CM",
         "image_url":  "/product_images/PND001-a255-r969.png",
-        "unit_price":  10000,
+        "unit_price":  16500,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4000,
+        "list_price":  6600,
         "source_row":  969
     },
     {
         "barcode":  "PND001-a256",
         "name":  "PIKACHU YELLOW\n DECOR 20X18X32 CM",
         "image_url":  "/product_images/PND001-a256-r970.png",
-        "unit_price":  10000,
+        "unit_price":  16500,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4000,
+        "list_price":  6600,
         "source_row":  970
     },
     {
@@ -14129,52 +14129,13 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4000,
+        "list_price":  5500,
         "source_row":  971
     },
     {
         "barcode":  "PND001-a258",
         "name":  "JOYCE SEFFAF ORTA BOY\n VAZO 6X6X16 CM",
         "image_url":  "/product_images/PND001-a258-r972.png",
-        "unit_price":  16500,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  6600,
-        "source_row":  972
-    },
-    {
-        "barcode":  "PND001-a259",
-        "name":  "JOYCE SEFFAF KUCUK\n BOY VAZO 5X5X11 CM",
-        "image_url":  "/product_images/PND001-a259-r973.png",
-        "unit_price":  16500,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  6600,
-        "source_row":  973
-    },
-    {
-        "barcode":  "PND001-a260",
-        "name":  "POSITE SIYAH \nBUYUK BOY \nOBJE 8X8X34 CM",
-        "image_url":  "/product_images/PND001-a260-r974.png",
-        "unit_price":  13750,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  5500,
-        "source_row":  974
-    },
-    {
-        "barcode":  "PND001-a261",
-        "name":  "POSITE SIYAH \nKUCUK BOY OBJE\n 7X7X30 CM",
-        "image_url":  "/product_images/PND001-a261-r975.png",
         "unit_price":  10800,
         "currency":  "TRY",
         "unit":  "adet",
@@ -14182,51 +14143,64 @@
                                 "stock":  "1"
                             },
         "list_price":  4320,
-        "source_row":  975
+        "source_row":  972
     },
     {
-        "barcode":  "PND001-a262",
-        "name":  "PERCEIVE GUMUS ALTIN \nRENK KARE ORTA SEHPA",
-        "image_url":  "/product_images/PND001-a262-r976.png",
-        "unit_price":  8640,
+        "barcode":  "PND001-a259",
+        "name":  "JOYCE SEFFAF KUCUK\n BOY VAZO 5X5X11 CM",
+        "image_url":  "/product_images/PND001-a259-r973.png",
+        "unit_price":  10800,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
         "list_price":  4320,
+        "source_row":  973
+    },
+    {
+        "barcode":  "PND001-a260",
+        "name":  "POSITE SIYAH \nBUYUK BOY \nOBJE 8X8X34 CM",
+        "image_url":  "/product_images/PND001-a260-r974.png",
+        "unit_price":  25252.5,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  10101,
+        "source_row":  974
+    },
+    {
+        "barcode":  "PND001-a261",
+        "name":  "POSITE SIYAH \nKUCUK BOY OBJE\n 7X7X30 CM",
+        "image_url":  "/product_images/PND001-a261-r975.png",
+        "unit_price":  21750,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  8700,
+        "source_row":  975
+    },
+    {
+        "barcode":  "PND001-a262",
+        "name":  "PERCEIVE GUMUS ALTIN \nRENK KARE ORTA SEHPA",
+        "image_url":  "/product_images/PND001-a262-r976.png",
+        "unit_price":  38400,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  19200,
         "source_row":  976
     },
     {
         "barcode":  "PND001-a263",
         "name":  "DECORA DIKDORTGEN \nKAHVE MASASI \n130X80X45 CM",
         "image_url":  "/product_images/PND001-a263-r977.png",
-        "unit_price":  20202,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "2"
-                            },
-        "list_price":  10101,
-        "source_row":  977
-    },
-    {
-        "barcode":  "PND001-a264",
-        "name":  "DECORA KARE \nYAN SEHPA\n 50X50X53 CM",
-        "image_url":  "/product_images/PND001-a264-r978.png",
-        "unit_price":  17400,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "2"
-                            },
-        "list_price":  8700,
-        "source_row":  978
-    },
-    {
-        "barcode":  "PND001-a265",
-        "name":  "DECORA DRESUAR\n130X40X80 CM",
-        "image_url":  "/product_images/PND001-a265-r979.png",
         "unit_price":  38400,
         "currency":  "TRY",
         "unit":  "adet",
@@ -14234,19 +14208,45 @@
                                 "stock":  "2"
                             },
         "list_price":  19200,
+        "source_row":  977
+    },
+    {
+        "barcode":  "PND001-a264",
+        "name":  "DECORA KARE \nYAN SEHPA\n 50X50X53 CM",
+        "image_url":  "/product_images/PND001-a264-r978.png",
+        "unit_price":  19200,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "2"
+                            },
+        "list_price":  9600,
+        "source_row":  978
+    },
+    {
+        "barcode":  "PND001-a265",
+        "name":  "DECORA DRESUAR\n130X40X80 CM",
+        "image_url":  "/product_images/PND001-a265-r979.png",
+        "unit_price":  57600,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "2"
+                            },
+        "list_price":  28800,
         "source_row":  979
     },
     {
         "barcode":  "PND001-a266",
         "name":  "SHAYA GOLD SILVER \nKONSOL\n 120X40X80 CM",
         "image_url":  "/product_images/PND001-a266-r980.png",
-        "unit_price":  48000,
+        "unit_price":  97500,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  19200,
+        "list_price":  39000,
         "source_row":  980
     },
     {
@@ -14259,7 +14259,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  9600,
+        "list_price":  7500,
         "source_row":  981
     },
     {
@@ -14272,20 +14272,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  28800,
+        "list_price":  78000,
         "source_row":  982
     },
     {
         "barcode":  "PND001-a269",
         "name":  "ROYALE SIYAH \nSURAT VAZO \n30X30X18 CM",
         "image_url":  "/product_images/PND001-a269-r983.png",
-        "unit_price":  97500,
+        "unit_price":  18750,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  39000,
+        "list_price":  7500,
         "source_row":  983
     },
     {
@@ -14298,20 +14298,20 @@
         "characteristics":  {
                                 "stock":  "2"
                             },
-        "list_price":  7500,
+        "list_price":  5000,
         "source_row":  984
     },
     {
         "barcode":  "PND001-a271",
         "name":  "LEAF 3 LAYER FRUIT \nBOWL BRASSANTIQUE\n56X33X63,5 CM",
         "image_url":  "/product_images/PND001-a271-r985.png",
-        "unit_price":  195000,
+        "unit_price":  13417.5,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  78000,
+        "list_price":  5367,
         "source_row":  985
     },
     {
@@ -14324,7 +14324,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  7500,
+        "list_price":  15000,
         "source_row":  986
     },
     {
@@ -14337,7 +14337,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  10000,
         "source_row":  987
     },
     {
@@ -14350,7 +14350,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5367,
+        "list_price":  18000,
         "source_row":  988
     },
     {
@@ -14363,7 +14363,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  15000,
+        "list_price":  13000,
         "source_row":  989
     },
     {
@@ -14376,7 +14376,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  10000,
+        "list_price":  13000,
         "source_row":  990
     },
     {
@@ -14389,7 +14389,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  18000,
+        "list_price":  22000,
         "source_row":  991
     },
     {
@@ -14402,7 +14402,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  13000,
+        "list_price":  16000,
         "source_row":  992
     },
     {
@@ -14415,7 +14415,7 @@
         "characteristics":  {
 
                             },
-        "list_price":  13000,
+        "list_price":  2250,
         "source_row":  993
     },
     {
@@ -14428,7 +14428,7 @@
         "characteristics":  {
 
                             },
-        "list_price":  22000,
+        "list_price":  2450,
         "source_row":  994
     },
     {
@@ -14441,52 +14441,13 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  16000,
+        "list_price":  2450,
         "source_row":  995
     },
     {
         "barcode":  "PND001-a283",
         "name":  "GÖZ YEMEK TAKIMI \nSETİ",
         "image_url":  "/product_images/PND001-a283-r996.png",
-        "unit_price":  5625,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2250,
-        "source_row":  996
-    },
-    {
-        "barcode":  "PND001-a284",
-        "name":  "GÖZ SALATA KASE 2 L",
-        "image_url":  "/product_images/PND001-a284-r997.png",
-        "unit_price":  6125,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2450,
-        "source_row":  997
-    },
-    {
-        "barcode":  "PND001-a285",
-        "name":  "GÖZ 3 L SERVİS TABAĞI",
-        "image_url":  "/product_images/PND001-a285-r998.png",
-        "unit_price":  6125,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2450,
-        "source_row":  998
-    },
-    {
-        "barcode":  "PND001-a286",
-        "name":  "KAHVE FİNCAN SETİ 6 L",
-        "image_url":  "/product_images/PND001-a286-r999.png",
         "unit_price":  45000,
         "currency":  "TRY",
         "unit":  "adet",
@@ -14494,6 +14455,45 @@
                                 "stock":  "1"
                             },
         "list_price":  18000,
+        "source_row":  996
+    },
+    {
+        "barcode":  "PND001-a284",
+        "name":  "GÖZ SALATA KASE 2 L",
+        "image_url":  "/product_images/PND001-a284-r997.png",
+        "unit_price":  6000,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2400,
+        "source_row":  997
+    },
+    {
+        "barcode":  "PND001-a285",
+        "name":  "GÖZ 3 L SERVİS TABAĞI",
+        "image_url":  "/product_images/PND001-a285-r998.png",
+        "unit_price":  6000,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2400,
+        "source_row":  998
+    },
+    {
+        "barcode":  "PND001-a286",
+        "name":  "KAHVE FİNCAN SETİ 6 L",
+        "image_url":  "/product_images/PND001-a286-r999.png",
+        "unit_price":  5625,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2250,
         "source_row":  999
     },
     {
@@ -14506,20 +14506,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2400,
+        "list_price":  3200,
         "source_row":  1000
     },
     {
         "barcode":  "PND001-a288",
         "name":  "PİRİNÇ YENGEÇ \nKÜLLÜK",
         "image_url":  "/product_images/PND001-a288-r1001.png",
-        "unit_price":  6000,
+        "unit_price":  3000,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2400,
+        "list_price":  1200,
         "source_row":  1001
     },
     {
@@ -14532,52 +14532,13 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  1500,
         "source_row":  1002
     },
     {
         "barcode":  "PND001-a291",
         "name":  "PİRİNÇ 3 L BAYKUL\nDEKOR",
         "image_url":  "/product_images/PND001-a291-r1003.png",
-        "unit_price":  8000,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  3200,
-        "source_row":  1003
-    },
-    {
-        "barcode":  "PND001-a292",
-        "name":  "3 L PİRİNÇ \nPRAMİT DEKOR",
-        "image_url":  "/product_images/PND001-a292-r1004.png",
-        "unit_price":  3000,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  1200,
-        "source_row":  1004
-    },
-    {
-        "barcode":  "PND001-a293",
-        "name":  "MERMER SEDEF \nBARDAK ALTLIĞI",
-        "image_url":  "/product_images/PND001-a293-r1005.png",
-        "unit_price":  3750,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  1500,
-        "source_row":  1005
-    },
-    {
-        "barcode":  "PND001-a295",
-        "name":  "PÜRO KÜLLÜĞÜ\nMERMER",
-        "image_url":  "/product_images/PND001-a295-r1006.png",
         "unit_price":  6000,
         "currency":  "TRY",
         "unit":  "adet",
@@ -14585,6 +14546,45 @@
                                 "stock":  "1"
                             },
         "list_price":  2400,
+        "source_row":  1003
+    },
+    {
+        "barcode":  "PND001-a292",
+        "name":  "3 L PİRİNÇ \nPRAMİT DEKOR",
+        "image_url":  "/product_images/PND001-a292-r1004.png",
+        "unit_price":  6750,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2700,
+        "source_row":  1004
+    },
+    {
+        "barcode":  "PND001-a293",
+        "name":  "MERMER SEDEF \nBARDAK ALTLIĞI",
+        "image_url":  "/product_images/PND001-a293-r1005.png",
+        "unit_price":  7500,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  3000,
+        "source_row":  1005
+    },
+    {
+        "barcode":  "PND001-a295",
+        "name":  "PÜRO KÜLLÜĞÜ\nMERMER",
+        "image_url":  "/product_images/PND001-a295-r1006.png",
+        "unit_price":  5250,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2100,
         "source_row":  1006
     },
     {
@@ -14597,7 +14597,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2700,
+        "list_price":  5000,
         "source_row":  1007
     },
     {
@@ -14610,7 +14610,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  4500,
         "source_row":  1008
     },
     {
@@ -14623,7 +14623,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2100,
+        "list_price":  3500,
         "source_row":  1009
     },
     {
@@ -14636,7 +14636,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  3500,
         "source_row":  1010
     },
     {
@@ -14649,7 +14649,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  3500,
         "source_row":  1011
     },
     {
@@ -14662,7 +14662,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  4500,
         "source_row":  1012
     },
     {
@@ -14675,7 +14675,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  4500,
         "source_row":  1013
     },
     {
@@ -14688,7 +14688,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  4500,
         "source_row":  1014
     },
     {
@@ -14714,7 +14714,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  3500,
         "source_row":  1016
     },
     {
@@ -14727,20 +14727,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  3500,
         "source_row":  1017
     },
     {
         "barcode":  "PND001-a309",
         "name":  "KETEN TEPSİ SİYAH\nKEMERLİ",
         "image_url":  "/product_images/PND001-a309-r1018.png",
-        "unit_price":  11250,
+        "unit_price":  7031.25,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  2812.5,
         "source_row":  1018
     },
     {
@@ -14753,7 +14753,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  5000,
         "source_row":  1019
     },
     {
@@ -14766,7 +14766,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3500,
+        "list_price":  5500,
         "source_row":  1020
     },
     {
@@ -14779,7 +14779,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2812.5,
+        "list_price":  5500,
         "source_row":  1021
     },
     {
@@ -14792,7 +14792,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  5500,
         "source_row":  1022
     },
     {
@@ -14818,7 +14818,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5500,
+        "list_price":  4500,
         "source_row":  1024
     },
     {
@@ -14831,7 +14831,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5500,
+        "list_price":  2250,
         "source_row":  1025
     },
     {
@@ -14844,7 +14844,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5500,
+        "list_price":  2500,
         "source_row":  1026
     },
     {
@@ -14857,7 +14857,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  1200,
         "source_row":  1027
     },
     {
@@ -14870,7 +14870,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  2000,
         "source_row":  1028
     },
     {
@@ -14883,7 +14883,7 @@
         "characteristics":  {
 
                             },
-        "list_price":  2500,
+        "list_price":  1500,
         "source_row":  1029
     },
     {
@@ -14896,7 +14896,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  2250,
         "source_row":  1030
     },
     {
@@ -14909,7 +14909,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2000,
+        "list_price":  1500,
         "source_row":  1031
     },
     {
@@ -14922,7 +14922,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  2250,
         "source_row":  1032
     },
     {
@@ -14935,7 +14935,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  1500,
         "source_row":  1033
     },
     {
@@ -14948,7 +14948,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  3000,
         "source_row":  1034
     },
     {
@@ -14961,7 +14961,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  1900,
         "source_row":  1035
     },
     {
@@ -14974,7 +14974,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  2200,
         "source_row":  1036
     },
     {
@@ -14987,7 +14987,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  2000,
         "source_row":  1037
     },
     {
@@ -15000,7 +15000,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1900,
+        "list_price":  2500,
         "source_row":  1038
     },
     {
@@ -15013,7 +15013,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2200,
+        "list_price":  2000,
         "source_row":  1039
     },
     {
@@ -15026,7 +15026,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2000,
+        "list_price":  2500,
         "source_row":  1040
     },
     {
@@ -15039,20 +15039,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  2750,
         "source_row":  1041
     },
     {
         "barcode":  "PND001-a333",
         "name":  "ROSELLA TOPLU\nCAM VAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a333-r1042.png",
-        "unit_price":  5000,
+        "unit_price":  4250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2000,
+        "list_price":  1700,
         "source_row":  1042
     },
     {
@@ -15065,7 +15065,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  1800,
         "source_row":  1043
     },
     {
@@ -15078,20 +15078,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2750,
+        "list_price":  2000,
         "source_row":  1044
     },
     {
         "barcode":  "PND001-a336",
         "name":  "FİORA CAM VAZO\nGREEN BÜYÜK",
         "image_url":  "/product_images/PND001-a336-r1045.png",
-        "unit_price":  4250,
+        "unit_price":  5625,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1700,
+        "list_price":  2250,
         "source_row":  1045
     },
     {
@@ -15104,20 +15104,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1800,
+        "list_price":  2500,
         "source_row":  1046
     },
     {
         "barcode":  "PND001-a338",
         "name":  "ORİNA CAM VAZO\nBÜYÜK",
         "image_url":  "/product_images/PND001-a338-r1047.png",
-        "unit_price":  5000,
+        "unit_price":  6875,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2000,
+        "list_price":  2750,
         "source_row":  1047
     },
     {
@@ -15130,7 +15130,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  3500,
         "source_row":  1048
     },
     {
@@ -15143,52 +15143,13 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  4000,
         "source_row":  1049
     },
     {
         "barcode":  "PND001-a341",
         "name":  "MOORY CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a341-r1050.png",
-        "unit_price":  6875,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2750,
-        "source_row":  1050
-    },
-    {
-        "barcode":  "PND001-a342",
-        "name":  "MOORY CAM\nVAZO BÜYÜK",
-        "image_url":  "/product_images/PND001-a342-r1051.png",
-        "unit_price":  8750,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  3500,
-        "source_row":  1051
-    },
-    {
-        "barcode":  "PND001-a343",
-        "name":  "PEARL SERAMİK\nVAZO BÜYÜK",
-        "image_url":  "/product_images/PND001-a343-r1052.png",
-        "unit_price":  10000,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  4000,
-        "source_row":  1052
-    },
-    {
-        "barcode":  "PND001-a344",
-        "name":  "PEARL SERAMİK\nVAZO ORTA",
-        "image_url":  "/product_images/PND001-a344-r1053.png",
         "unit_price":  5625,
         "currency":  "TRY",
         "unit":  "adet",
@@ -15196,6 +15157,45 @@
                                 "stock":  "1"
                             },
         "list_price":  2250,
+        "source_row":  1050
+    },
+    {
+        "barcode":  "PND001-a342",
+        "name":  "MOORY CAM\nVAZO BÜYÜK",
+        "image_url":  "/product_images/PND001-a342-r1051.png",
+        "unit_price":  6250,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2500,
+        "source_row":  1051
+    },
+    {
+        "barcode":  "PND001-a343",
+        "name":  "PEARL SERAMİK\nVAZO BÜYÜK",
+        "image_url":  "/product_images/PND001-a343-r1052.png",
+        "unit_price":  7500,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  3000,
+        "source_row":  1052
+    },
+    {
+        "barcode":  "PND001-a344",
+        "name":  "PEARL SERAMİK\nVAZO ORTA",
+        "image_url":  "/product_images/PND001-a344-r1053.png",
+        "unit_price":  6250,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2500,
         "source_row":  1053
     },
     {
@@ -15208,7 +15208,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  2000,
         "source_row":  1054
     },
     {
@@ -15221,7 +15221,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  1800,
         "source_row":  1055
     },
     {
@@ -15234,52 +15234,13 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  2000,
         "source_row":  1056
     },
     {
         "barcode":  "PND001-a348",
         "name":  "CRİSTALLO AMBER CAM\nVAZO KÜÇÜK",
         "image_url":  "/product_images/PND001-a348-r1057.png",
-        "unit_price":  5000,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2000,
-        "source_row":  1057
-    },
-    {
-        "barcode":  "PND001-a349",
-        "name":  "CRİSTALLO AMBER CAM\nVAZO BÜYÜK",
-        "image_url":  "/product_images/PND001-a349-r1058.png",
-        "unit_price":  4500,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  1800,
-        "source_row":  1058
-    },
-    {
-        "barcode":  "PND001-a350",
-        "name":  "VASTELLE CAM VAZO \nBÜYÜK BROWN/GREEN",
-        "image_url":  "/product_images/PND001-a350-r1059.png",
-        "unit_price":  5000,
-        "currency":  "TRY",
-        "unit":  "adet",
-        "characteristics":  {
-                                "stock":  "1"
-                            },
-        "list_price":  2000,
-        "source_row":  1059
-    },
-    {
-        "barcode":  "PND001-a351",
-        "name":  "PASTELLE\n PİNK CAM VAZO\nKÜÇÜK",
-        "image_url":  "/product_images/PND001-a351-r1060.png",
         "unit_price":  9750,
         "currency":  "TRY",
         "unit":  "adet",
@@ -15287,12 +15248,12 @@
                                 "stock":  "1"
                             },
         "list_price":  3900,
-        "source_row":  1060
+        "source_row":  1057
     },
     {
-        "barcode":  "PND001-a352",
-        "name":  "PASTELLE PİNK \nCAM VAZO BÜYÜK",
-        "image_url":  "/product_images/PND001-a352-r1061.png",
+        "barcode":  "PND001-a349",
+        "name":  "CRİSTALLO AMBER CAM\nVAZO BÜYÜK",
+        "image_url":  "/product_images/PND001-a349-r1058.png",
         "unit_price":  12500,
         "currency":  "TRY",
         "unit":  "adet",
@@ -15300,6 +15261,45 @@
                                 "stock":  "1"
                             },
         "list_price":  5000,
+        "source_row":  1058
+    },
+    {
+        "barcode":  "PND001-a350",
+        "name":  "VASTELLE CAM VAZO \nBÜYÜK BROWN/GREEN",
+        "image_url":  "/product_images/PND001-a350-r1059.png",
+        "unit_price":  6250,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  2500,
+        "source_row":  1059
+    },
+    {
+        "barcode":  "PND001-a351",
+        "name":  "PASTELLE\n PİNK CAM VAZO\nKÜÇÜK",
+        "image_url":  "/product_images/PND001-a351-r1060.png",
+        "unit_price":  8125,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  3250,
+        "source_row":  1060
+    },
+    {
+        "barcode":  "PND001-a352",
+        "name":  "PASTELLE PİNK \nCAM VAZO BÜYÜK",
+        "image_url":  "/product_images/PND001-a352-r1061.png",
+        "unit_price":  9062.5,
+        "currency":  "TRY",
+        "unit":  "adet",
+        "characteristics":  {
+                                "stock":  "1"
+                            },
+        "list_price":  3625,
         "source_row":  1061
     },
     {
@@ -15312,7 +15312,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  3750,
         "source_row":  1062
     },
     {
@@ -15325,20 +15325,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3250,
+        "list_price":  2500,
         "source_row":  1063
     },
     {
         "barcode":  "PND001-a355",
         "name":  "CIRCLES GOLD LARGE \nSCULPTURE 26X7X46 CM",
         "image_url":  "/product_images/PND001-a355-r1064.png",
-        "unit_price":  9062.5,
+        "unit_price":  6250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3625,
+        "list_price":  2500,
         "source_row":  1064
     },
     {
@@ -15351,7 +15351,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3750,
+        "list_price":  2250,
         "source_row":  1065
     },
     {
@@ -15364,7 +15364,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  1000,
         "source_row":  1066
     },
     {
@@ -15377,7 +15377,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2500,
+        "list_price":  4000,
         "source_row":  1067
     },
     {
@@ -15390,20 +15390,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2250,
+        "list_price":  3000,
         "source_row":  1068
     },
     {
         "barcode":  "PND001-a360",
         "name":  "TIGER GOLD MEDIUM\n BALL 15 CM",
         "image_url":  "/product_images/PND001-a360-r1069.png",
-        "unit_price":  2500,
+        "unit_price":  3750,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1000,
+        "list_price":  1500,
         "source_row":  1069
     },
     {
@@ -15416,7 +15416,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4000,
+        "list_price":  1200,
         "source_row":  1070
     },
     {
@@ -15429,33 +15429,33 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  3000,
+        "list_price":  2800,
         "source_row":  1071
     },
     {
         "barcode":  "PND001-a363",
         "name":  "TIGER GOLD SMALL \nDECORATIVE VASE\n 24X24X39 CM",
         "image_url":  "/product_images/PND001-a363-r1072.png",
-        "unit_price":  3750,
+        "unit_price":  5750,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1500,
+        "list_price":  2300,
         "source_row":  1072
     },
     {
         "barcode":  "PND001-a364",
         "name":  "HANDS YUMRUK\n GORUNUMLU\n BEYAZ VAZO\n 12,5X7,6X14,8 CM",
         "image_url":  "/product_images/PND001-a364-r1073.png",
-        "unit_price":  3000,
+        "unit_price":  1000,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  1200,
+        "list_price":  400,
         "source_row":  1073
     },
     {
@@ -15468,20 +15468,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2800,
+        "list_price":  5600,
         "source_row":  1074
     },
     {
         "barcode":  "PND001-a366",
         "name":  "PEARL VASE SHAPE \nLARGE CANDLE\n HOLDER 15X61 CM",
         "image_url":  "/product_images/PND001-a366-r1075.png",
-        "unit_price":  5750,
+        "unit_price":  16250,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  2300,
+        "list_price":  6500,
         "source_row":  1075
     },
     {
@@ -15494,7 +15494,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  400,
+        "list_price":  4500,
         "source_row":  1076
     },
     {
@@ -15507,7 +15507,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5600,
+        "list_price":  5000,
         "source_row":  1077
     },
     {
@@ -15520,7 +15520,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  6500,
+        "list_price":  5500,
         "source_row":  1078
     },
     {
@@ -15533,7 +15533,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  4500,
+        "list_price":  8500,
         "source_row":  1079
     },
     {
@@ -15546,20 +15546,20 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5000,
+        "list_price":  8500,
         "source_row":  1080
     },
     {
         "barcode":  "PND001-a372",
         "name":  "GREY LILAC LARGE\n SQUARE BOX \n21X21X10 CM",
         "image_url":  "/product_images/PND001-a372-r1081.png",
-        "unit_price":  13750,
+        "unit_price":  14375,
         "currency":  "TRY",
         "unit":  "adet",
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  5500,
+        "list_price":  5750,
         "source_row":  1081
     },
     {
@@ -15572,7 +15572,7 @@
         "characteristics":  {
                                 "stock":  "1"
                             },
-        "list_price":  8500,
+        "list_price":  4750,
         "source_row":  1082
     }
 ]
